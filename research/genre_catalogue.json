@@ -8699,7 +8699,7 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1920,
-      "active_to": 1960,
+      "active_to": null,
       "start_label": "Documented or prominent by the 1920s (approx.)",
       "note": "Famo is documented as popular music genre. Lesotho News Agency reports a national bicentennial festival listing famo among music genres.",
       "artists": [
@@ -8736,7 +8736,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Famo_schlepper_z%C3%BCgmachinen.JPG/960px-Famo_schlepper_z%C3%BCgmachinen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Famo_schlepper_z%C3%BCgmachinen.JPG",
@@ -17905,16 +17905,18 @@
       "wikipedia_title": null,
       "map_scope": "approximate",
       "regions": [],
-      "active_from": null,
+      "active_from": 1991,
       "active_to": null,
-      "start_label": "Spinetti's 2005 article traces Tajik popular music's aesthetics and identity politics; implies a Soviet-era origin with post-independence transformation.",
-      "note": "Tajik popular music (estrada) is centered in Dushanbe, the capital in western Tajikistan, blending Persian classical heritage with Soviet-era variety show formats.",
-      "artists": [],
+      "start_label": "1990s",
+      "note": "Tajik popular music is an urban song genre that developed under Soviet cultural institutions and re-emerged with new forms following independence in 1991, blending Persian-language lyrical traditions with synthesiser-driven arrangements; it remains distinct from the classical Shashmaqam tradition practised in Bukhara and Samarkand.",
+      "artists": [
+        "Daler Nazarov",
+        "Firuza Hafizova",
+        "Yulduz Usmanova"
+      ],
       "sample": null,
       "sources": [
-        {
-          "citation": "Music of Central Asia: Further Reading, Listening, and Viewing, official companion, 2017, musicofcentralasia.org."
-        }
+        "https://en.wikipedia.org/wiki/Music_of_Tajikistan"
       ],
       "research": {
         "reviewed_at": "2026-09-28",
@@ -17932,7 +17934,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown",
+      "timeline_end_status": "present",
       "approximate_region": "west"
     },
     {
@@ -18596,9 +18598,9 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1960,
       "active_to": null,
-      "start_label": "Gabaye is a professional oral poetry recitation tradition of the Afar and Somali peoples of Djibouti.",
+      "start_label": "1960s",
       "note": "Gabaye is a ceremonial poetry and song tradition shared by both the Afar and Issa-Somali communities of Djibouti, practiced across the country.",
       "artists": [],
       "sample": null,
@@ -18621,7 +18623,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -28310,9 +28312,9 @@
       "wikipedia_title": "Sawt (music)",
       "map_scope": "approximate",
       "regions": [],
-      "active_from": 1850,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Ṣawt is dated to the mid-to-late nineteenth century and attributed in its modern form to Abdallah al-Faraj; documented into the early twenty-first century.",
+      "start_label": "1950s",
       "note": "Sawt is a Gulf musical genre practiced in Muscat and the northern coastal towns of Oman, combining melodic singing with frame drum rhythms.",
       "artists": [],
       "sample": null,
@@ -28335,7 +28337,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown",
+      "timeline_end_status": "present",
       "approximate_region": "north"
     },
     {
@@ -29246,6 +29248,1066 @@
         "reviewed_at": "2026-10-01",
         "geography": "Mumbai (Bollywood); distributed nationally and globally via diaspora.",
         "artists": "Lata Mangeshkar (1929–2022) recorded for 70+ years; A.R. Rahman (b. 1967) from 1992."
+      }
+    },
+    {
+      "status": "published",
+      "id": "are-khaliji",
+      "country": "ARE",
+      "name": "Khalīji",
+      "kind": "urban popular music",
+      "wikipedia_title": "Khaliji music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1975,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1975",
+      "note": "Khalīji is the dominant popular song genre of the Gulf Arab states, practised across the UAE, and characterised by sawt-derived melodies, call-and-response vocal textures, and the leywah and samri rhythmic cycles; it was commercialised from the mid-1970s through cassette distribution and satellite television, and continues as a major pop form alongside Western-influenced Gulf pop.",
+      "artists": [
+        "Hussain Al-Jasmi",
+        "Majid Al-Muhandis",
+        "Balqees Fathi"
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Lisa Urkevich, 'Khalījī,' in Richard C. Jankowsky, ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
+        },
+        "https://en.wikipedia.org/wiki/Khaliji_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Bloomsbury dates commercial Khalīji to mid-1970s cassette era. Still active 2026.",
+        "geography": "National scope, UAE. Major scene in Abu Dhabi and Dubai.",
+        "artists": "Hussain Al-Jasmi (b.1981), Majid Al-Muhandis (Iraqi-UAE crossover), Balqees Fathi (b.1988). All Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "bhr-khaliji",
+      "country": "BHR",
+      "name": "Khalīji",
+      "kind": "urban popular music",
+      "wikipedia_title": "Khaliji music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1975,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1975",
+      "note": "Khalīji is the principal popular song tradition of Bahrain, sharing the Gulf-wide leywah and samri rhythmic vocabulary but with a distinctive Bahraini vocal ornamentation; Bahrain's position as an early Gulf media centre helped establish local Khalīji artists on the pan-Arab cassette market from the late 1970s.",
+      "artists": [
+        "Khalid Al Sheikh",
+        "Nabeel Shuail",
+        "Shams"
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Lisa Urkevich, 'Khalījī,' in Richard C. Jankowsky, ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
+        },
+        "https://en.wikipedia.org/wiki/Khaliji_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Same as sau-khaliji: mid-1970s commercial cassette launch, present.",
+        "geography": "National scope.",
+        "artists": "Khalid Al Sheikh (b.1962), Nabeel Shuail (Kuwaiti but widely Bahraini scene), Shams. Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "kwt-khaliji",
+      "country": "KWT",
+      "name": "Khalīji",
+      "kind": "urban popular music",
+      "wikipedia_title": "Khaliji music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1975,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1975",
+      "note": "Khalīji is Kuwait's principal popular song genre, anchored in the sawt tradition of the pearl-diving era and commercialised from the mid-1970s; Kuwaiti artists helped define the pan-Gulf cassette style through TV variety programmes on Kuwait Television and remain prominent on the contemporary streaming scene.",
+      "artists": [
+        "Nabeel Shuail",
+        "Abdullah Al-Rowaished",
+        "Ahlam"
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Lisa Urkevich, 'Khalījī,' in Richard C. Jankowsky, ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
+        },
+        "https://en.wikipedia.org/wiki/Khaliji_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Mid-1970s. Present.",
+        "geography": "National scope.",
+        "artists": "Nabeel Shuail (b.1961), Abdullah Al-Rowaished (b.1960), Ahlam (Bahraini-Kuwaiti, b.1969)."
+      }
+    },
+    {
+      "status": "published",
+      "id": "qat-khaliji",
+      "country": "QAT",
+      "name": "Khalīji",
+      "kind": "urban popular music",
+      "wikipedia_title": "Khaliji music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1975,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1975",
+      "note": "Khalīji is the dominant popular song form of Qatar, practised in the shared Gulf musical idiom; Qatar's small population has meant most prominent Qatari performers work across the pan-Gulf market, and the genre is sustained through state-supported music institutions and Al Jazeera-era satellite broadcasting.",
+      "artists": [
+        "Fahad Al-Kubaisi",
+        "Aisha Al Muhanadi"
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Lisa Urkevich, 'Khalījī,' in Richard C. Jankowsky, ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
+        },
+        "https://en.wikipedia.org/wiki/Khaliji_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Mid-1970s. Present.",
+        "geography": "National scope.",
+        "artists": "Fahad Al-Kubaisi (b.1980), Aisha Al Muhanadi. Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "syr-ughniyya-modern",
+      "country": "SYR",
+      "name": "Syrian popular song",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Syria",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Syrian popular song is an Arabic-language urban vocal genre that consolidated in Damascus and Aleppo from the 1970s, combining Egyptian-influenced orchestral arrangements with Syrian maqam ornamentation; artists such as George Wassouf and Asala Nasri achieved pan-Arab popularity, and the scene continues across diaspora communities following the 2011 conflict.",
+      "artists": [
+        "George Wassouf",
+        "Asala Nasri",
+        "Wael Kfoury"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Syria"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1970s commercial scene. Continued by diaspora post-2011.",
+        "geography": "National scope; major centres Damascus and Aleppo.",
+        "artists": "George Wassouf (b.1961, Syrian-Lebanese), Asala Nasri (b.1969, Syrian), Wael Kfoury (b.1971, Lebanese-Syrian crossover)."
+      }
+    },
+    {
+      "status": "published",
+      "id": "irq-modern-iraqi-song",
+      "country": "IRQ",
+      "name": "Modern Iraqi song",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Iraq",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1950,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1950s",
+      "note": "Modern Iraqi song is a Baghdad-centred popular vocal genre distinct from the classical maqam tradition, emerging in the 1950s through radio and cinema; Nazem Al-Ghazali brought international prominence to the form, and Kadim Al Saher later developed it into pan-Arab pop with literary Arabic lyrics, maintaining a substantial audience across the Middle East and diaspora.",
+      "artists": [
+        "Kadim Al Saher",
+        "Nazem Al-Ghazali",
+        "Ilham Al-Madfai"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Iraq"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1950s Baghdad radio era. Nazem Al-Ghazali (1921-1963) key early figure. Ongoing.",
+        "geography": "National scope; Baghdad primary centre.",
+        "artists": "Kadim Al Saher (b.1956), Nazem Al-Ghazali (1921-1963), Ilham Al-Madfai (b.1945). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "geo-georgian-pop",
+      "country": "GEO",
+      "name": "Georgian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Georgia (country)",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1991,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Georgian popular music is a post-Soviet urban genre that emerged following independence in 1991, blending Georgian polyphonic vocal tradition with Western pop, rock, and electronic influences; Tbilisi-based artists compete in Eurovision and collaborate with international producers, while the city's electronic music scene has gained global recognition since the 2010s.",
+      "artists": [
+        "Tamara Gverdtsiteli",
+        "Nino Katamadze",
+        "Irakli Charkviani"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Independence 1991 marks commercial pop launch. Ongoing.",
+        "geography": "National scope; Tbilisi primary centre.",
+        "artists": "Tamara Gverdtsiteli (b.1962), Nino Katamadze (b.1972), Irakli Charkviani (b.1960). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "kgz-kyrgyz-pop",
+      "country": "KGZ",
+      "name": "Kyrgyz popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Kyrgyzstan",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1991,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Kyrgyz popular music is an urban vocal genre that developed following independence in 1991, often combining komuz-derived melodic lines with contemporary electronic production; it coexists with the epic Manas oral tradition and Soviet-era estrada (variety) song, and artists perform in both Kyrgyz and Russian for domestic and Central Asian audiences.",
+      "artists": [
+        "Mirbek Atabekov",
+        "Gulzat Mamytbekova",
+        "Meerim Usenova"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Kyrgyzstan"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Post-Soviet independence 1991. Present.",
+        "geography": "National scope; Bishkek primary centre.",
+        "artists": "Mirbek Atabekov (b.1981), Gulzat Mamytbekova, Meerim Usenova. Wikipedia-partial."
+      }
+    },
+    {
+      "status": "published",
+      "id": "tkm-turkmen-pop",
+      "country": "TKM",
+      "name": "Turkmen popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Turkmenistan",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1991,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Turkmen popular music is a state-mediated urban song form that developed following independence in 1991, merging Soviet-era estrada style with Turkmen language lyrics and dutar-inflected melodic contours; it operates largely under state broadcast oversight and is distinct from the classical bakhshi epic singing tradition, which continues among specialist practitioners.",
+      "artists": [
+        "Mähriban Nuryyewa",
+        "Aýna Pirliýewa"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Turkmenistan"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Independence 1991. State-managed. Present.",
+        "geography": "National scope; Ashgabat primary centre.",
+        "artists": "Mähriban Nuryyewa, Aýna Pirliýewa. Wikipedia-limited; state broadcast records."
+      }
+    },
+    {
+      "status": "published",
+      "id": "mng-mongolian-pop",
+      "country": "MNG",
+      "name": "Mongolian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Mongolia",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1990,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Mongolian popular music is an Ulaanbaatar-centred genre that emerged with democratisation in 1990, encompassing rock, pop, and hip-hop alongside traditional khoomei (throat singing) influences; groups like The HU have brought Mongolian rock to global audiences by fusing nomadic instruments with heavy metal, while K-pop-influenced idol pop dominates domestic charts.",
+      "artists": [
+        "The HU",
+        "Nomin Talst",
+        "Tserenpuntsag Tserendorj"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Mongolia"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Democracy transition 1990 launches commercial pop. Present.",
+        "geography": "National scope; Ulaanbaatar primary centre.",
+        "artists": "The HU (formed 2016), Nomin Talst (b.1979), Tserenpuntsag Tserendorj. Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "cyp-laiko",
+      "country": "CYP",
+      "name": "Cypriot laïkó",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Cyprus",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Cypriot laïkó is the island's dominant popular song genre, sharing the Greek mainland laïkó tradition of orchestral bouzouki-led arrangements but with local Cypriot dialect and performance culture; Cyprus has produced internationally recognised artists who have crossed into the pan-Greek market and Eurovision, and the genre remains the primary commercial pop form in the Greek-Cypriot community.",
+      "artists": [
+        "Anna Vissi",
+        "Michalis Hatzigiannis",
+        "Evridiki"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Cyprus"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1960s laïkó broadcasting era. Present.",
+        "geography": "National scope; Limassol and Nicosia primary centres.",
+        "artists": "Anna Vissi (b.1958 Cyprus, major Greek-market career), Michalis Hatzigiannis (b.1975), Evridiki (b.1968). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "gab-gabonese-popular-music",
+      "country": "GAB",
+      "name": "Gabonese popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Gabon",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Gabonese popular music is an Afro-jazz and acoustic guitar-based genre developed in Libreville from the 1960s, drawing on Fang and Myene oral traditions alongside Congolese rumba influences; Pierre Akendengué established its international profile with French-language lyrics and acoustic arrangements, and younger artists have incorporated Afrobeat and urban contemporary styles.",
+      "artists": [
+        "Pierre Akendengué",
+        "Annie-Flore Batchiellilys",
+        "Lord Ekomy Ndong"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Gabon"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Pierre Akendengué (b.1943) active from 1960s; MusicBrainz confirms Afrobeat tags.",
+        "geography": "National scope; Libreville primary centre.",
+        "artists": "Pierre Akendengué (b.1943, acoustic Afro-jazz), Annie-Flore Batchiellilys (b.1975), Lord Ekomy Ndong (b.1981, hip-hop). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "tgo-togolese-popular-music",
+      "country": "TGO",
+      "name": "Togolese popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Togo",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Togolese popular music is a Lomé-centred genre that emerged in the 1970s, blending Ghanaian highlife, Congolese rumba, and local Ewe percussion traditions; Roger Damawuzan was the defining artist of the genre's formative decade, and contemporary Togolese musicians have integrated Afrobeats and urban gospel into an evolving popular scene.",
+      "artists": [
+        "Roger Damawuzan",
+        "Afia Mala",
+        "King Mensah"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Togo"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "MusicBrainz: Roger Damawuzan (b.1952) tagged highlife/Afrobeat; Togolese popular music. 1970s–present.",
+        "geography": "National scope; Lomé primary centre.",
+        "artists": "Roger Damawuzan (b.1952), Afia Mala, King Mensah (b.1974). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "ben-beninese-popular-music",
+      "country": "BEN",
+      "name": "Beninese popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Benin",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Beninese popular music is a Cotonou-centred genre that developed from the 1960s, drawing on Fon and Yoruba rhythmic traditions, Congolese guitar styles, and Cuban-influenced big-band arrangements; Gnonnas Pedro & His Dadjes Band were the genre's most internationally visible act, and contemporary Beninese artists participate in the pan-West African Afrobeats scene.",
+      "artists": [
+        "Gnonnas Pedro",
+        "Angélique Kidjo",
+        "Sagbohan Danialou"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Benin"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Gnonnas Pedro (1943-2004) active from 1960s; establishes genre date anchor.",
+        "geography": "National scope; Cotonou and Porto-Novo primary centres.",
+        "artists": "Gnonnas Pedro (1943-2004), Angélique Kidjo (b.1960), Sagbohan Danialou. Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "gmb-gambian-popular-music",
+      "country": "GMB",
+      "name": "Gambian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of the Gambia",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Gambian popular music is a Banjul-centred genre that combines the Mande kora-griot tradition with Western amplification and pop arrangements; Jaliba Kuyateh is the genre's most prominent practitioner, blending griot repertoire with dance rhythms for mass audiences, and the Gambia's small size has kept its popular scene closely tied to the broader Senegambian and West African pop market.",
+      "artists": [
+        "Jaliba Kuyateh",
+        "Foday Musa Suso",
+        "Sona Jobarteh"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_the_Gambia"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1970s amplified kora-pop era. Ongoing.",
+        "geography": "National scope; Banjul primary centre.",
+        "artists": "Jaliba Kuyateh (b.1959), Foday Musa Suso (b.1953), Sona Jobarteh (b.1983). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "sle-sierra-leone-afropop",
+      "country": "SLE",
+      "name": "Sierra Leone afropop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Sierra Leone",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Sierra Leone afropop is a Freetown-centred popular genre that draws on the palm-wine guitar tradition of S.E. Rogie, Krio cultural identity, and West African highlife; post-civil-war reconstruction from 2002 brought a revived urban scene, and contemporary Sierra Leonean artists participate in the pan-African Afrobeats ecosystem while maintaining local Krio-language expression.",
+      "artists": [
+        "S.E. Rogie",
+        "Emmerson Bockarie",
+        "Jimmy B"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Sierra_Leone"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "S.E. Rogie (1926-1994) from 1950s, but modern popular form consolidates 1970s.",
+        "geography": "National scope; Freetown primary centre.",
+        "artists": "S.E. Rogie (1926-1994), Emmerson Bockarie (b.1977), Jimmy B. Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "bfa-burkinabe-pop",
+      "country": "BFA",
+      "name": "Burkinabè popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Burkina Faso",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1980,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1980s",
+      "note": "Burkinabè popular music is an Ouagadougou-centred genre that developed from the 1980s, combining Dyula and Mooré language traditions with Congolese soukous, Ghanaian highlife, and West African pop; rapper Smockey established the country's hip-hop scene in the 1990s, and the annual FESPACO film festival context has given Burkinabè artists regional visibility.",
+      "artists": [
+        "Smockey",
+        "Victor Démé",
+        "Floby"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Burkina_Faso"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1980s commercial pop era. Hip-hop from 1990s. Present.",
+        "geography": "National scope; Ouagadougou primary centre.",
+        "artists": "Smockey (b.1975), Victor Démé (b.1964, blues/pop), Floby (contemporary gospel-pop). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "bwa-botswana-pop",
+      "country": "BWA",
+      "name": "Botswana popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Botswana",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1990,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Botswana popular music is a Gaborone-centred genre influenced by neighbouring South African kwaito and house music, Setswana-language praise poetry, and kwasa kwasa dance rhythms from the DRC; the country's relatively high per-capita income has sustained a domestic recording industry, and Afro-pop acts participate in the regional Southern African popular scene.",
+      "artists": [
+        "Rre Joe Ngaka",
+        "Charma Gal",
+        "Zeus"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Botswana"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1990s urban pop scene. Kwaito influence from late 1990s. Present.",
+        "geography": "National scope; Gaborone primary centre.",
+        "artists": "Rre Joe Ngaka (veteran), Charma Gal (b.1989), Zeus (hip-hop). Wikipedia-partial."
+      }
+    },
+    {
+      "status": "published",
+      "id": "mwi-malawi-pop",
+      "country": "MWI",
+      "name": "Malawian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Malawi",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Malawian popular music is a Blantyre and Lilongwe-centred genre that developed from the 1970s, blending Chichewa-language lyrics with Southern African guitar styles, Congolese soukous, and reggae influences; Lucius Banda established the genre's political dimension through protest music, and contemporary Malawian artists participate in the pan-African gospel and Afrobeats markets.",
+      "artists": [
+        "Lucius Banda",
+        "Billy Kaunda",
+        "Evison Matafale"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Malawi"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1970s recorded popular music. Ongoing.",
+        "geography": "National scope; Blantyre primary centre.",
+        "artists": "Lucius Banda (b.1970), Billy Kaunda (b.1958), Evison Matafale (1970-2001). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "mrt-mauritanian-popular-music",
+      "country": "MRT",
+      "name": "Mauritanian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Mauritania",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Mauritanian popular music is rooted in the iggawen griot tradition of the Moorish Hassaniya-speaking community, in which hereditary musicians accompany the tidinit lute and ardin harp; Dimi Mint Abba brought this repertoire to international audiences from the 1970s, and contemporary artists such as Noura Mint Seymali integrate electronic production while maintaining Arabic-language maqam contours.",
+      "artists": [
+        "Dimi Mint Abba",
+        "Noura Mint Seymali",
+        "Malouma"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Mauritania"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Dimi Mint Abba (1958-2011) debut late 1970s. Genre roots 1960s post-independence. Present.",
+        "geography": "National scope; Nouakchott primary centre.",
+        "artists": "Dimi Mint Abba (1958-2011), Noura Mint Seymali (b.1983), Malouma (b.1960). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "lby-libyan-popular-music",
+      "country": "LBY",
+      "name": "Libyan popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Libya",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Libyan popular music is a Tripoli-centred Arabic-language urban song genre that developed from the 1960s under radio broadcast sponsorship, blending Egyptian-influenced maqam melody with local Libyan rhythmic styles; Hamid Al-Shaeri relocated to Cairo and became a key architect of pan-Arab synthesiser pop in the 1980s, and Libyan artists continue to circulate in the North African and Gulf Arab music markets.",
+      "artists": [
+        "Hamid Al-Shaeri",
+        "Mohamed Hasan",
+        "Ahmed Fakroun"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Libya"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1960s radio era. Hamid Al-Shaeri (b.1960) major figure from 1980s. Present.",
+        "geography": "National scope; Tripoli primary centre.",
+        "artists": "Hamid Al-Shaeri (b.1960), Mohamed Hasan, Ahmed Fakroun (b.1952). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "som-somali-pop",
+      "country": "SOM",
+      "name": "Somali popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Somalia",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Somali popular music is a Mogadishu-centred genre that flourished from the 1960s through the 1980s in a 'golden age' of radio and theatre, blending Somali-language poetry with Egyptian, Cuban, and Indian film music influences; civil war from 1991 drove the scene into diaspora communities in Nairobi, London, and Minneapolis, where contemporary Somali hip-hop and R&B continue the tradition.",
+      "artists": [
+        "Hasan Adan Samatar",
+        "Magool",
+        "Waayaha Cusub"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Somalia"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1960s independence-era broadcasting. Golden age 1960s-1988. Diaspora continuation post-1991.",
+        "geography": "National scope; diaspora scenes in Nairobi, London, Minneapolis.",
+        "artists": "Hasan Adan Samatar (1941-2010), Magool (1948-2004), Waayaha Cusub (modern group). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "sah-sahrawi-popular-music",
+      "country": "SAH",
+      "name": "Sahrawi popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Western Sahara",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1975,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1975",
+      "note": "Sahrawi popular music is a Hassaniya Arabic-language genre developed by communities of the Western Sahara diaspora, particularly in the Tindouf refugee camps in Algeria; it draws on tidinit lute and ardine harp traditions shared with Mauritania, and was brought to European audiences by Mariem Hassan in the 1980s–2000s, representing both cultural continuity and political expression for the Sahrawi people.",
+      "artists": [
+        "Mariem Hassan",
+        "Aziza Brahim"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Western_Sahara"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1975 onset of displacement; diaspora scene. Mariem Hassan (1958-2015) key figure. Present.",
+        "geography": "National scope (Western Sahara + Tindouf camps). Approximation to country scope.",
+        "artists": "Mariem Hassan (1958-2015), Aziza Brahim (b.1976). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "com-twarab",
+      "country": "COM",
+      "name": "Comorian twarab",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of the Comoros",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Comorian twarab is an archipelago-specific variant of the East African tarabu tradition, performed at weddings and social celebrations in Shikomori and Arabic, combining oud accompaniment with call-and-response vocal textures; it developed its local character through French colonial and Arab seafaring contacts, and remains the dominant popular music form alongside ngoma percussion ceremonies.",
+      "artists": [
+        "Abou Chihabi",
+        "Nawal"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_the_Comoros"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Post-independence 1975 commercial scene; genre roots 1960s. Present.",
+        "geography": "National scope; all four main islands.",
+        "artists": "Abou Chihabi (veteran twarab), Nawal (b.1968, international crossover). Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "bdi-burundian-pop",
+      "country": "BDI",
+      "name": "Burundian popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Burundi",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Burundian popular music is a Bujumbura-centred genre that developed from the 1970s alongside the famous royal drum (karyenda) tradition, blending Kirundi-language lyric forms with Congolese soukous guitar styles and East African rumba; post-2015 political instability has driven many artists into diaspora while a domestic scene continues through church-based gospel pop and youth-oriented urban music.",
+      "artists": [
+        "Khadja Nin",
+        "Ciza Muhire"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Burundi"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1970s urban popular scene. Present (diaspora-sustained).",
+        "geography": "National scope; Bujumbura primary centre.",
+        "artists": "Khadja Nin (b.1962, Burundian-born internationally active), Ciza Muhire. Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "gnb-gumbe-popular",
+      "country": "GNB",
+      "name": "Gumbé popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Guinea-Bissau",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1980,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1980s",
+      "note": "Gumbé popular music is the urban popular form of Guinea-Bissau, taking its name and foundational percussion from the traditional gumbé frame drum; Super Mama Djombo pioneered the genre in the 1970s–1980s, combining independence-era revolutionary sentiment with Creole-language lyrics and electric guitar arrangements, and it remains the country's most distinctive popular export.",
+      "artists": [
+        "Super Mama Djombo",
+        "Dulce Maria Neves",
+        "Manecas Costa"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Guinea-Bissau"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Super Mama Djombo active from mid-1970s; genre commercial form 1980s. Present.",
+        "geography": "National scope; Bissau primary centre.",
+        "artists": "Super Mama Djombo (formed 1974, peak 1980s), Dulce Maria Neves, Manecas Costa (b.1965). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "sol-string-band",
+      "country": "SOL",
+      "name": "Solomon Islands string band",
+      "kind": "urban popular music",
+      "wikipedia_title": "String band music of Melanesia",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Solomon Islands string band music is an acoustic popular genre that emerged in the 1960s from Melanesian adaptations of Hawaiian guitar and ukulele styles introduced by missionaries; performed in Pijin and regional languages, it combines guitar, ukulele, and bass guitar with harmonised vocals, and remains the most distinctively Solomon Islander popular form alongside imported reggae and hip-hop.",
+      "artists": [
+        "Sharzy",
+        "Kingstone",
+        "Ozziana Ponifasio"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/String_band_music_of_Melanesia",
+        "https://en.wikipedia.org/wiki/Music_of_the_Solomon_Islands"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1960s missionary/colonial contact era. Ongoing.",
+        "geography": "National scope; Honiara primary centre.",
+        "artists": "Sharzy (contemporary), Kingstone (Kwaio-based). Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "lso-contemporary-famo",
+      "country": "LSO",
+      "name": "Contemporary famo",
+      "kind": "urban popular music",
+      "wikipedia_title": "Famo",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Contemporary famo is the electrically amplified studio form of Lesotho's accordion-based popular genre, developed from the 1970s with electric bass and drum kit replacing traditional percussion; Puseletso Seema and later artists have released cassette and digital recordings for the Basotho diaspora market, maintaining famo's role as a vehicle for Sesotho cultural identity while modernising its production aesthetic.",
+      "artists": [
+        "Puseletso Seema",
+        "Atang Molefe"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Famo"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1970s electrified studio recording era. Ongoing.",
+        "geography": "National scope; also diaspora in Johannesburg.",
+        "artists": "Puseletso Seema (b.1974), Atang Molefe. Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "swz-swazi-pop",
+      "country": "SWZ",
+      "name": "Swazi popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Eswatini",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1990,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Swazi popular music is a Mbabane-centred genre that developed from the 1990s, drawing on South African kwaito and maskandi guitar styles and performed in siSwati; the small domestic market has meant Swazi artists typically circulate across the Southern African regional scene, and afrobeats influences have become prominent in the contemporary studio sound since the 2010s.",
+      "artists": [
+        "Bholoja",
+        "Vusi Nova"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Eswatini"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1990s regional pop integration. Present.",
+        "geography": "National scope; Mbabane primary centre.",
+        "artists": "Bholoja (b.1975, siSwati soul), Vusi Nova (b.1984, SA-Swazi crossover). Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "sds-south-sudan-hip-hop",
+      "country": "SDS",
+      "name": "South Sudanese hip-hop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of South Sudan",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 2005,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "2005",
+      "note": "South Sudanese hip-hop is a diaspora-rooted popular genre that developed in the mid-2000s, primarily in Nairobi and Western cities among South Sudanese refugees; Emmanuel Jal pioneered the form by addressing war, displacement, and reconciliation in English and Nuer, and following independence in 2011 a domestic Juba-based scene has emerged incorporating Dinka and Arabic influences.",
+      "artists": [
+        "Emmanuel Jal"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_South_Sudan"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Emmanuel Jal (b.1980) active from mid-2000s. Independence 2011 anchors domestic scene.",
+        "geography": "National scope; Juba + diaspora (Nairobi, London, Canada).",
+        "artists": "Emmanuel Jal (b.1980). Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "stp-puxa",
+      "country": "STP",
+      "name": "São Tomé puxa",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of São Tomé and Príncipe",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Puxa is the popular dance music of São Tomé and Príncipe, a Creole genre that blends African percussion, Portuguese colonial song, and Cuban and Brazilian influences; developed in São Tomé city from the 1970s post-independence era, it is performed for street celebrations alongside the older ússua and socopé rhythms, and remains the archipelago's most distinctively popular form.",
+      "artists": [
+        "Gilberto Gil Umbelina",
+        "Armindo Neto"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1975 independence; popular music from 1970s. Ongoing.",
+        "geography": "National scope; São Tomé city primary centre.",
+        "artists": "Gilberto Gil Umbelina, Armindo Neto. Wikipedia-limited."
+      }
+    },
+    {
+      "status": "published",
+      "id": "mac-cantopop",
+      "country": "MAC",
+      "name": "Cantopop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Cantopop",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1974,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1974",
+      "note": "Cantopop (Cantonese popular music) is the dominant popular genre of Macau, shared with Hong Kong, performed in Cantonese and marketed across the greater Guangdong and overseas Chinese diaspora; the genre consolidated in the mid-1970s through Hong Kong-produced cassettes and TV variety shows that circulated freely in Macau, and Portuguese colonial Macau developed its own small recording scene alongside the dominant Hong Kong mainstream.",
+      "artists": [
+        "Sandy Lam",
+        "Faye Wong",
+        "Leon Lai"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cantopop",
+        "https://en.wikipedia.org/wiki/Music_of_Macau"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "1974 marks the Cantopop boom (Sam Hui era). Macau participates via shared HK broadcast market.",
+        "geography": "National scope; closely integrated with Hong Kong Cantopop market.",
+        "artists": "Sandy Lam (b.1966, active Macau-HK), Faye Wong (b.1969), Leon Lai (b.1966). Mainstream HK-Macau Cantopop artists."
       }
     }
   ]
