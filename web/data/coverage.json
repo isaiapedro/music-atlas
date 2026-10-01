@@ -3,7 +3,7 @@
   "countries": {
     "AFG": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -13,7 +13,7 @@
     },
     "AGO": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -23,7 +23,7 @@
     },
     "ARE": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -33,7 +33,7 @@
     },
     "ARM": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -53,7 +53,7 @@
     },
     "BDI": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -63,7 +63,7 @@
     },
     "BEN": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 9,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -73,7 +73,7 @@
     },
     "BFA": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -83,7 +83,7 @@
     },
     "BGD": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 6,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -93,7 +93,7 @@
     },
     "BHR": {
       "status": "unresearched",
-      "published_genres": 0,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -102,7 +102,7 @@
     },
     "BRN": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -111,7 +111,7 @@
     },
     "BTN": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -121,7 +121,7 @@
     },
     "BWA": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -131,7 +131,7 @@
     },
     "CAF": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -141,7 +141,7 @@
     },
     "CHN": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 9,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -151,7 +151,7 @@
     },
     "CIV": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 6,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -161,7 +161,7 @@
     },
     "CMR": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -191,7 +191,7 @@
     },
     "COM": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -222,7 +222,7 @@
     },
     "CYP": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -232,7 +232,7 @@
     },
     "DJI": {
       "status": "in_progress",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": "2026-09-28",
       "summary": "One source-reviewed cross-border Balwo layer is published; national breadth remains incomplete.",
       "gaps": [
@@ -242,7 +242,7 @@
     },
     "DZA": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 11,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -252,7 +252,7 @@
     },
     "EGY": {
       "status": "in_progress",
-      "published_genres": 5,
+      "published_genres": 14,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -262,7 +262,7 @@
     },
     "ERI": {
       "status": "in_progress",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": "2026-09-28",
       "summary": "One source-reviewed Guayla layer is published; national breadth remains incomplete.",
       "gaps": [
@@ -272,7 +272,7 @@
     },
     "ETH": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 7,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -282,7 +282,7 @@
     },
     "GAB": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -292,7 +292,7 @@
     },
     "GEO": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -302,7 +302,7 @@
     },
     "GHA": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 8,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -312,7 +312,7 @@
     },
     "GIN": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -322,7 +322,7 @@
     },
     "GMB": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -332,7 +332,7 @@
     },
     "GNB": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 7,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -352,7 +352,7 @@
     },
     "HKG": {
       "status": "in_progress",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": "2026-09-28",
       "summary": "Cantonese opera and Cantopop provide two source-reviewed historical and popular layers; wider Hong Kong coverage remains incomplete.",
       "gaps": [
@@ -362,7 +362,7 @@
     },
     "IDN": {
       "status": "in_progress",
-      "published_genres": 6,
+      "published_genres": 8,
       "reviewed_at": "2026-09-28",
       "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -372,7 +372,7 @@
     },
     "IND": {
       "status": "in_progress",
-      "published_genres": 7,
+      "published_genres": 11,
       "reviewed_at": "2026-09-28",
       "summary": "7 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -392,7 +392,7 @@
     },
     "IRN": {
       "status": "in_progress",
-      "published_genres": 6,
+      "published_genres": 11,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -402,7 +402,7 @@
     },
     "IRQ": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -412,7 +412,7 @@
     },
     "ISR": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -422,7 +422,7 @@
     },
     "JOR": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -432,7 +432,7 @@
     },
     "JPN": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 12,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -453,7 +453,7 @@
     },
     "KAZ": {
       "status": "unresearched",
-      "published_genres": 4,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -463,7 +463,7 @@
     },
     "KEN": {
       "status": "in_progress",
-      "published_genres": 5,
+      "published_genres": 7,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -473,7 +473,7 @@
     },
     "KGZ": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -483,7 +483,7 @@
     },
     "KHM": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -493,7 +493,7 @@
     },
     "KOR": {
       "status": "in_progress",
-      "published_genres": 5,
+      "published_genres": 10,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -503,7 +503,7 @@
     },
     "KWT": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -513,7 +513,7 @@
     },
     "LAO": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -523,7 +523,7 @@
     },
     "LBN": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 9,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -543,7 +543,7 @@
     },
     "LBY": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -553,7 +553,7 @@
     },
     "LKA": {
       "status": "in_progress",
-      "published_genres": 5,
+      "published_genres": 8,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -563,7 +563,7 @@
     },
     "LSO": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -572,7 +572,7 @@
     },
     "MAC": {
       "status": "in_progress",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": "2026-09-28",
       "summary": "Cantonese Naamyam and the Macao Guangdong-music scene provide two source-reviewed layers; wider Macao coverage remains incomplete.",
       "gaps": [
@@ -582,7 +582,7 @@
     },
     "MAR": {
       "status": "in_progress",
-      "published_genres": 5,
+      "published_genres": 10,
       "reviewed_at": "2026-09-28",
       "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -592,7 +592,7 @@
     },
     "MDG": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -611,7 +611,7 @@
     },
     "MMR": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -621,7 +621,7 @@
     },
     "MNG": {
       "status": "unresearched",
-      "published_genres": 5,
+      "published_genres": 7,
       "reviewed_at": null,
       "summary": "Initial UNESCO discovery logged for 2 candidate traditions; national coverage remains unreviewed.",
       "gaps": [
@@ -631,7 +631,7 @@
     },
     "MOZ": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
       "gaps": [
@@ -641,7 +641,7 @@
     },
     "MRT": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -651,7 +651,7 @@
     },
     "MWI": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 5,
       "reviewed_at": "2026-09-28",
       "summary": "Vimbuza and Malipenga provide two source-reviewed traditions; national breadth remains incomplete.",
       "gaps": [
@@ -661,7 +661,7 @@
     },
     "MYS": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -681,7 +681,7 @@
     },
     "NER": {
       "status": "unresearched",
-      "published_genres": 0,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -691,7 +691,7 @@
     },
     "NGA": {
       "status": "in_progress",
-      "published_genres": 6,
+      "published_genres": 10,
       "reviewed_at": "2026-09-28",
       "summary": "6 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -700,7 +700,7 @@
     },
     "NPL": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 7,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -710,7 +710,7 @@
     },
     "OMN": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -720,7 +720,7 @@
     },
     "PAK": {
       "status": "in_progress",
-      "published_genres": 4,
+      "published_genres": 7,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -730,7 +730,7 @@
     },
     "PHL": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -750,7 +750,7 @@
     },
     "PSX": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
       "gaps": [
@@ -760,7 +760,7 @@
     },
     "QAT": {
       "status": "unresearched",
-      "published_genres": 0,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -770,7 +770,7 @@
     },
     "RWA": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -780,7 +780,7 @@
     },
     "SAH": {
       "status": "in_progress",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": "2026-09-28",
       "summary": "One source-reviewed transborder Haul layer is published; this does not resolve the territory's wider or diasporic musical coverage.",
       "gaps": [
@@ -791,7 +791,7 @@
     },
     "SAU": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -811,7 +811,7 @@
     },
     "SDS": {
       "status": "in_progress",
-      "published_genres": 2,
+      "published_genres": 4,
       "reviewed_at": "2026-09-28",
       "summary": "One source-reviewed Dinka song-tradition layer is published; South Sudan's other communities and modern scenes remain unrepresented.",
       "gaps": [
@@ -821,7 +821,7 @@
     },
     "SEN": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 4,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -831,7 +831,7 @@
     },
     "SGP": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -840,7 +840,7 @@
     },
     "SLE": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 5,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -849,7 +849,7 @@
     },
     "SOL": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
       "gaps": [
@@ -860,7 +860,7 @@
     },
     "SOM": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -870,7 +870,7 @@
     },
     "STP": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -878,26 +878,6 @@
       ]
     },
     "SWZ": {
-      "status": "unresearched",
-      "published_genres": 1,
-      "reviewed_at": null,
-      "summary": "National music research has not begun.",
-      "gaps": [
-        "Period, community, region, and genre coverage require a source audit.",
-        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
-      ]
-    },
-    "SYR": {
-      "status": "unresearched",
-      "published_genres": 2,
-      "reviewed_at": null,
-      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
-      "gaps": [
-        "Local-language, community, archive and scholarship searches remain",
-        "Historical periods, major communities, modern genres and region mapping require coverage audit"
-      ]
-    },
-    "TCD": {
       "status": "unresearched",
       "published_genres": 5,
       "reviewed_at": null,
@@ -907,9 +887,29 @@
         "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
       ]
     },
+    "SYR": {
+      "status": "unresearched",
+      "published_genres": 11,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TCD": {
+      "status": "unresearched",
+      "published_genres": 10,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
     "TGO": {
       "status": "unresearched",
-      "published_genres": 0,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -919,7 +919,7 @@
     },
     "THA": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -929,7 +929,7 @@
     },
     "TJK": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
       "gaps": [
@@ -939,7 +939,7 @@
     },
     "TKM": {
       "status": "unresearched",
-      "published_genres": 3,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -949,7 +949,7 @@
     },
     "TLS": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 2,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -959,7 +959,7 @@
     },
     "TUN": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -969,7 +969,7 @@
     },
     "TUR": {
       "status": "in_progress",
-      "published_genres": 7,
+      "published_genres": 12,
       "reviewed_at": "2026-09-28",
       "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -979,7 +979,7 @@
     },
     "TWN": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
       "gaps": [
@@ -989,7 +989,7 @@
     },
     "TZA": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 5,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -999,7 +999,7 @@
     },
     "UGA": {
       "status": "in_progress",
-      "published_genres": 3,
+      "published_genres": 9,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -1009,7 +1009,7 @@
     },
     "UZB": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -1019,7 +1019,7 @@
     },
     "VNM": {
       "status": "in_progress",
-      "published_genres": 9,
+      "published_genres": 14,
       "reviewed_at": "2026-09-28",
       "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -1029,7 +1029,7 @@
     },
     "YEM": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
       "gaps": [
@@ -1039,7 +1039,7 @@
     },
     "ZAF": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 10,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -1048,7 +1048,7 @@
     },
     "ZMB": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -1058,7 +1058,7 @@
     },
     "ZWE": {
       "status": "unresearched",
-      "published_genres": 1,
+      "published_genres": 6,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [

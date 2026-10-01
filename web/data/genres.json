@@ -192,17 +192,20 @@
         "Lagos"
       ],
       "active_from": 1920,
-      "active_to": 1960,
+      "active_to": null,
       "start_label": "1920s",
-      "note": "Jùjú emerged in Lagos in the 1920s, developed within Yoruba popular music, and remains in performance. The decade marks an approximate emergence, not an exact first year.",
+      "note": "Jùjú emerged in Lagos around 1932, named for its characteristic frame drum; the first star Tunde King (born 1910) recorded for Parlophone in 1936, and postwar amplification transformed the genre; King Sunny Adé and Ebenezer Obey established jùjú internationally in the 1970s–1980s, and the genre remains active.",
       "artists": [
         "King Sunny Adé",
-        "Ebenezer Obey"
+        "Ebenezer Obey",
+        "Sir Shina Peters"
       ],
       "sample": null,
       "sources": [
-        "https://www.cambridge.org/core/journals/popular-music/article/abs/diachronic-study-of-change-in-juju-music/6C359B104E11472083E09727E7958672",
-        "https://musicinafrica.net/magazine/hundred-years-pop-music-nigeria-what-shaped-four-eras/"
+        {
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Juju_music"
       ],
       "map_scope": "regions",
       "youtube_examples": [
@@ -214,7 +217,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Agbasa_Juju_dance_from_Eastern_Nigeria_6.jpg/960px-Agbasa_Juju_dance_from_Eastern_Nigeria_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Agbasa_Juju_dance_from_Eastern_Nigeria_6.jpg",
@@ -237,19 +240,20 @@
         "Lagos"
       ],
       "active_from": 1970,
-      "active_to": 2010,
+      "active_to": null,
       "start_label": "1970s",
-      "note": "Fújì emerged as a distinct urban Yoruba popular genre in the 1970s Lagos scene and remains active. Its precursor wéré is older and distinct.",
+      "note": "Fújì emerged as a genre and marketing label in the late 1960s, when former ajísàárì-singers were discharged from the Nigerian Army and began recording; by the early 1970s it succeeded àpàlà as the most popular genre among Yoruba Muslims, and Wasiu Ayinde Marshal and Alhaji Sikiru Ayinde Barrister remain leading artists.",
       "artists": [
+        "Wasiu Ayinde Marshal",
         "Sikiru Ayinde Barrister",
-        "Kollington Ayinla",
         "Adewale Ayuba"
       ],
       "sample": null,
       "sources": [
-        "https://www.cambridge.org/core/journals/traditions-of-music-and-dance/article/contesting-orthodoxy-negotiating-liberalism-sustenance-of-music-traditions-in-selected-muslim-communities-in-nigeria/8EE4E01A3ECA371F6081A9D2F404EF12",
-        "https://news.fiu.edu/2024/fuji-music-in-nigeria-new-documentary-shines-light-on-a-popular-african-culture",
-        "https://www.cambridge.org/core/journals/dance-research-journal/article/invented-dances-or-how-nigerian-musicians-sculpt-the-body-politic/0688090BEA1A07D979DDAE1D4712B935/share/7c644c8e97b24d6f6cf1250f038c3766b22b677c"
+        {
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Fuji_music"
       ],
       "map_scope": "regions",
       "youtube_examples": [
@@ -261,7 +265,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kodaki_fuji_frm_shojinko.jpg/960px-Kodaki_fuji_frm_shojinko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko.jpg",
@@ -284,19 +288,20 @@
         "Lagos"
       ],
       "active_from": 1968,
-      "active_to": 2008,
+      "active_to": null,
       "start_label": "Late 1960s",
-      "note": "Afrobeat developed in the late-1960s Lagos scene with Fela Kuti, Tony Allen, and others, and remains active. It is distinct from the later Afrobeats umbrella.",
+      "note": "Afrobeat began in the late 1960s as a confluence of dance-band highlife, jazz, and soul, centered on Fela Anikulapo Kuti (born 1938 in Abeokuta) who formed Africa '70 in 1970; politically charged and structurally distinct from mainstream Yoruba pop, the genre continues through Femi Kuti and Seun Kuti.",
       "artists": [
         "Fela Kuti",
-        "Tony Allen",
-        "Femi Kuti"
+        "Femi Kuti",
+        "Seun Kuti"
       ],
       "sample": null,
       "sources": [
-        "https://www.grammy.com/news/tony-allen-influential-nigerian-drummer-co-founder-afrobeat-dies-79/",
-        "https://www.grammy.com/news/fela-kuti-musical-family-femi-seun-yeni-made-guide/",
-        "https://www.grammy.com/news/7-sets-all-points-east-2022-chemical-brothers-gorillaz-femi-kuti-highschool/"
+        {
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Afrobeat"
       ],
       "map_scope": "regions",
       "youtube_examples": [
@@ -327,7 +332,7 @@
           "timeline_end_status": "ended"
         }
       ],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg/960px-Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg",
@@ -632,19 +637,20 @@
         "Rivers State"
       ],
       "active_from": 1950,
-      "active_to": 1990,
+      "active_to": null,
       "start_label": "By the 1950s",
-      "note": "A Nigerian branch of a wider West African dance-band tradition. It became a major national sound around independence, then continued especially in eastern and midwestern scenes.",
+      "note": "Highlife dance bands originated in the early 1900s in Accra and reached Lagos by the 1920s–1930s; the 1950s were its golden age in Yorubaland with Bobby Benson's Jam Session Orchestra, and though Nigerian highlife declined after the 1960s civil war, the form persists in Lagos and south-eastern Nigeria.",
       "artists": [
+        "Bobby Benson",
         "Victor Olaiya",
-        "Rex Jim Lawson",
         "Chief Oliver De Coque"
       ],
       "sample": null,
       "sources": [
-        "https://musicinafrica.net/magazine/highlife-west-africa/",
-        "https://ich.unesco.org/en/RL/highlife-music-and-dance-02141",
-        "https://musicinafrica.net/fr/node/84743"
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Highlife"
       ],
       "youtube_examples": [
         {
@@ -655,7 +661,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Highlife_guitar.tif/lossy-page1-960px-Highlife_guitar.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Highlife_guitar.tif",
@@ -947,17 +953,21 @@
         "Western"
       ],
       "map_scope": "regions",
-      "active_from": 1800,
+      "active_from": 1920,
       "active_to": null,
-      "start_label": "Documented or prominent by the 1800s (approx.)",
-      "note": "A Ghanaian popular music and dance tradition with dance-band, guitar-band and Burger styles, performed in multiple languages and social settings.",
+      "start_label": "1920s",
+      "note": "Highlife is the British-derived popular dance-music style coined in Ghanaian coastal towns in the early 1920s, representing a fusion of indigenous sounds with Western instrumentation; three sub-styles emerged—dance-band highlife (ballroom orchestras), adaha highlife (military-band lineage), and palm-wine highlife (small guitar-based groups)—and the genre thrived from the 1930s through the 1960s before experiencing an international revival through the world-music market.",
       "artists": [
-        "Yiadom Boakye and Manhyia Tete Nwomkoro"
+        "E.T. Mensah",
+        "Ebo Taylor",
+        "Amakye Dede"
       ],
       "sample": null,
       "sources": [
-        "https://ich.unesco.org/en/RL/highlife-music-and-dance-02141",
-        "https://folkways.si.edu/music-of-the-ashanti-of-ghana/world/album/smithsonian"
+        "https://en.wikipedia.org/wiki/Highlife",
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        }
       ],
       "youtube_examples": [
         {
@@ -1291,17 +1301,19 @@
       "regions": [],
       "approximate_region": "south",
       "active_from": 1980,
-      "active_to": 2020,
+      "active_to": null,
       "start_label": "Documented or prominent by the 1980s (approx.)",
-      "note": "A vocal tradition associated with the cross-border Wassoulou cultural area and modern Malian performers including Oumou Sangaré. The area's cultural geography does not align with a single current administrative region.",
+      "note": "Wassoulou music is a women's popular genre from the Wassoulou area of southern Mali, characterised by the pentatonic-scale kamele ngoni (six-stringed youth harp), djembe, and modern keyboards; unlike the hereditary jalolu tradition, Wassoulou women are non-hereditary musicians whose repertory centres on love, nature, and the exploration of human goodness, and the genre has reached international audiences through artists such as Oumou Sangaré from the 1990s onward.",
       "artists": [
         "Oumou Sangaré",
         "Nahawa Doumbia"
       ],
       "sample": null,
       "sources": [
-        "https://musicinafrica.net/fr/magazine/oumou-sangare-la-diva-acoustique/",
-        "https://musicinafrica.net/fr/magazine/sarama-oumou-sangare-presente-les-couleurs-de-timbuktu-son-13e-album-solo/"
+        "https://en.wikipedia.org/wiki/Wassoulou_music",
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        }
       ],
       "youtube_examples": [
         {
@@ -1312,7 +1324,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Map_commune_Mali_-_WASSOULOU_BALLE.svg/960px-Map_commune_Mali_-_WASSOULOU_BALLE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Map_commune_Mali_-_WASSOULOU_BALLE.svg",
@@ -1338,11 +1350,12 @@
         "Tombouctou"
       ],
       "active_from": 1970,
-      "active_to": 2010,
+      "active_to": null,
       "start_label": "Documented or prominent by the 1970s (approx.)",
       "note": "Contemporary Tuareg guitar-led music associated with trans-Saharan communities, including Mali. Tinariwen's Mali-linked recordings exemplify one influential expression without defining the whole tradition.",
       "artists": [
-        "Tinariwen"
+        "Tinariwen",
+        "Mdou Moctar"
       ],
       "sample": null,
       "sources": [
@@ -1361,7 +1374,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Musical_instruments_on_display_at_the_MIM_%2814371988083%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Musical_instruments_on_display_at_the_MIM_%2814371988083%29.jpg",
@@ -2962,14 +2975,20 @@
       "map_scope": "approximate",
       "approximate_region": "west",
       "active_from": 1950,
-      "active_to": 1990,
+      "active_to": null,
       "start_label": "Developed in the 1950s",
-      "note": "Kenyan guitar-led popular music that developed from Luo musical and recording scenes around Lake Victoria and spread nationally and regionally.",
-      "artists": [],
+      "note": "Benga is the definitive popular music of Kenya, developed in the 1970s among the Luo people of western Kenya and characterised by soft, flowing two-part guitar harmonies over a hard, pulsating rhythm section; it is played by most Kenyan musicians regardless of language or regional identification and remains the country's most enduring popular form.",
+      "artists": [
+        "D.O. Misiani",
+        "Shirati Jazz",
+        "Ayub Ogada"
+      ],
       "sample": null,
       "sources": [
-        "https://musicinafrica.net/magazine/retracing-benga-rhythm/",
-        "https://www.musicinafrica.net/fr/node/83833"
+        "https://en.wikipedia.org/wiki/Benga_music",
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        }
       ],
       "wikipedia_language": "en",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Benga_music",
@@ -2983,7 +3002,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Okatch_Biggy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Okatch_Biggy.jpg",
@@ -3954,7 +3973,7 @@
         "Adana"
       ],
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "1960s emergence",
       "note": "Turkish Arabesk developed into a major popular music form from the 1960s, later changing through pop crossovers. The decade is approximate and its precursors are older.",
       "artists": [
@@ -3966,7 +3985,10 @@
       "sources": [
         "https://acikbilim.yok.gov.tr/handle/20.500.12812/216084",
         "https://researchers.mq.edu.au/en/publications/turkish-arabesk-music-and-the-changing-perceptions-of-melancholy-/",
-        "https://dergipark.org.tr/en/pub/turkav/article/1481012"
+        "https://dergipark.org.tr/en/pub/turkav/article/1481012",
+        {
+          "citation": "Ivanka Vlaeva, 'Musical images of Istanbul from Fatih Akin's films and stage performances', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 114–130."
+        }
       ],
       "youtube_examples": [
         {
@@ -3977,7 +3999,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Arabesque-letter-j-icon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Arabesque-letter-j-icon.png",
@@ -4001,7 +4023,7 @@
         "Istanbul"
       ],
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "1960s–1970s development",
       "note": "Anatolian rock emerged as Turkish performers blended rock with local musical motifs during the 1960s and 1970s. Barış Manço is a documented contributor to the form.",
       "artists": [
@@ -4011,7 +4033,10 @@
       "sources": [
         "https://dergipark.org.tr/tr/pub/aicusbed/article/529782",
         "https://utheses.univie.ac.at/detail/71045",
-        "https://dergipark.org.tr/en/pub/etnomuzikoloji/article/1722473"
+        "https://dergipark.org.tr/en/pub/etnomuzikoloji/article/1722473",
+        {
+          "citation": "Ivanka Vlaeva, 'Musical images of Istanbul from Fatih Akin's films and stage performances', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 114–130."
+        }
       ],
       "youtube_examples": [
         {
@@ -4022,7 +4047,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_shadows_2009_Brussels.JPG/960px-The_shadows_2009_Brussels.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:The_shadows_2009_Brussels.JPG",
@@ -4239,11 +4264,12 @@
         "Baku"
       ],
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "Developed in Baku in the 1960s",
-      "note": "Jazz mugham joins jazz harmony and improvisation with Azerbaijani mugham. Pianist Vagif Mustafazadeh developed the Baku style in the 1960s; current musicians continue the fusion.",
+      "note": "Jazz mugham is an Azerbaijani fusion genre developed in Baku from the 1960s by pianist Vagif Mustafazadeh, who combined jazz harmony and improvisation with the modal and ornamental vocabulary of classical mugham. After Mustafazadeh's death in 1979, his daughter Aziza Mustafazadeh continued the style and brought it to international audiences; the genre remains active in Baku's concert scene.",
       "artists": [
-        "Vagif Mustafazadeh"
+        "Vagif Mustafazadeh",
+        "Aziza Mustafazadeh"
       ],
       "sample": null,
       "sources": [
@@ -4261,7 +4287,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Vaqif_Mustafazad%C9%99.jpg/960px-Vaqif_Mustafazad%C9%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Vaqif_Mustafazad%C9%99.jpg",
@@ -4288,7 +4314,11 @@
       "active_to": null,
       "start_label": "Iranian scene formed in the early 2000s",
       "note": "Iranian hip-hop developed a local scene in Tehran in the early 2000s, with Persian-language and other local-language rap taking varied musical and social forms.",
-      "artists": [],
+      "artists": [
+        "Hichkas",
+        "Yas",
+        "Bahram"
+      ],
       "sample": null,
       "sources": [
         "https://journals.sagepub.com/doi/abs/10.1177/1749975518769001",
@@ -4546,9 +4576,9 @@
       "regions": [
         "Shanghai"
       ],
-      "active_from": 1920,
+      "active_from": 1927,
       "active_to": 1949,
-      "start_label": "Shanghai recording-era modern song, 1920s–1940s (approx.)",
+      "start_label": "1927",
       "note": "Shanghai modern song emerged within the city’s early recording industry. Scholarly documentation identifies ‘Drizzle,’ published in 1927 and recorded in 1928, as the first Chinese modern song.",
       "artists": [
         "Zhou Xuan",
@@ -4556,7 +4586,10 @@
       ],
       "sample": null,
       "sources": [
-        "https://scholars.ln.edu.hk/en/publications/la-circulation-du-label-path%C3%A9-en-chine-1906-1949/"
+        {
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Shidaiqu"
       ],
       "youtube_examples": [
         {
@@ -4694,7 +4727,11 @@
       "active_to": null,
       "start_label": "1970s",
       "note": "A fast-paced musical genre rooted in south-west Madagascar, performed at social and ritual events and transmitted through families, neighbourhood groups and orchestras.",
-      "artists": [],
+      "artists": [
+        "Tarika Sammy",
+        "Rossy",
+        "Vahömbey"
+      ],
       "sample": null,
       "sources": [
         "https://ich.unesco.org/en/RL/tsapiky-rhythm-and-musical-style-characteristic-of-the-south-west-region-of-madagascar-02272"
@@ -6998,29 +7035,29 @@
       "regions": [],
       "approximate_region": "east",
       "active_from": 1993,
-      "active_to": 2020,
-      "start_label": "The source discusses Dəyirman singing together from 1993 and documents the releases Azərimeyk (2000) and Qurd (2001). It treats these as evidence for local rap practice, not as the",
-      "note": "The source discusses Baku-oriented songs. East is a labelled, uniform locator for that coastal urban scene, not an administrative boundary or an Azerbaijan-wide claim.",
+      "active_to": null,
+      "start_label": "1993",
+      "note": "Azeri-language hip-hop emerged with the group Dəyirman, whose 2000 debut album Azərimeyk fused Azeri folk songs with rap verses. Their 2001 album Qurd contained the nationalist anthem 'Ya Qarabağ, Ya Ölüm,' which established rap as a vehicle for political commentary in Baku. Rappers perform in Azeri rather than Russian as an assertion of post-Soviet national identity; lyrics included in the national school curriculum.",
       "artists": [
-        "Chingiz Mustafayev",
-        "Dayirman",
-        "H.O.S.T."
+        "Dəyirman",
+        "H.O.S.T.",
+        "Anar Nağılbaz"
       ],
       "sample": null,
       "sources": [
         {
           "citation": "Razia Sultanova and Megan Rancier (eds.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018, printed pp. 77–99."
+        },
+        {
+          "citation": "Thomas Solomon, 'Azerbaijani rap music and oral poetry between \"the folk\" and \"the popular\"', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 77–98."
+        },
+        {
+          "citation": "Thomas Solomon, 'Azerbaijani Rap Music and Oral Poetry between \"the Folk\" and \"the Popular\",' in Razia Sultanova, ed., Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018."
         }
       ],
       "youtube_examples": [
         {
-          "artist": "Chingiz Mustafayev",
-          "title": "Azerbaijani-language rap — Chingiz Mustafayev",
-          "youtube_url": "https://www.youtube.com/watch?v=A21GtNWiLMo",
-          "reviewed_at": "2026-09-28"
-        },
-        {
-          "artist": "Dayirman",
+          "artist": "Dəyirman",
           "title": "Azerbaijani-language rap — Dayirman",
           "youtube_url": "https://www.youtube.com/watch?v=coHHG6lEscc",
           "reviewed_at": "2026-09-28"
@@ -7033,7 +7070,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended"
+      "timeline_end_status": "present"
     },
     {
       "id": "aze-meyxana",
@@ -7044,14 +7081,24 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1900,
-      "active_to": 1940,
-      "start_label": "Documented or prominent by the 1900s (approx.)",
-      "note": "Meyxana is documented as oral poetic music practice. The chapter discusses meyxana as a competitive poetic performance with links to youth sociality and reports its post-millennial commercial development as pop-meyxana.",
-      "artists": [],
+      "active_to": null,
+      "start_label": "early 20th c.",
+      "note": "Meyxana is an Azerbaijani oral poetry genre from Baku and the Absheron Peninsula in which performers improvise verses in competitive deyişmə format, using a repeating rhymed refrain (qafiyə) in 6/8 time. Suppressed as 'hooligan poetry' during the Soviet era, the form revived vigorously after independence in 1991; professional meyxanaçılar now perform at weddings and on television competitions. Since the 1990s a 'pop-meyxana' variant with electronic drums and keyboards emerged, described by Sultanova and Broughton as 'the most significant musical genre in Azerbaijan'.",
+      "artists": [
+        "Əlokbar",
+        "Rəmzi",
+        "Zaur Baxşəliyev"
+      ],
       "sample": null,
       "sources": [
         {
           "citation": "Razia Sultanova and Megan Rancier (eds.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018, printed pp. 77–99."
+        },
+        {
+          "citation": "Thomas Solomon, 'Azerbaijani rap music and oral poetry between \"the folk\" and \"the popular\"', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 77–98."
+        },
+        {
+          "citation": "Thomas Solomon, 'Azerbaijani Rap Music and Oral Poetry between \"the Folk\" and \"the Popular\",' in Razia Sultanova, ed., Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018."
         }
       ],
       "youtube_examples": [
@@ -7064,7 +7111,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Meyxana.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Meyxana.jpeg",
@@ -7142,20 +7189,30 @@
     {
       "id": "kaz-soviet-mass-song",
       "country": "KAZ",
-      "name": "Kazakh Soviet mass song",
+      "name": "Kazakh popular song",
       "kind": "urban popular song",
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
       "active_from": 1920,
-      "active_to": 1980,
-      "start_label": "The source describes a new Kazakh mass-song style emerging in the 1920s–1930s and changing during 1941–1980; this is a source-specific historical account, not evidence of every-dec",
-      "note": "Kazakh Soviet mass song is documented as urban popular song. Gulnar Abdirakhman describes twentieth-century Kazakh mass-song development, including the 1920s–1930s formation of a style and later Soviet-era shifts; the chapter also distinguishes it from broader, changing popular music.",
-      "artists": [],
+      "active_to": null,
+      "start_label": "1920s",
+      "note": "Kazakh popular song (or 'mass song') is a genre of lyrical Kazakh-language songs created by amateur composers (halyk kompozitory or aueskoy kompozitory) combining Kazakh oral-poetic and melodic traditions with European tonal harmony; the style formed in the 1920s–1930s and reached its golden age between the 1960s and 1990s. In the 2011 national '100 Kazakh songs' competition, 59 of the top 100 were amateur compositions, demonstrating the genre's enduring dominance in Kazakh popular musical culture. The dombra remains its primary accompanying instrument alongside accordion and guitar.",
+      "artists": [
+        "Akseleu Seydimbekov",
+        "Sh. Kaldayakov",
+        "K. Nurgazin"
+      ],
       "sample": null,
       "sources": [
         {
           "citation": "Razia Sultanova and Megan Rancier, eds., Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018."
+        },
+        {
+          "citation": "Gulnar Abdirakhman, 'Mass Music in Kazakhstan: The Phenomenon and Its Interpretation,' in Razia Sultanova, ed., Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018."
+        },
+        {
+          "citation": "Gulnar Abdirakhman, 'Mass music in Kazakhstan', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 100–113."
         }
       ],
       "youtube_examples": [
@@ -7168,7 +7225,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended"
+      "timeline_end_status": "present"
     },
     {
       "id": "kaz-turan-ensemble",
@@ -8001,11 +8058,13 @@
         "Bengo"
       ],
       "active_from": 1950,
-      "active_to": 1990,
+      "active_to": null,
       "start_label": "Documented or prominent by the 1950s (approx.)",
       "note": "Semba is documented as music and dance genre. A UNESCO safeguarding project describes semba as an Angolan traditional music and dance genre rooted in working-class neighbourhoods.",
       "artists": [
-        "Bonga, Paulo Flores and Yuri da Cunha"
+        "Bonga",
+        "Paulo Flores",
+        "Yuri da Cunha"
       ],
       "sample": null,
       "sources": [
@@ -8014,14 +8073,14 @@
       ],
       "youtube_examples": [
         {
-          "artist": "Bonga, Paulo Flores and Yuri da Cunha",
+          "artist": "Bonga",
           "title": "Bonga, Paulo Flores & Yuri da Cunha live: semba concert",
           "youtube_url": "https://www.youtube.com/watch?v=17y2aOrNk2o",
           "reviewed_at": "2026-09-28"
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Semba_Center_Building_in_201507.JPG/960px-Semba_Center_Building_in_201507.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Semba_Center_Building_in_201507.JPG",
@@ -8125,7 +8184,11 @@
       "active_to": null,
       "start_label": "Garland dates xinyao's beginning among teenage students to the early 1980s, describes a late-1980s/early-1990s decline and mid-1990s rejuvenation; it does not establish continuity ",
       "note": "Xinyao is documented as Mandarin popular song repertoire. Lee Tong Soon identifies xinyao as a contemporary Mandarin vocal genre, gives its early-1980s student setting, later decline/revival, and Taiwan/Hong Kong connections.",
-      "artists": [],
+      "artists": [
+        "Eric Moo",
+        "Liang Wenfu",
+        "Huang Pinyuan"
+      ],
       "sample": null,
       "sources": [
         {
@@ -8987,18 +9050,22 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": 1900,
-      "active_to": 1940,
-      "start_label": "The local entry traces Turkish-language adaptations of Western popular song to kanto around the turn of the twentieth century, Turkish tango adaptations to the 1920s, and rock'n'ro",
+      "active_from": 1960,
+      "active_to": null,
+      "start_label": "1960s",
       "note": "Turkish pop is documented as genre. The entry describes Turkish pop as a field of popular song largely sung in Turkish for Turkish audiences; it gives kanto at the turn of the twentieth century, tango adaptations from the 1920s and rock'n'roll's introduction in the 1950s as historical context.",
       "artists": [
         "Sezen Aksu",
-        "Tarkan"
+        "Tarkan",
+        "Orhan Gencebay"
       ],
       "sample": null,
       "sources": [
         {
           "citation": "Richard C. Jankowsky (vol. ed.), Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015, Pop Music, Turkish entry."
+        },
+        {
+          "citation": "Ivanka Vlaeva, 'Musical images of Istanbul from Fatih Akin's films and stage performances', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 114–130."
         }
       ],
       "youtube_examples": [
@@ -9010,7 +9077,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Turkish_pop_singer_Eylem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Turkish_pop_singer_Eylem.jpg",
@@ -9032,18 +9099,21 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1990,
-      "active_to": 2020,
+      "active_to": null,
       "start_label": "The local entry dates the specific Kurdish folk movement in Turkey to the 1990s, traces roots to migration beginning in the 1950s, and describes underground cassette circulation in",
       "note": "Kurdish folk in Turkey is documented as genre. The entry distinguishes a specific Kurdish folk movement in Turkey beginning in the 1990s from older Kurdish traditions; it identifies migration from the 1950s and underground circulation of local and exile singers' cassettes in the 1970s as relevant context.",
       "artists": [
-        "Şivan Perwer",
-        "Nizamettin Ariç",
-        "Ciwan Haco"
+        "Aynur Doğan",
+        "Grup Yorum",
+        "Şivan Perwer"
       ],
       "sample": null,
       "sources": [
         {
           "citation": "Richard C. Jankowsky (vol. ed.), Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015, Kurdish Folk in Turkey entry."
+        },
+        {
+          "citation": "Ivanka Vlaeva, 'Musical images of Istanbul from Fatih Akin's films and stage performances', in Razia Sultanova (ed.), Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2019, pp. 114–130."
         }
       ],
       "youtube_examples": [
@@ -9055,7 +9125,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kurdish_folk_dance_in_traditional_clothes.jpg/960px-Kurdish_folk_dance_in_traditional_clothes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Kurdish_folk_dance_in_traditional_clothes.jpg",
@@ -9079,17 +9149,21 @@
         "Kinshasa",
         "Kongo Central"
       ],
-      "active_from": 2019,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Urban practice recorded in a 2019 national inventory; this is a documentation milestone, not an origin date",
-      "note": "Congolese rumba is documented as urban popular music and dance. UNESCO describes Congolese rumba as a music and dance genre common in urban areas of both the Democratic Republic of the Congo and the Republic of the Congo, and records its 2021 inscription.",
-      "artists": [],
+      "start_label": "1950s",
+      "note": "Congolese rumba (also soukous, kirikiri, kwasakwasa) has been the most influential popular music in sub-Saharan Africa since the 1950s; its golden age featured brass-heavy big bands (O.K. Success, African Jazz, Les Bantous), and the genre was further developed by Franco (T.P.O.K. Jazz) and Luambo Makiadi into internationally recognised soukous in the 1970s.",
+      "artists": [
+        "Franco (Luambo Makiadi)",
+        "Papa Wemba",
+        "Tabu Ley Rochereau"
+      ],
       "sample": null,
       "sources": [
-        "https://ich.unesco.org/en/RL/congolese-rumba-01711",
         {
-          "citation": "UNESCO, Democratic Republic of the Congo and Republic of the Congo national intangible-cultural-heritage inventory records for Congolese rumba, 2019–2020."
-        }
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Soukous"
       ],
       "youtube_examples": [
         {
@@ -10646,21 +10720,21 @@
       "wikipedia_title": "Cantopop",
       "map_scope": "country",
       "regions": [],
-      "active_from": 1950,
+      "active_from": 1974,
       "active_to": 1990,
-      "start_label": "Developing from the 1950s; named and ascendant in the 1970s",
+      "start_label": "1974",
       "note": "Cantopop developed as locally produced Cantonese popular music in Hong Kong, rising from marginal 1950s roots to mass prominence in the 1970s and a major industry by the mid-1990s. The layer represents its Hong Kong scene, not every Cantonese-language recording.",
-      "artists": [],
+      "artists": [
+        "Anita Mui",
+        "Leslie Cheung",
+        "Andy Lau"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Yiu-Wai Chu, Hong Kong Cantopop: A Concise History, Hong Kong University Press, 2017.",
-          "url": "https://www.jstor.org/stable/j.ctt1rfzz86"
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
         },
-        {
-          "citation": "James Wong, The Rise and Decline of Cantopop: A Study of Hong Kong Popular Music (1949–1997), University of Hong Kong.",
-          "url": "https://hub.hku.hk/handle/10722/31835"
-        }
+        "https://en.wikipedia.org/wiki/Cantopop"
       ],
       "youtube_examples": [
         {
@@ -11161,7 +11235,7 @@
       "active_from": 1964,
       "active_to": null,
       "start_label": "1960s",
-      "note": "Mbaqanga is South African township popular music that developed from marabi-based jazz into electric-guitar forms. Its later variety-show style brought Mahlathini and the Mahotella Queens to a large audience.",
+      "note": "Mbaqanga is a South African urban popular genre that emerged in the early 1960s from the marabi-based jazz tradition; the characteristic form pairs a deep-voiced male 'groaner' (simanjemanje) with a close-harmonised female chorus against electric-guitar backing, and reached its commercial peak with Mahlathini and the Mahotella Queens in the 1980s.",
       "artists": [
         "Mahlathini",
         "Mahotella Queens",
@@ -11169,8 +11243,9 @@
       ],
       "sample": null,
       "sources": [
+        "https://en.wikipedia.org/wiki/Mbaqanga",
         {
-          "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, pp. 421-425."
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
         }
       ],
       "youtube_examples": [],
@@ -11414,20 +11489,24 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Krio Calendar gained popularity playing guitar-based maringa music; first commercial record of the maringa style from Sierra Leone documented; maringa listed among early West Afric",
-      "note": "Maringa is a guitar-based urban popular style played by Krio musicians in Sierra Leone. It developed as a local variant of coastal West African palm-wine guitar music.",
-      "artists": [],
+      "start_label": "1950s",
+      "note": "Maringa is a Sierra Leonean popular guitar music rooted in the gumbe frame-drum tradition brought by freed enslaved people to Freetown; Ebenezer Calendar (1912-1985) recorded approximately 300 maringa songs from the 1950s onward, establishing the genre internationally, and it remains a living form alongside derived styles such as milo-jazz and asiko.",
+      "artists": [
+        "Ebenezer Calendar",
+        "S.E. Rogie"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, pp. 120-121."
-        }
+          "citation": "Rachel Jackson, 'The trans-atlantic journey of Gumbe: where and why has it survived,' Journal of International Library of African Music, 2012."
+        },
+        "https://en.wikipedia.org/wiki/Music_of_Sierra_Leone"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "id": "eth-zar",
@@ -11785,20 +11864,25 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1920,
       "active_to": null,
-      "start_label": "Adopted from Hausa probably in the early 1800s; professional specialists active after 1945; superstar Queen Salawa Abeni (b. 1965) brought it to prominence.",
-      "note": "Wákà is music associated with Yoruba Muslim ceremonies, usually performed by women. Adopted from Hausa practice, it became a specialty of Ijebu Yoruba performers.",
-      "artists": [],
+      "start_label": "1920s",
+      "note": "Wáká is a Yoruba Muslim song genre adopted from the Hausa, performed predominantly by women; first commercial recordings appeared in Lagos in the late 1920s, and professional specialists emerged after 1945; Queen Salawa Abeni (b. 1965) is the genre's contemporary superstar.",
+      "artists": [
+        "Salawa Abeni",
+        "Batile Alake",
+        "Majaro Acagba"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, p. 201."
-        }
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Waka_(music)"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "id": "nga-sakara",
@@ -11808,20 +11892,25 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1914,
       "active_to": null,
-      "start_label": "Examples performed in Ibadan and Lagos during or soon after World War I (1914-1918); first star Abibu Oluwa recorded in the late 1920s-30s; by the 1970s regarded primarily as music",
-      "note": "Sákárà is a Yoruba Muslim social-dance and praise genre. Its ensemble may combine a clay-bodied frame drum, gourd idiophone, and bowed gòjé lute.",
-      "artists": [],
+      "start_label": "1910s",
+      "note": "Sákárà is a Yoruba Muslim genre of social dancing and praise, with the sákárà frame drum as its defining instrument; examples were performed in Ibadan and Lagos during or soon after World War I (1914–1918), and its golden age was the 1940s through 1960s with artists including Abibu Oluwa and Yusufu Ọlatunji.",
+      "artists": [
+        "Abibu Oluwa",
+        "Yusufu Olatunji",
+        "Ojo Olewale"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, p. 202."
-        }
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Sakara_music"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "id": "nga-afrobeats",
@@ -11856,20 +11945,25 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1940,
       "active_to": null,
-      "start_label": "Originated in the Ijebu area probably in the early 1940s; golden age in the 1950s; dominant among Yoruba Muslims in the 1960s-70s; main stars Is.o.la and O.mo.wura died in the 1980",
-      "note": "Àpàlà developed in the Ijebu area from talking-drum performance and became especially prominent among Yoruba Muslim audiences in the 1960s and 1970s.",
-      "artists": [],
+      "start_label": "1940s",
+      "note": "Àpàlà originated in the Ìjẹbu area of Yorubaland probably in the early 1940s, growing out of gángan talking-drum performance; it became the dominant genre of popular music among Yoruba Muslims in the 1960s and 1970s, and its golden age was the 1950s with Haruna Ìşola and Ọmọwura as its brightest stars.",
+      "artists": [
+        "Haruna Isola",
+        "Ayinla Omowura",
+        "Ligali Mukaiba"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, p. 203."
-        }
+          "citation": "Christopher A. Waterman, 'Yoruba Popular Music,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        },
+        "https://en.wikipedia.org/wiki/Apala"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "id": "mys-dondang-sayang",
@@ -11962,7 +12056,11 @@
       "active_to": null,
       "start_label": "1960s",
       "note": "Gabaye is a ceremonial poetry and song tradition shared by both the Afar and Issa-Somali communities of Djibouti, practiced across the country.",
-      "artists": [],
+      "artists": [
+        "Hassan Idriss Ahmed",
+        "Hodan Mahamed",
+        "Asha Abdi"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Music_of_Djibouti"
@@ -12427,19 +12525,20 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1949,
-      "active_to": null,
+      "active_to": 1976,
       "start_label": "Cheng traces their dominance to the PRC period from 1949, with a Cultural Revolution peak (1966–1976) and a post-Mao nostalgic revival.",
       "note": "Red songs are Chinese revolutionary and state-supported songs that were especially prominent under Mao. Later performances also revisit this repertory through nostalgia and popular culture.",
       "artists": [],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Red_songs"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "ended"
     },
     {
       "id": "chn-sent-down-youth-songs",
@@ -12450,14 +12549,18 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1966,
-      "active_to": 1980,
+      "active_to": 1978,
       "start_label": "Cheng links this genre to the Cultural Revolution period of youth exile; songs circulated in the 1960s–1970s.",
       "note": "Sent-down youth songs were made clandestinely by urban Chinese youth displaced to rural areas during the Cultural Revolution. Their guitar-accompanied repertory drew on Chinese and foreign folk songs.",
-      "artists": [],
+      "artists": [
+        "Li Tiezhong",
+        "Ye Weiqiang",
+        "unofficial collective songs"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
         }
       ],
       "youtube_examples": [],
@@ -12476,7 +12579,11 @@
       "active_to": null,
       "start_label": "Cheng identifies the 1980s as the period when mainland popular music (Liuxing/Tongsu) emerged in the wake of Deng Xiaoping's four modernizations; shaped by Taiwanese and Hong Kong ",
       "note": "Liuxing and tongsu were distinct strands of mainland Chinese popular music in the 1980s. State-supported tongsu contrasted with less official liuxing, while music from Hong Kong and Taiwan shaped both audiences.",
-      "artists": [],
+      "artists": [
+        "Teresa Teng",
+        "Hou Dejian",
+        "Su Rui"
+      ],
       "sample": null,
       "sources": [
         {
@@ -12495,16 +12602,21 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": 1980,
+      "active_from": 1984,
       "active_to": null,
-      "start_label": "Cheng traces Chinese rock from its underground emergence in the 1980s and its post-Tiananmen identity moment in 1989.",
+      "start_label": "1984",
       "note": "Chinese rock emerged in the mainland's 1980s underground scene, apart from state-sponsored tongsu popular music. Cui Jian became a defining performer of the style.",
-      "artists": [],
+      "artists": [
+        "Cui Jian",
+        "Tang Dynasty",
+        "Black Panther"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Chinese_rock_music"
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -12518,39 +12630,21 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": 2000,
+      "active_from": 1987,
       "active_to": null,
-      "start_label": "Cheng traces hip-hop promotion to post-2000, with Jay Chou and Wang Leehom as key popularizers; mainland hip-hop grew further via 'The Voice of China' from 2015.",
+      "start_label": "1987",
       "note": "Chinese-language hip-hop grew from underground scenes into mainstream entertainment after 2000. The 2017 television show The Rap of China marked a major popular breakthrough.",
-      "artists": [],
-      "sample": null,
-      "sources": [
-        {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+      "artists": [
+        "MC Hotdog",
+        "Jay Chou",
+        "VAVA"
       ],
-      "youtube_examples": [],
-      "associated_areas": [],
-      "timeline_end_status": "unknown"
-    },
-    {
-      "id": "chn-chinese-wind",
-      "country": "CHN",
-      "name": "Chinese Wind",
-      "kind": "popular song subgenre",
-      "wikipedia_title": null,
-      "map_scope": "country",
-      "regions": [],
-      "active_from": 2000,
-      "active_to": null,
-      "start_label": "Cheng mentions Chinese Wind music (Zhongguo feng) as a recognized genre in post-2020 Chinese popular music scenes, associated with idol-reality shows and state cultural promotion.",
-      "note": "Chinese Wind combines elements presented as traditional Chinese music with contemporary pop production. It became a recognizable style in Chinese-language popular music and television performance.",
-      "artists": [],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Chinese_hip_hop"
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -13047,14 +13141,18 @@
       "active_from": 1950,
       "active_to": null,
       "start_label": "1950s",
-      "note": "Marrabenta is Mozambican dance music that took shape in Maputo during the 1930s and 1940s, bringing local dance rhythms together with Portuguese folk-music influences.",
+      "note": "Marrabenta is Mozambique's most emblematic topical popular genre, developed in the 1950s in the suburban slums of Maputo (then Lourenço Marques) on three guitars fashioned from oil-tin cannisters; its basis is the indigenous majika rhythm modified with influences from ska, soul, rumba, reggae, and Brazilian percussion, and it served as a revolutionary voice for oppressed people under Portuguese rule.",
       "artists": [
         "Dilon Djindji",
-        "Orchestra Marrabenta Star"
+        "Ghorwane",
+        "Eyuphoro"
       ],
       "sample": null,
       "sources": [
-        "https://en.wikipedia.org/wiki/Marrabenta"
+        "https://en.wikipedia.org/wiki/Marrabenta",
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        }
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -13068,11 +13166,14 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1900,
       "active_to": null,
-      "start_label": "Sultanova documents UNESCO's nomination of Aitys-Aitysh as Kazakh intangible cultural heritage; tradition predates Soviet period.",
+      "start_label": "pre-20th c.",
       "note": "Aitys is a Kazakh and Kyrgyz contest of improvised spoken or sung poetry. Opposing akyns answer audience-chosen topics with wit and rhythm, accompanied in Kazakhstan by the dombra.",
-      "artists": [],
+      "artists": [
+        "Birzhan sal",
+        "Akseleu Seydimbekov"
+      ],
       "sample": null,
       "sources": [
         {
@@ -13081,7 +13182,10 @@
         {
           "citation": "Music of Central Asia: Further Reading, Listening, and Viewing, official companion, 2017, musicofcentralasia.org."
         },
-        "https://ich.unesco.org/en/RL/aitysh-aitys-art-of-improvisation-00997"
+        "https://ich.unesco.org/en/RL/aitysh-aitys-art-of-improvisation-00997",
+        {
+          "citation": "Gulnar Abdirakhman, 'Mass Music in Kazakhstan: The Phenomenon and Its Interpretation,' in Razia Sultanova, ed., Turkic Soundscapes: From Shamanic Voices to Hip-Hop, Routledge, 2018."
+        }
       ],
       "youtube_examples": [
         {
@@ -13093,7 +13197,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "unknown",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg/960px-%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg",
@@ -13250,7 +13354,11 @@
       "active_to": null,
       "start_label": "Myanmar rock emerged in the 1980s with artists such as Iron Cross (Lay Phyu), influenced by Western rock but performed in Burmese; subject to SLORC censorship from 1988 through app",
       "note": "Myanmar rock emerged in Yangon in the 1980s, blending electric guitar styles with Burmese rhythms in the commercial music venues of the southern capital.",
-      "artists": [],
+      "artists": [
+        "Iron Cross",
+        "Emperor",
+        "Ronnie"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Iron_Cross_(Myanmar_band)"
@@ -13272,7 +13380,11 @@
       "active_to": null,
       "start_label": "Myanmar hip-hop emerged in the 1990s under SLORC/SPDC censorship; artists include G Fatt and Sai Sai Kham Leng. The scene grew rapidly after 2012 with improved internet access.",
       "note": "Myanmar hip-hop developed in urban music scenes from the 1990s. Performers adapted rap and hip-hop forms within the country's changing popular-music culture.",
-      "artists": [],
+      "artists": [
+        "Sai Sai Kham Leng",
+        "Ye Lay",
+        "Saw Phoe Khwar"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Music_of_Myanmar"
@@ -13521,7 +13633,11 @@
       "active_to": null,
       "start_label": "Entry dates the new genre taxonomy to the early 1970s Lebanese TV show Studio al-Fann.",
       "note": "Ughniyya is the modern Arab short-song category that displaced many older vocal forms in popular usage. A Lebanese television talent show helped establish its newer genre vocabulary in the 1970s.",
-      "artists": [],
+      "artists": [
+        "Fairouz",
+        "Wadih El Safi",
+        "Sabah"
+      ],
       "sample": null,
       "sources": [
         {
@@ -13816,7 +13932,11 @@
       "active_to": null,
       "start_label": "Nhạc đỏ (revolutionary) and Nhạc vàng (sentimental) developed as politically opposed popular music traditions from the 1950s through 1975. After reunification, Nhạc vàng was suppre",
       "note": "Nhạc đỏ (revolutionary music from northern Vietnam) and nhạc vàng (sentimental pop from the southern Republic) are opposed popular traditions reunified in the post-1975 canon.",
-      "artists": [],
+      "artists": [
+        "Trinh Cong Son",
+        "Pham Duy",
+        "Khanh Ly"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Nh%E1%BA%A1c_v%C3%A0ng"
@@ -13837,7 +13957,11 @@
       "active_to": null,
       "start_label": "V-pop emerged from the 1990s onward following Đổi Mới economic reform, blending Western pop production with Vietnamese lyrics. Artists include Mỹ Tâm and Sơn Tùng M-TP.",
       "note": "V-pop is Vietnam's contemporary pop music industry, centered in Ho Chi Minh City in southern Vietnam, drawing on Korean, American, and Chinese pop production styles.",
-      "artists": [],
+      "artists": [
+        "Son Tung M-TP",
+        "Bich Phuong",
+        "Den Vau"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/V-pop"
@@ -14702,7 +14826,11 @@
       "active_to": null,
       "start_label": "Entry places Moroccan shaʿbī's modern form in the 1950s–1960s (ʿAbd al-Wahhāb Dūkalī, Ḥamīd Zahīr) and its reinvigoration in 1971 (Nāss al-Ghiwān).",
       "note": "Moroccan shaʿbī is a commercially popular umbrella for modernized Arabophone regional styles. Its recording history grew with local cassette production during the 1970s.",
-      "artists": [],
+      "artists": [
+        "Najat Aatabou",
+        "Nass El Ghiwane",
+        "Jil Jilala"
+      ],
       "sample": null,
       "sources": [
         {
@@ -14816,19 +14944,24 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1972,
-      "active_to": null,
+      "active_to": 1984,
       "start_label": "Cheng traces the movement to Hu Defu's 1972 concert, the 1975 campus folk song events, and the subsequent genre formation through the late 1970s.",
       "note": "Taiwan's campus folk songs grew from the 1970s movement to sing locally written music, associated with Hu Defu and the 'Sing Our Own Song' slogan. The style also influenced later mainland Chinese youth culture.",
-      "artists": [],
+      "artists": [
+        "Li Tai-hsiang",
+        "Chyi Yu",
+        "Chyi Chin"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Campus_folk_song_movement"
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "ended"
     },
     {
       "id": "twn-taiwanese-rock",
@@ -14842,7 +14975,11 @@
       "active_to": null,
       "start_label": "Cheng places Taiwanese rock in the context of the 1980s campus folk song aftermath, with figures like Luo Dayou and Rock Records as defining forces.",
       "note": "Taiwanese rock developed partly from the island's campus folk-song movement. Luo Dayou and Rock Records helped establish its place in Taiwan's popular-music industry.",
-      "artists": [],
+      "artists": [
+        "Mayday",
+        "Five Tigers (Wu Hu)",
+        "Sodagreen"
+      ],
       "sample": null,
       "sources": [
         {
@@ -14861,16 +14998,21 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": 1980,
+      "active_from": 1954,
       "active_to": null,
-      "start_label": "Cheng identifies Taiwan as the Mando-pop center in the 1980s; the 1990s saw major multinational labels establishing Taiwanese operations to capture the greater Chinese market.",
+      "start_label": "1954",
       "note": "Taiwan became a major production and distribution center for Mandarin-language popular music from the 1980s. Its recording industry served Chinese-language audiences beyond the island.",
-      "artists": [],
+      "artists": [
+        "Teresa Teng",
+        "Jay Chou",
+        "A-Mei"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music: Modernization and Globalization, 1927 to the Present, Routledge, 2023."
-        }
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Mandopop"
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -15043,7 +15185,11 @@
       "active_to": null,
       "start_label": "OPM emerged in the 1970s as a deliberate category of Philippine popular music in Filipino languages, as an alternative to imported music. Artists include Freddie Aguilar, Sharon Cu",
       "note": "Original Pilipino Music (OPM) is the popular music of the Philippines, centered in Manila and the Luzon recording industry in the northern part of the country.",
-      "artists": [],
+      "artists": [
+        "Freddie Aguilar",
+        "Sharon Cuneta",
+        "APO Hiking Society"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Original_Pilipino_Music"
@@ -15196,7 +15342,11 @@
       "active_to": null,
       "start_label": "Özgün Müzik emerged in Turkey in the early 1980s as a politically engaged folk-popular hybrid in response to the September 1980 military coup.",
       "note": "Özgün müzik is a politically engaged folk-pop genre that emerged in Istanbul and İzmir in the 1970s, drawing on Anatolian folk tunes with leftist lyrical content.",
-      "artists": [],
+      "artists": [
+        "Zülfü Livaneli",
+        "Ahmet Kaya",
+        "Grup Yorum"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/%C3%96zg%C3%BCn_m%C3%BCzik"
@@ -15472,7 +15622,11 @@
       "active_to": null,
       "start_label": "Entry dates shabābī's emergence to Cairo's recording studios in the 1980s and describes its maturation through the 1990s with videoclips.",
       "note": "Shabābī is Egyptian youth-oriented popular music that grew in Cairo's recording studios in the 1980s. Its short songs use catchy refrains, modern production, and influences from international pop.",
-      "artists": [],
+      "artists": [
+        "Amr Diab",
+        "Mohammed Mounir",
+        "Hakim"
+      ],
       "sample": null,
       "sources": [
         {
@@ -15587,7 +15741,11 @@
       "active_to": null,
       "start_label": "An independent rock and alternative music scene developed in Amman from the mid-2000s, with venues such as Hangar and the Rainbow Street area as key gathering points.",
       "note": "Amman indie is an independent urban music scene centered in Amman, the capital in the northwestern corridor of Jordan, active since the 2000s.",
-      "artists": [],
+      "artists": [
+        "Autostrad",
+        "47Soul",
+        "Akher Zapheer"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Music_of_Jordan"
@@ -15746,7 +15904,11 @@
       "active_to": null,
       "start_label": "Entry describes kūcheh-bāzāri as particularly popular in the 1950s among traditional urban working-class Iranian audiences.",
       "note": "Kūcheh-bāzāri is a Persian café-song style shaped by Arab popular music. Its singers used Persian lyrics while drawing on Arab melodies, rhythms, and vocal techniques.",
-      "artists": [],
+      "artists": [
+        "Googoosh",
+        "Hayedeh",
+        "Viguen"
+      ],
       "sample": null,
       "sources": [
         {
@@ -15815,7 +15977,11 @@
       "active_to": 1979,
       "start_label": "The Golha broadcast series ran from 1956 to 1979 on Iranian National Radio, producing over 1,400 episodes mixing classical Persian music with poetry under producer Davud Pirnia.",
       "note": "Golha (Flowers) was a celebrated Persian music radio program broadcast nationally from 1956 to 1979, deliberately documenting classical and regional folk traditions across Iran.",
-      "artists": [],
+      "artists": [
+        "Mohammad Reza Shajarian",
+        "Shahram Nazeri",
+        "Parviz Meshkatian"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Golha"
@@ -15973,7 +16139,11 @@
       "active_to": null,
       "start_label": "Entry describes the genre's emergence and its incorporation of Greek laika, Yemenite and Moroccan religious songs, European ballads and Shirei eretz yisrael; its mainstream breakth",
       "note": "Musiqa mizrahit is a broad field of Israeli popular music associated with Jewish communities from Middle Eastern and North African backgrounds. Its styles and production shifted toward mainstream pop from the 1980s onward.",
-      "artists": [],
+      "artists": [
+        "Zohar Argov",
+        "Haim Moshe",
+        "Sarit Hadad"
+      ],
       "sample": null,
       "sources": [
         {
@@ -15996,7 +16166,11 @@
       "active_to": null,
       "start_label": "Israeli rock began in the 1960s as local adaptations of Western rock and developed an original Hebrew-language character from the 1970s onward.",
       "note": "Israeli rock developed from the 1960s in Tel Aviv and the coastal urban centers, blending Western rock with Hebrew lyrics and occasional Middle Eastern influences.",
-      "artists": [],
+      "artists": [
+        "Kaveret",
+        "Mashina",
+        "Rockfour"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Israeli_rock"
@@ -16018,7 +16192,11 @@
       "active_to": null,
       "start_label": "Israeli psytrance originated among Israeli travelers in Goa in the late 1980s–early 1990s and developed a major domestic production scene through the 1990s and 2000s.",
       "note": "Israeli psychedelic trance emerged from the Tel Aviv coastal party scene in the early 1990s, becoming a globally influential dance music style.",
-      "artists": [],
+      "artists": [
+        "Infected Mushroom",
+        "Astrix",
+        "Astral Projection"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Psytrance"
@@ -16040,7 +16218,11 @@
       "active_to": null,
       "start_label": "The klezmer revival began in the 1980s in Israel and the United States, reviving Ashkenazi Jewish folk music tradition after near-disappearance in the post-Holocaust period.",
       "note": "The Israeli klezmer revival draws on Ashkenazi Jewish musical traditions, centered in Jerusalem and Tel Aviv through academic institutions and festival circuits.",
-      "artists": [],
+      "artists": [
+        "Andy Statman",
+        "Klezmatics",
+        "Brave Old World"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Klezmer"
@@ -16551,17 +16733,22 @@
       "active_from": 1940,
       "active_to": null,
       "start_label": "Documented by Garland (1998) as emerging from the 1940s in Tanzania.",
-      "note": "Tanzanian dansi is urban dance-band music associated with Dar es Salaam. Bands attract followers through topical lyrics and a distinctive mtindo, or dance-and-fashion style.",
-      "artists": [],
+      "note": "Dansi is the non-Islamic popular dance-music genre that developed in Tanzania and across East Africa from the 1940s, played by guitar orchestras in Swahili and regional languages; it grew out of the beni brass-band tradition of World War I and was propelled by Nairobi and Dar es Salaam recording industries into a region-wide popular form.",
+      "artists": [
+        "Remmy Ongala",
+        "Orchestra Super Matimila",
+        "DDC Mlimani Park"
+      ],
       "sample": null,
       "sources": [
+        "https://en.wikipedia.org/wiki/Dansi",
         {
-          "citation": "Ruth M. Stone, ed., The Garland Encyclopedia of World Music, vol. 1: Africa, Garland Publishing, 1998."
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
         }
       ],
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "id": "tza-beni",
@@ -16598,7 +16785,11 @@
       "active_to": null,
       "start_label": "Cheng states C-pop (Huayu liuxing gequ) first appeared in Hong Kong in the 1970s, replacing earlier regional terms for Mandarin pop.",
       "note": "C-pop is an umbrella name for Chinese-language popular songs produced across regions and diaspora communities. The term appeared in Hong Kong in the 1970s.",
-      "artists": [],
+      "artists": [
+        "Eason Chan",
+        "Aaron Kwok",
+        "Jacky Cheung"
+      ],
       "sample": null,
       "sources": [
         {
@@ -16759,7 +16950,11 @@
       "active_to": null,
       "start_label": "1950s",
       "note": "Sawt is a Gulf musical genre practiced in Muscat and the northern coastal towns of Oman, combining melodic singing with frame drum rhythms.",
-      "artists": [],
+      "artists": [
+        "Salim Rashid Souri",
+        "Selim Shirali",
+        "Aïsha Al-Falasi"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Sawt"
@@ -16833,7 +17028,11 @@
       "active_to": null,
       "start_label": "Garland (1998) documents luk thung as emerging after World War II, with early songs recorded in the 1950s–1960s; the genre is described as living and commercially active through th",
       "note": "Luk thung is Thai popular music that took shape in the 1940s and speaks especially to rural and migrant working-class audiences. Its songs often evoke farm life, labor, and displacement.",
-      "artists": [],
+      "artists": [
+        "Suraphon Sombatcharoen",
+        "Pumpuang Duangjan",
+        "Sayan Sanya"
+      ],
       "sample": null,
       "sources": [
         {
@@ -17924,16 +18123,16 @@
     {
       "id": "som-somali-pop",
       "country": "SOM",
-      "name": "Somali popular music",
+      "name": "Heello",
       "kind": "urban popular music",
-      "wikipedia_title": "Music of Somalia",
+      "wikipedia_title": "Somali music",
       "map_scope": "country",
       "regions": [],
       "active_from": 1960,
       "active_to": null,
       "timeline_end_status": "present",
       "start_label": "1960s",
-      "note": "Somali popular music is a Mogadishu-centred genre that flourished from the 1960s through the 1980s in a 'golden age' of radio and theatre, blending Somali-language poetry with Egyptian, Cuban, and Indian film music influences; civil war from 1991 drove the scene into diaspora communities in Nairobi, London, and Minneapolis, where contemporary Somali hip-hop and R&B continue the tradition.",
+      "note": "Heello (also heelo) is the dominant modern popular song form of Somalia, emerging in 1943-44 in Hargeysa from the shorter belwo lyric genre introduced by Gabdi Sinimo; it consolidated as a full song form by 1948 and was adopted for the independence movement by 1955, before becoming the principal genre of Somali radio and theatre after independence in 1960. Civil war from 1991 dispersed the scene into diaspora communities in Nairobi, London, and Minneapolis, where heello and Somali hip-hop continue to evolve.",
       "artists": [
         "Hasan Adan Samatar",
         "Magool",
@@ -17941,7 +18140,10 @@
       ],
       "sample": null,
       "sources": [
-        "https://en.wikipedia.org/wiki/Music_of_Somalia"
+        "https://en.wikipedia.org/wiki/Music_of_Somalia",
+        {
+          "citation": "John William Johnson, 'The development of the genre heello in modern Somali poetry,' PhD dissertation, Indiana University, 1974."
+        }
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -18030,11 +18232,11 @@
       "wikipedia_title": "Music of Guinea-Bissau",
       "map_scope": "country",
       "regions": [],
-      "active_from": 1980,
+      "active_from": 1970,
       "active_to": null,
       "timeline_end_status": "present",
-      "start_label": "1980s",
-      "note": "Gumbé popular music is the urban popular form of Guinea-Bissau, taking its name and foundational percussion from the traditional gumbé frame drum; Super Mama Djombo pioneered the genre in the 1970s–1980s, combining independence-era revolutionary sentiment with Creole-language lyrics and electric guitar arrangements, and it remains the country's most distinctive popular export.",
+      "start_label": "1970s",
+      "note": "Gumbe popular music is the urban popular form of Guinea-Bissau, taking its name and foundational percussion from the traditional gumbe frame drum; bands such as Cobiana Djazz and Super Mama Djombo mixed electric guitars with gumbe rhythms from the early 1970s, and the genre is described by scholars as a generic term for Guinea-Bissau popular music (Crioulou: gumbe), remaining the country's most distinctive popular export to the present day.",
       "artists": [
         "Super Mama Djombo",
         "Dulce Maria Neves",
@@ -18042,7 +18244,10 @@
       ],
       "sample": null,
       "sources": [
-        "https://en.wikipedia.org/wiki/Music_of_Guinea-Bissau"
+        "https://en.wikipedia.org/wiki/Music_of_Guinea-Bissau",
+        {
+          "citation": "Rachel Jackson, 'The trans-atlantic journey of Gumbe: where and why has it survived,' Journal of International Library of African Music, 2012."
+        }
       ],
       "youtube_examples": [],
       "associated_areas": [],
@@ -18196,6 +18401,120 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Cantopop",
         "https://en.wikipedia.org/wiki/Music_of_Macau"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null
+    },
+    {
+      "id": "twn-hip-hop",
+      "country": "TWN",
+      "name": "Taiwanese hip-hop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Hip hop in Taiwan",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1994,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1994",
+      "note": "Taiwanese hip-hop is a Taipei-centred genre that entered the mainstream in 1994 through L.A. Boy, an ABC (American-Born Chinese) group whose bilingual English-Mandarin rapping opened the market; MC Hotdog and Zhang Zhenyue subsequently built a Mandarin-language underground scene in the late 1990s, and Taiwanese hip-hop achieved regional dominance through cross-strait streaming platforms from the 2010s.",
+      "artists": [
+        "MC Hotdog",
+        "Zhang Zhenyue",
+        "Leo Wang"
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Hip_hop_in_Taiwan"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null
+    },
+    {
+      "id": "chn-zhongguo-feng",
+      "country": "CHN",
+      "name": "Chinese Wind pop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Zhongguo feng",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 2000,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "2000",
+      "note": "Chinese Wind pop (zhongguo feng, 中國風) is a Mandarin popular genre that fuses Chinese classical poetry, pentatonic melodies, and traditional instrumentation with contemporary hip-hop and R&B production; pioneered by Jay Chou (Zhou Jielun) and Wang Leehom after 2000, it became the dominant creative direction in Taiwan-produced Mandopop and circulated across Greater China and the global Chinese diaspora.",
+      "artists": [
+        "Jay Chou",
+        "Wang Leehom",
+        "G.E.M."
+      ],
+      "sample": null,
+      "sources": [
+        {
+          "citation": "Ya-Hui Cheng, The Evolution of Chinese Popular Music, Indiana University Press, 2020."
+        },
+        "https://en.wikipedia.org/wiki/Zhongguo_feng"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null
+    },
+    {
+      "id": "zaf-bubblegum",
+      "country": "ZAF",
+      "name": "South African bubblegum",
+      "kind": "urban popular music",
+      "wikipedia_title": "Bubblegum (South African music)",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1985,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1985",
+      "note": "South African bubblegum is a synthesised dance-pop genre that rose to mass popularity in the mid-1980s, characterised by short melodic phrases in call-and-response patterns, programmed electronic drums propelled by a disco beat, and mass youth appeal; pioneered by Yvonne Chaka Chaka and Brenda Fassie, it became the most commercially successful black South African music of its era and its influence persists in contemporary Afropop production.",
+      "artists": [
+        "Yvonne Chaka Chaka",
+        "Brenda Fassie",
+        "Danny K"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bubblegum_(South_African_music)",
+        {
+          "citation": "Angela Impey, 'Popular Music in Africa,' in Ruth M. Stone, ed., The Garland Handbook of African Music, 2nd ed., Routledge, 2008."
+        }
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null
+    },
+    {
+      "id": "ago-kuduro",
+      "country": "AGO",
+      "name": "Kuduro",
+      "kind": "urban popular music",
+      "wikipedia_title": "Kuduro",
+      "map_scope": "approximate",
+      "approximate_region": "north",
+      "regions": [],
+      "active_from": 1993,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Kuduro is an Angolan electronic dance genre that emerged in the early 1990s in the musseques (informal settlements) of Luanda, blending house, electro, and techno beats with semba rhythms and rapid-fire Portuguese-language vocals; its name, meaning 'hard ass' in reference to the stiff-body dance style, reflects its street origins, and it gained international recognition in the late 2000s through Buraka Som Sistema's collaborations with artists worldwide.",
+      "artists": [
+        "Buraka Som Sistema",
+        "Dog Murras",
+        "Tony Amado"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuduro"
       ],
       "youtube_examples": [],
       "associated_areas": [],
