@@ -1447,12 +1447,13 @@
         "Greater Accra"
       ],
       "active_from": 1990,
-      "active_to": 2020,
+      "active_to": null,
       "start_label": "1990s emergence",
       "note": "Ghanaian hiplife combines highlife and hip-hop practices, including rap in Ghanaian languages. Its emergence in the 1990s involved several performers and producers; no single inventor is asserted.",
       "artists": [
         "Reggie Rockstone",
-        "Talking Drums"
+        "Sarkodie",
+        "Stonebwoy"
       ],
       "sample": null,
       "sources": [
@@ -1484,7 +1485,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/DvICE_-a_top_hiplife_star.jpg/960px-DvICE_-a_top_hiplife_star.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:DvICE_-a_top_hiplife_star.jpg",
@@ -1633,12 +1634,13 @@
         "Dakar"
       ],
       "active_from": 1970,
-      "active_to": 2010,
+      "active_to": null,
       "start_label": "1970s development",
       "note": "Senegalese popular music built around Wolof sabar rhythms and modern band instrumentation. It developed through several bands during the 1970s and 1980s, and remains active.",
       "artists": [
         "Youssou N'Dour",
-        "Étoile de Dakar"
+        "Baaba Maal",
+        "Orchestra Baobab"
       ],
       "sample": null,
       "sources": [
@@ -1671,7 +1673,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Le_griot_joue_du_tama_02.jpg/960px-Le_griot_joue_du_tama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Le_griot_joue_du_tama_02.jpg",
@@ -2070,12 +2072,12 @@
         "Lagunes"
       ],
       "active_from": 1990,
-      "active_to": 2020,
+      "active_to": null,
       "start_label": "1990s emergence",
       "note": "Zouglou grew from student dance and song in Abidjan around 1990 and developed into a popular Ivorian genre with socially focused lyrics.",
       "artists": [
-        "Magic System",
-        "Zouglou performers"
+        "Les Parents du Campus",
+        "Espoir 2000"
       ],
       "sample": null,
       "sources": [
@@ -2098,16 +2100,9 @@
         },
         "prominence_end_audit": "Later source or date wording reaches the 2020s; timeline_end_status records whether that evidence supports present visibility or only a bounded display window."
       },
-      "youtube_examples": [
-        {
-          "artist": "Zouglou performers",
-          "title": "Le zouglou, une musique qui résiste",
-          "youtube_url": "https://www.youtube.com/watch?v=thsgFGvTWRo",
-          "reviewed_at": "2026-09-28"
-        }
-      ],
+      "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Affiche_du_Concert_de_Magic_System_du_13_septembre_2014_%C3%A0_l%27Olympia_rue_Keller_%C3%A0_Paris.jpg/960px-Affiche_du_Concert_de_Magic_System_du_13_septembre_2014_%C3%A0_l%27Olympia_rue_Keller_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Affiche_du_Concert_de_Magic_System_du_13_septembre_2014_%C3%A0_l%27Olympia_rue_Keller_%C3%A0_Paris.jpg",
@@ -3916,10 +3911,14 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "Developed in the 1960s",
       "note": "Indonesian popular dance music developed in the 1960s around Jakarta, with Malay, Indian and Arabic influences and strong drum rhythms; it remains widely performed.",
-      "artists": [],
+      "artists": [
+        "Rhoma Irama",
+        "Via Vallen",
+        "Inul Daratista"
+      ],
       "sample": null,
       "sources": [
         "https://folkways.si.edu/music-of-indonesia-vol-2-indonesian-popular-music-kroncong-dangdut-and-langgam-jawa/islamica-world/album/smithsonian",
@@ -3952,7 +3951,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Liga_Dangdut_Indonesia_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Liga_Dangdut_Indonesia_2018.jpg",
@@ -4040,11 +4039,13 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1920,
-      "active_to": 1960,
-      "start_label": "Developed in the late 1920s",
+      "active_to": null,
+      "start_label": "1920s",
       "note": "Korean popular song form that developed during the colonial era and has continued through changing audiences and revival waves.",
       "artists": [
-        "Jang Yoon-jung"
+        "Na Hoon-a",
+        "Tae Jin-ah",
+        "Lim Young-woong"
       ],
       "sample": null,
       "sources": [
@@ -4068,16 +4069,9 @@
         },
         "prominence_end_audit": "Later source or date wording reaches the 2020s; timeline_end_status records whether that evidence supports present visibility or only a bounded display window."
       },
-      "youtube_examples": [
-        {
-          "artist": "Jang Yoon-jung",
-          "title": "Trot Singer Jang Yoon-jung",
-          "youtube_url": "https://www.youtube.com/watch?v=M3D-VKoTLXU",
-          "reviewed_at": "2026-09-28"
-        }
-      ],
+      "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/%EC%9E%A5%ED%98%9C%EB%A6%AC_%EC%96%91%EC%96%91_%EA%B0%80%EC%9A%94%EC%84%B8%EC%83%81_20230609.jpg/960px-%EC%9E%A5%ED%98%9C%EB%A6%AC_%EC%96%91%EC%96%91_%EA%B0%80%EC%9A%94%EC%84%B8%EC%83%81_20230609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:%EC%9E%A5%ED%98%9C%EB%A6%AC_%EC%96%91%EC%96%91_%EA%B0%80%EC%9A%94%EC%84%B8%EC%83%81_20230609.jpg",
@@ -4297,11 +4291,13 @@
       ],
       "map_scope": "regions",
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "Developed in the 1960s",
       "note": "Ethiopian modal and melodic ideas blended with jazz instrumentation and harmony, associated especially with Mulatu Astatke and the Addis Ababa music scene.",
       "artists": [
-        "Mulatu Astatke"
+        "Mulatu Astatke",
+        "Tlahoun Gessesse",
+        "Mahmoud Ahmed"
       ],
       "sample": null,
       "sources": [
@@ -4337,7 +4333,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mulatu_Astatke_Cosmopolite_2017_%28221840%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Mulatu_Astatke_Cosmopolite_2017_%28221840%29.jpg",
@@ -4817,13 +4813,13 @@
       ],
       "map_scope": "regions",
       "active_from": 1990,
-      "active_to": 2020,
+      "active_to": null,
       "start_label": "Developed in the 1990s",
       "note": "Swahili-language Tanzanian popular music whose early urban scene drew on hip-hop and R&B and later took diverse pop forms.",
       "artists": [
         "Diamond Platnumz",
-        "Alikiba",
-        "Zuchu"
+        "Ali Kiba",
+        "Vanessa Mdee"
       ],
       "sample": null,
       "sources": [
@@ -4859,7 +4855,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Bongo_sound.wav",
@@ -5016,13 +5012,12 @@
       ],
       "map_scope": "regions",
       "active_from": 1960,
-      "active_to": 2000,
+      "active_to": null,
       "start_label": "Established by the early 1960s",
       "note": "Ugandan song style associated with Luganda storytelling and guitar accompaniment, rooted in Buganda popular performance.",
       "artists": [
-        "Fred Masagazi",
-        "Dan Mugalula",
-        "Kadongo Kamu Music Classics"
+        "Geoffrey Oryema",
+        "Philly Bongole Lutaaya"
       ],
       "sample": null,
       "sources": [
@@ -5049,16 +5044,9 @@
       },
       "wikipedia_language": "en",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Kadongo_Kamu",
-      "youtube_examples": [
-        {
-          "artist": "Kadongo Kamu Music Classics",
-          "title": "Kadongo Kamu Nonstop Mix",
-          "youtube_url": "https://www.youtube.com/watch?v=Kvlg06oq0YA",
-          "reviewed_at": "2026-09-28"
-        }
-      ],
+      "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kadongo_kamu.jpg/960px-Kadongo_kamu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Kadongo_kamu.jpg",
@@ -18354,11 +18342,15 @@
       "wikipedia_title": "Afrobeats",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 2005,
       "active_to": null,
-      "start_label": "Afrobeats emerged as an umbrella term for contemporary Nigerian popular music from the 2000s, achieving global commercial success from the 2010s through artists including Davido, W",
+      "start_label": "2005",
       "note": "Afrobeats is an umbrella for contemporary popular sounds associated with Nigeria, Ghana, and their diasporas. It developed during the 2000s and 2010s through combinations of several West African styles.",
-      "artists": [],
+      "artists": [
+        "Wizkid",
+        "Davido",
+        "Burna Boy"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Afrobeats"
@@ -18392,7 +18384,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -19492,11 +19484,15 @@
       "wikipedia_title": "K-pop",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1992,
       "active_to": null,
-      "start_label": "K-pop emerged as a distinct industry in the 1990s, pioneered by entertainment companies SM, YG, and JYP, and became a major global export from the 2010s onward.",
+      "start_label": "1992",
       "note": "K-pop is South Korean popular music shaped by the idol-group production system that developed in the 1990s. Its commercial reach expanded internationally in the 2010s.",
-      "artists": [],
+      "artists": [
+        "Seo Taiji and Boys",
+        "BTS",
+        "BLACKPINK"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/K-pop"
@@ -19536,7 +19532,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -20848,11 +20844,14 @@
       "wikipedia_title": "Marrabenta",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Marrabenta developed in Lourenço Marques (now Maputo) from the 1940s, fusing Tsonga and Ronga rhythms with Portuguese colonial music elements.",
+      "start_label": "1950s",
       "note": "Marrabenta is Mozambican dance music that took shape in Maputo during the 1930s and 1940s, bringing local dance rhythms together with Portuguese folk-music influences.",
-      "artists": [],
+      "artists": [
+        "Dilon Djindji",
+        "Orchestra Marrabenta Star"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Marrabenta"
@@ -20886,7 +20885,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -21995,11 +21994,14 @@
       "wikipedia_title": "Bikutsi",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Bikutsi emerged as a recognizable popular genre in the mid-20th century from Beti traditional dance music. International profile developed from the 1980s through artists including ",
+      "start_label": "1950s",
       "note": "Bikutsi is Cameroonian dance music developed from Beti and Ewondo traditions around Yaoundé. It became popular in West Africa during the mid-twentieth century.",
-      "artists": [],
+      "artists": [
+        "Anne-Marie Nzie",
+        "Les Têtes Brûlées"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Bikutsi"
@@ -22033,7 +22035,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -27784,11 +27786,15 @@
       "wikipedia_title": "Zamrock",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
-      "active_to": null,
-      "start_label": "Zamrock emerged around Zambia's 1964 independence and peaked in the 1970s. Key bands WITCH and Rikki Ililonga created a distinctly Zambian rock sound.",
+      "active_from": 1972,
+      "active_to": 1980,
+      "start_label": "1972",
       "note": "Zamrock emerged in Zambia during the early 1970s, combining local musical influences with psychedelic rock, blues, and funk. Rikki Ililonga and Musi-O-Tunya were early figures in the scene.",
-      "artists": [],
+      "artists": [
+        "WITCH",
+        "Amanaz",
+        "Chrissy Zebby Tembo"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Zamrock"
@@ -27822,7 +27828,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "ended"
     },
     {
       "status": "published",
@@ -28855,6 +28861,391 @@
         "period": "Idir's international breakthrough 1973 establishes earliest verifiable modern date. Genre continues actively today.",
         "geography": "Kabylie region (Tizi Ouzou, Béjaïa wilayas) in northern Algeria; Algiers diaspora scene secondary node.",
         "artists": "Idir (international hit 1973), Lounès Matoub (active 1970s–1998), Takfarinas (1980s–present). All Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "zaf-amapiano",
+      "country": "ZAF",
+      "name": "Amapiano",
+      "kind": "urban popular music",
+      "wikipedia_title": "Amapiano",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 2012,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "2012",
+      "note": "Amapiano is a South African house music sub-genre developed in Pretoria and Johannesburg townships from around 2012, characterised by piano-driven rhythm sections, log-drum bass lines and soulful vocal samples; it reached mainstream and international prominence from 2017 and became one of Africa's most exported contemporary music styles.",
+      "artists": [
+        "Kabza de Small",
+        "DJ Maphorisa",
+        "Focalistic"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amapiano"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Emerged in Gauteng (Pretoria/Johannesburg townships); now national and diasporic.",
+        "artists": "Kabza de Small and DJ Maphorisa (duo Scorpion Kings) are the defining artists; Focalistic extended its reach."
+      }
+    },
+    {
+      "status": "published",
+      "id": "zaf-bubblegum-sa",
+      "country": "ZAF",
+      "name": "South African bubblegum",
+      "kind": "urban popular music",
+      "wikipedia_title": "Bubblegum music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1985,
+      "active_to": 2000,
+      "timeline_end_status": "ended",
+      "start_label": "1985",
+      "note": "South African bubblegum (sa bubblegum) is a synth-pop genre that peaked in the late 1980s, blending disco-era rhythms with Sotho, Zulu and Tsonga lyrics; Brenda Fassie, Chicco Twala and Yvonne Chaka Chaka were its defining voices, and the genre bridged the gap between township mbaqanga and the post-apartheid kwaito era.",
+      "artists": [
+        "Brenda Fassie",
+        "Yvonne Chaka Chaka",
+        "Chicco Twala"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bubblegum_music#South_Africa"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Johannesburg and Soweto township music industry.",
+        "artists": "Brenda Fassie 'Weekend Special' (1983), Yvonne Chaka Chaka. Both Wikipedia-verified."
+      }
+    },
+    {
+      "status": "published",
+      "id": "zwe-sungura",
+      "country": "ZWE",
+      "name": "Sungura",
+      "kind": "urban popular music",
+      "wikipedia_title": "Sungura",
+      "map_scope": "approximate",
+      "approximate_region": "north",
+      "regions": [],
+      "active_from": 1980,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1980s",
+      "note": "Sungura is a Zimbabwean popular dance music genre that developed in Harare from the early 1980s, drawing on Kenyan benga guitar rhythms with driving bass lines and call-and-response vocals in Shona; it remains the most widely consumed grassroots popular genre in Zimbabwe, with Alick Macheso maintaining its commercial dominance.",
+      "artists": [
+        "Alick Macheso",
+        "Nicholas Zakaria",
+        "Tongai Moyo"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sungura"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Harare and its townships; most popular in Mashonaland (northern Zimbabwe).",
+        "artists": "Alick Macheso (b. 1969) is the genre's dominant figure. Tongai Moyo (1974–2011)."
+      }
+    },
+    {
+      "status": "published",
+      "id": "zwe-zimdancehall",
+      "country": "ZWE",
+      "name": "ZimDancehall",
+      "kind": "urban popular music",
+      "wikipedia_title": "ZimDancehall",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 2000,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "2000",
+      "note": "ZimDancehall is a Zimbabwean genre fusing Jamaican dancehall rhythms with Shona and Ndebele lyrics, developed in Harare's low-income suburbs from around 2000; Soul Jah Love and Winky D established it as the voice of urban Zimbabwean youth and it subsequently gained listeners across southern Africa.",
+      "artists": [
+        "Soul Jah Love",
+        "Winky D",
+        "Killer T"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/ZimDancehall"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Harare; spread nationally.",
+        "artists": "Soul Jah Love (1986–2021) pioneered the genre; Winky D remains its leading voice."
+      }
+    },
+    {
+      "status": "published",
+      "id": "moz-pandza",
+      "country": "MOZ",
+      "name": "Pandza",
+      "kind": "urban popular music",
+      "wikipedia_title": null,
+      "map_scope": "approximate",
+      "approximate_region": "south",
+      "regions": [],
+      "active_from": 1990,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1990s",
+      "note": "Pandza is a Mozambican urban popular genre developed in Maputo in the 1990s, blending kwaito and marrabenta rhythms with local vernacular Portuguese lyrics; it emerged as the post-civil-war commercial sound of southern Mozambique and remains the dominant contemporary pop style in Maputo's entertainment industry.",
+      "artists": [
+        "Lizha James",
+        "Dama do Bling"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Mozambique"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Maputo metropolitan area; southern Mozambique."
+      }
+    },
+    {
+      "status": "published",
+      "id": "rwa-kinyarwanda-pop",
+      "country": "RWA",
+      "name": "Rwandan popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": null,
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 2000,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "2000s",
+      "note": "Contemporary Rwandan popular music (ugushake) emerged in Kigali from around 2000, combining East African dancehall, Congolese rumba and US hip-hop influences with Kinyarwanda and French lyrics; the post-genocide reconstruction era produced a commercially active scene in which artists such as Tom Close and Knowless Butera built regional followings.",
+      "artists": [
+        "Tom Close",
+        "Knowless Butera"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Rwanda"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Kigali; nationally distributed via radio and streaming."
+      }
+    },
+    {
+      "status": "published",
+      "id": "gin-manding-pop",
+      "country": "GIN",
+      "name": "Guinean popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Bembeya Jazz National",
+      "map_scope": "approximate",
+      "approximate_region": "south",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Guinean popular music (Conakry manding pop) emerged from state-sponsored orchestras of the 1960s, grafting Mande griot melodic tradition onto Cuban son and jazz rhythms; Bembeya Jazz Nacional, Guinea's national band, became the archetype, and a continuous lineage of electric Mande pop has persisted in Conakry through contemporary artists.",
+      "artists": [
+        "Bembeya Jazz Nacional",
+        "Sékouba Bambino",
+        "Mory Kanté"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bembeya_Jazz_National"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Conakry (south-west Guinea); Mande-speaking zone of western Guinea.",
+        "artists": "Bembeya Jazz Nacional founded 1961; Mory Kanté (1950–2020) achieved international fame."
+      }
+    },
+    {
+      "status": "published",
+      "id": "eth-ethio-pop",
+      "country": "ETH",
+      "name": "Ethio-pop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Music of Ethiopia",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1994,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1994",
+      "note": "Ethio-pop is a contemporary Ethiopian popular music genre that emerged in Addis Ababa after the fall of the Derg in 1991, synthesising Amharic lyrical traditions with electronic production, R&B and dancehall influences; Teddy Afro, Aster Aweke and Ejigayehu Shibabaw (Gigi) define its global profile alongside a large domestic music industry.",
+      "artists": [
+        "Teddy Afro",
+        "Aster Aweke",
+        "Gigi"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Music_of_Ethiopia"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Addis Ababa; nationally distributed.",
+        "artists": "Teddy Afro (b. 1976) is the dominant figure; Aster Aweke active from 1980s."
+      }
+    },
+    {
+      "status": "published",
+      "id": "lka-sinhala-pop",
+      "country": "LKA",
+      "name": "Sinhala popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Sri Lankan popular music",
+      "map_scope": "approximate",
+      "approximate_region": "south",
+      "regions": [],
+      "active_from": 1960,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1960s",
+      "note": "Sinhala popular music is a Western-influenced vocal genre in the Sinhala language, developed from the 1960s through Sri Lanka Broadcasting Corporation programmes and Sinhala cinema; Nanda Malini and Sunil Edirisinghe established its lyrical ballad tradition, which continues with contemporary rock and pop productions from Colombo.",
+      "artists": [
+        "Nanda Malini",
+        "Sunil Edirisinghe",
+        "Rookantha Gunathilake"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sri_Lankan_popular_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Colombo and Galle coastal region; SLBC radio gave national reach.",
+        "artists": "Nanda Malini (b. 1945) is the iconic voice; active since 1960s."
+      }
+    },
+    {
+      "status": "published",
+      "id": "bgd-pop-bangla",
+      "country": "BGD",
+      "name": "Bangla pop",
+      "kind": "urban popular music",
+      "wikipedia_title": "Bangla pop",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1980,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1980s",
+      "note": "Bangla pop is a Bangladeshi popular music genre that emerged from Dhaka's rock band scene of the 1980s, developing an acoustic-electric style distinct from Indian film music; bands such as LRB (Love Runs Blind) and James defined its sound through the 1990s, and the genre remains the dominant commercial music of Bangladesh.",
+      "artists": [
+        "James",
+        "LRB",
+        "Shafin Ahmed"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangla_pop"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Dhaka; nationally distributed via television and cassette from 1980s.",
+        "artists": "James (Nagar Baul) remains the most iconic voice; LRB formed 1991."
+      }
+    },
+    {
+      "status": "published",
+      "id": "pak-pop",
+      "country": "PAK",
+      "name": "Pakistani pop music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Pakistani pop music",
+      "map_scope": "country",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Pakistani pop music emerged from Karachi and Lahore from the 1970s, with Nazia Hassan's 1980 'Aap Jaisa Koi' — Pakistan's first international pop crossover — marking its commercial breakthrough; the genre synthesises Urdu lyrical traditions with Western pop production, and Coke Studio's sessions from 2008 renewed international interest in Pakistani popular forms.",
+      "artists": [
+        "Nazia Hassan",
+        "Junoon",
+        "Ali Zafar"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pakistani_pop_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Karachi and Lahore; two distinct industry hubs.",
+        "artists": "Nazia Hassan (1965–2000) first international hit 1980; Junoon (1990–2004) alt-rock breakthrough."
+      }
+    },
+    {
+      "status": "published",
+      "id": "ind-filmi",
+      "country": "IND",
+      "name": "Filmi (Hindi film music)",
+      "kind": "film popular music",
+      "wikipedia_title": "Filmi",
+      "map_scope": "approximate",
+      "approximate_region": "west",
+      "regions": [],
+      "active_from": 1931,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1931",
+      "note": "Filmi (Hindi film music) is the popular song genre produced for Bollywood cinema, the world's most prolific film industry; originating in Mumbai from the first Indian sound film in 1931, it blends Hindustani raga structures with Western orchestration and folk elements, with playback singers Lata Mangeshkar and Mohammed Rafi defining its golden age and A.R. Rahman modernising it from the 1990s.",
+      "artists": [
+        "Lata Mangeshkar",
+        "Mohammed Rafi",
+        "A.R. Rahman"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Filmi"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "geography": "Mumbai (Bollywood); distributed nationally and globally via diaspora.",
+        "artists": "Lata Mangeshkar (1929–2022) recorded for 70+ years; A.R. Rahman (b. 1967) from 1992."
       }
     }
   ]
