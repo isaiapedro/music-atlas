@@ -1001,9 +1001,9 @@
       "map_scope": "approximate",
       "approximate_region": "north-west",
       "active_from": 1920,
-      "active_to": 1960,
-      "start_label": "Urban emergence documented in the 1920s–1930s",
-      "note": "Algerian popular song with undated rural vernacular Arabic antecedents; the cited urban Raï development is documented in Oran in the 1920s–1930s, before later national and international circulation.",
+      "active_to": null,
+      "start_label": "1920s",
+      "note": "Raï is an Algerian popular song with rural vernacular Arabic roots, documented as an urban form in Oran from the 1920s and developed into an internationally recognised genre in the 1970s–1980s through artists such as Khaled and Cheb Mami.",
       "artists": [
         "Khaled",
         "Cheb Mami"
@@ -1040,7 +1040,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://api.openverse.org/v1/images/dbb85bb5-e567-4ac1-9421-38338187bf9c/thumb/",
         "source_page_url": "https://commons.wikimedia.org/w/index.php?curid=26372007",
@@ -1067,11 +1067,12 @@
       ],
       "map_scope": "regions",
       "active_from": 1900,
-      "active_to": 1940,
+      "active_to": null,
       "start_label": "Established by 1900 (broad editorial estimate; earlier onset unresolved)",
       "note": "Moroccan Gnawa combines music, fraternal practices and ritual in urban and rural communities. Its historical roots do not establish an exact beginning for the present form.",
       "artists": [
-        "Radif master-disciple musicians"
+        "Hamid El Kasri",
+        "Mahmoud Guinia"
       ],
       "sample": null,
       "sources": [
@@ -1094,16 +1095,9 @@
         "timeline_audit": "Broad display anchor derived from reviewed descriptive or documentary wording. It is not an exact origin or a claim of uninterrupted continuity.",
         "prominence_end_audit": "Later source or date wording reaches the 2020s; timeline_end_status records whether that evidence supports present visibility or only a bounded display window."
       },
-      "youtube_examples": [
-        {
-          "artist": "Radif master-disciple musicians",
-          "title": "The Radif of Iranian music (UNESCO element film)",
-          "youtube_url": "https://www.youtube.com/watch?v=TihGLGuDABI",
-          "reviewed_at": "2026-09-28"
-        }
-      ],
+      "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Gnawa_outfit.jpg/960px-Gnawa_outfit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:Gnawa_outfit.jpg",
@@ -7038,13 +7032,13 @@
       "country": "MDG",
       "name": "Tsapiky",
       "kind": "rhythm and musical style",
-      "wikipedia_title": null,
+      "wikipedia_title": "Tsapiky",
       "map_scope": "approximate",
       "regions": [],
       "approximate_region": "south-west",
-      "active_from": 1900,
-      "active_to": 1940,
-      "start_label": "Established by 1900 (broad editorial estimate; earlier onset unresolved)",
+      "active_from": 1970,
+      "active_to": null,
+      "start_label": "1970s",
       "note": "A fast-paced musical genre rooted in south-west Madagascar, performed at social and ritual events and transmitted through families, neighbourhood groups and orchestras.",
       "artists": [],
       "sample": null,
@@ -7077,7 +7071,7 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "ended"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -17024,14 +17018,17 @@
       "country": "ZAF",
       "name": "Kwela",
       "kind": "popular",
-      "wikipedia_title": null,
+      "wikipedia_title": "Kwela",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Pennywhistle-based kwela sprang up in the 1940s; Spokes Mashiyane's revenues from recording helped build Gallo into South Africa's largest recording company; Aaron 'Jake' Lerole re",
+      "start_label": "1950s",
       "note": "Kwela is a South African street-jazz style centered on pennywhistle melody over a repeating guitar chord pattern. It emerged in the 1940s and became a prominent recorded Black popular music.",
-      "artists": [],
+      "artists": [
+        "Spokes Mashiyane",
+        "Aaron 'Jake' Lerole"
+      ],
       "sample": null,
       "sources": [
         {
@@ -17065,7 +17062,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -17073,14 +17070,18 @@
       "country": "ZAF",
       "name": "Mbaqanga",
       "kind": "popular",
-      "wikipedia_title": null,
+      "wikipedia_title": "Mbaqanga",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1964,
       "active_to": null,
-      "start_label": "Term derived from Zulu name for stiff corn porridge; arose from marabi-based jazz in the 1940s; electrified mbaqanga emerged in the 1960s; simanjemanje format dominated sales until",
+      "start_label": "1960s",
       "note": "Mbaqanga is South African township popular music that developed from marabi-based jazz into electric-guitar forms. Its later variety-show style brought Mahlathini and the Mahotella Queens to a large audience.",
-      "artists": [],
+      "artists": [
+        "Mahlathini",
+        "Mahotella Queens",
+        "Dark City Sisters"
+      ],
       "sample": null,
       "sources": [
         {
@@ -17114,7 +17115,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -17174,11 +17175,15 @@
       "wikipedia_title": "Kwaito",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1994,
       "active_to": null,
-      "start_label": "Kwaito emerged in South African townships in the 1990s following the end of apartheid, blending house music rhythms with local township aesthetics.",
+      "start_label": "1994",
       "note": "Kwaito emerged in Johannesburg-area townships around the late 1980s and 1990s. Its dance sound draws on house music at a slower tempo, with repeated samples, bass lines, and vocals.",
-      "artists": [],
+      "artists": [
+        "Mandoza",
+        "TKZee",
+        "Mzekezeke"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Kwaito"
@@ -17212,7 +17217,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -20422,13 +20427,16 @@
       "name": "Salegy",
       "kind": "popular",
       "wikipedia_title": "Salegy",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
-      "active_from": null,
+      "active_from": 1960,
       "active_to": null,
-      "start_label": "Salegy is a contemporary popular form from northern Madagascar characterized by a 6/8 rhythm and electric guitar.",
-      "note": "Salegy is an energetic dance-music style from northwestern Madagascar. Modern electric performances build on local acoustic roots with guitars, bass, percussion, accordion, and responsive singing.",
-      "artists": [],
+      "start_label": "1960s",
+      "note": "Salegy is an electric guitar-driven popular music from northern Madagascar, developed in the Antsiranana (Diana) region from the 1960s, characterised by a distinctive 6/8 rhythm and call-and-response vocals.",
+      "artists": [
+        "Rossy",
+        "Tarika"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Salegy"
@@ -20462,7 +20470,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -22033,13 +22042,16 @@
       "name": "Makossa",
       "kind": "popular",
       "wikipedia_title": "Makossa",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
-      "active_from": null,
+      "active_from": 1950,
       "active_to": null,
-      "start_label": "Makossa originated in Douala in the 1950s and achieved international recognition in 1972 through Manu Dibango's 'Soul Makossa'.",
-      "note": "Makossa developed in Douala, Cameroon, as a dance-oriented popular style. Its ensembles feature electric bass, guitars, percussion, brass, lead voice, and answering singers.",
-      "artists": [],
+      "start_label": "1950s",
+      "note": "Makossa is an urban dance genre that originated in Douala in the 1950s, blending bass guitar rhythms with Bassa and Bamileke musical idioms; Manu Dibango's 1972 recording 'Soul Makossa' brought it international recognition.",
+      "artists": [
+        "Manu Dibango",
+        "Charlotte Mbango"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Makossa"
@@ -22073,7 +22085,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -27349,14 +27362,17 @@
       "country": "ZWE",
       "name": "Chimurenga",
       "kind": "popular",
-      "wikipedia_title": null,
+      "wikipedia_title": "Chimurenga music",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1977,
       "active_to": null,
-      "start_label": "Songs known as chimurenga 'songs of liberation' were based on mbira music and used to politicize rural people during Zimbabwe's independence war; Thomas Mapfumo developed chimureng",
+      "start_label": "1977",
       "note": "Chimurenga is Zimbabwean electric-guitar music whose interlocking guitar and bass parts evoke Shona mbira patterns. Thomas Mapfumo is among its leading performers.",
-      "artists": [],
+      "artists": [
+        "Thomas Mapfumo",
+        "Stella Chiweshe"
+      ],
       "sample": null,
       "sources": [
         {
@@ -27390,7 +27406,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -27476,11 +27492,14 @@
       "wikipedia_title": "Jit (music)",
       "map_scope": "approximate",
       "regions": [],
-      "active_from": null,
+      "active_from": 1960,
       "active_to": null,
-      "start_label": "Jit emerged as guitar-driven township dance music in Zimbabwe from the 1950s onwards.",
+      "start_label": "1960s",
       "note": "Jit is a Zimbabwean popular music style that emerged in the 1960s from the Harare township scene, combining electric guitar with Shona musical rhythms.",
-      "artists": [],
+      "artists": [
+        "Bhundu Boys",
+        "Four Brothers"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Jit_(music)"
@@ -27501,7 +27520,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown",
+      "timeline_end_status": "present",
       "approximate_region": "north"
     },
     {
@@ -27657,14 +27676,17 @@
       "country": "TUN",
       "name": "Mizwid",
       "kind": "popular music genre",
-      "wikipedia_title": null,
+      "wikipedia_title": "Mizwid",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1980,
       "active_to": null,
-      "start_label": "Entry describes mizwid as a Tunisian popular genre.",
-      "note": "Mizwid is Tunisian urban popular music named for its double-reed bagpipe. Once strongly associated with migrant and minority communities in Tunis, it became a widely heard commercial style.",
-      "artists": [],
+      "start_label": "1980s",
+      "note": "Mizwid is a Tunisian popular genre named after its characteristic double-pipe instrument; it emerged as an urban working-class dance style in the 1980s and became the most commercially successful popular genre in Tunisia by the 1990s.",
+      "artists": [
+        "Belgacem Bouguenna",
+        "Hédi Habbouba"
+      ],
       "sample": null,
       "sources": [
         {
@@ -27698,7 +27720,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -27807,11 +27829,14 @@
       "wikipedia_title": "Kalindula",
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1985,
       "active_to": null,
-      "start_label": "Kalindula emerged as a distinct Zambian popular music genre in the mid-1980s, featuring electric bass and drawing on Bemba and Nyanja rhythms.",
+      "start_label": "1985",
       "note": "Kalindula is Zambian popular music named for a bass instrument used in its ensembles. It combines local dance traditions with twentieth-century popular styles and homemade string and percussion instruments.",
-      "artists": [],
+      "artists": [
+        "PK Chishala",
+        "Nashil Pichen Kazembe"
+      ],
       "sample": null,
       "sources": [
         "https://en.wikipedia.org/wiki/Kalindula"
@@ -27845,7 +27870,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
