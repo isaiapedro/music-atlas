@@ -10112,13 +10112,13 @@
       "map_scope": "country",
       "regions": [],
       "active_from": 1980,
-      "active_to": 2020,
-      "start_label": "The source dates the emergence of the khalījī label and new Gulf song styles to the 1980s, while documenting Saudi singers in Egyptian-Lebanese styles in the 1960s and 1970s.",
+      "active_to": null,
+      "start_label": "1980s",
       "note": "Khalījī is commercially circulating popular music associated with the Arabian Peninsula and Gulf. The reviewed sources identify Saudi Arabia, Kuwait, Bahrain, Qatar, and the UAE among its principal settings and describe its emergence in public circulation around the 1980s; this is not an exact origin date.",
       "artists": [
         "Mohammed ʿAbdu",
-        "Ahmed Baqer",
-        "Saudi Khalījī performers"
+        "Abdullah Al-Rowaished",
+        "Ahlam"
       ],
       "sample": null,
       "sources": [
@@ -10329,7 +10329,7 @@
           "map_scope": "country",
           "regions": [],
           "active_from": 1980,
-          "active_to": 2020,
+          "active_to": null,
           "start_label": "The encyclopedia says the term was applied to Gulf song styles beginning in the 1980s and describes the style as continuing into the twenty-first century.",
           "note": "Khalījī music is documented as urban popular music. Identifies the United Arab Emirates among the principal contributors to khalījī commercial/popular music; dates the emergence of new Gulf song styles to the 1980s and describes continued twenty-first-century development.",
           "sources": [
@@ -10339,7 +10339,7 @@
           ],
           "relationship": "practice",
           "reviewed_at": "2026-09-28",
-          "timeline_end_status": "ended"
+          "timeline_end_status": "present"
         },
         {
           "country": "BHR",
@@ -10347,7 +10347,7 @@
           "regions": [],
           "relationship": "practice",
           "active_from": 1980,
-          "active_to": 2020,
+          "active_to": null,
           "start_label": "The encyclopedia dates emergence of new Gulf song styles identified as khalījī to the 1980s and describes development into the twenty-first century.",
           "note": "The same reviewed tradition is independently documented in BHR. Any directional region is a uniform, non-boundary locator; the association does not imply exclusive origin or uniform national practice.",
           "sources": [
@@ -10356,14 +10356,14 @@
             }
           ],
           "reviewed_at": "2026-09-28",
-          "timeline_end_status": "ended"
+          "timeline_end_status": "present"
         },
         {
           "country": "KWT",
           "map_scope": "country",
           "regions": [],
           "active_from": 1980,
-          "active_to": 2020,
+          "active_to": null,
           "start_label": "The source dates the identifiable market category to Gulf styles heard from the 1980s and says Kuwaiti recording facilities were important during the 1980s and 1990s.",
           "note": "Khalījī is documented as commercial Arabian Peninsula popular music. Defines the style, names Kuwait among primary contributors, dates its wider emergence to the 1980s, and describes Kuwaiti studio activity.",
           "sources": [
@@ -10373,14 +10373,14 @@
           ],
           "relationship": "practice",
           "reviewed_at": "2026-09-28",
-          "timeline_end_status": "ended"
+          "timeline_end_status": "present"
         },
         {
           "country": "QAT",
           "map_scope": "country",
           "regions": [],
           "active_from": 1980,
-          "active_to": 2020,
+          "active_to": null,
           "start_label": "The term and new Gulf song styles are dated by the source to the 1980s; the source describes continuing change into the twenty-first century.",
           "note": "Khalījī is documented as commercial popular music. Defines khalījī as commercial Arabian Peninsula music, identifies Qatar among primary contributing states, and dates its emergence in Arab public circulation to the 1980s.",
           "sources": [
@@ -10390,10 +10390,10 @@
           ],
           "relationship": "practice",
           "reviewed_at": "2026-09-28",
-          "timeline_end_status": "ended"
+          "timeline_end_status": "present"
         }
       ],
-      "timeline_end_status": "ended",
+      "timeline_end_status": "present",
       "image": {
         "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/-Qatar_national_day_-doha._Decorated_cars%2C_flags_and_khaliji_dance_and_music_%286526808311%29.jpg/960px--Qatar_national_day_-doha._Decorated_cars%2C_flags_and_khaliji_dance_and_music_%286526808311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source_page_url": "https://commons.wikimedia.org/wiki/File:-Qatar_national_day_-doha._Decorated_cars%2C_flags_and_khaliji_dance_and_music_%286526808311%29.jpg",
@@ -27731,15 +27731,19 @@
       "wikipedia_title": null,
       "map_scope": "country",
       "regions": [],
-      "active_from": null,
+      "active_from": 1930,
       "active_to": null,
-      "start_label": "Entry describes the Tunisian ughniyya as a distinct popular song genre.",
-      "note": "Tunisian ughniyya is a popular song form for solo voice, chorus, and instrumental ensemble, often alternating verse and refrain. It grew from urban maʾlūf contexts into twentieth-century broadcasting.",
-      "artists": [],
+      "start_label": "1930s",
+      "note": "Al-ughniyya al-tūnisiyya is the dominant media song genre of Tunisia, an urban vocal form for solo singer, chorus and ensemble in couplet-refrain structure, derived from Arab-Andalusian maʾlūf contexts; the Rashīdiyya Institute (1934) and state radio promoted a 'golden age' of Tunisian song from the 1930s to 1960s, and contemporary stars continue to perform it across the Arab world.",
+      "artists": [
+        "Lotfi Bouchnak",
+        "Amina Fakhet",
+        "Saber Rebai"
+      ],
       "sample": null,
       "sources": [
         {
-          "citation": "Richard C. Jankowsky, vol. ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
+          "citation": "Ruth F. Davis and Richard C. Jankowsky, 'Ughniyya (Tunisian),' in Richard C. Jankowsky, ed., Bloomsbury Encyclopedia of Popular Music of the World, vol. X: Genres: Middle East and North Africa, Bloomsbury Academic, 2015."
         }
       ],
       "research": {
@@ -27769,7 +27773,7 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "present"
     },
     {
       "status": "published",
@@ -28818,6 +28822,40 @@
       "associated_areas": [],
       "timeline_end_status": "unknown",
       "approximate_region": "north"
+    },
+    {
+      "status": "published",
+      "id": "dza-kabyle-pop",
+      "country": "DZA",
+      "name": "Kabyle popular music",
+      "kind": "urban popular music",
+      "wikipedia_title": "Kabyle music",
+      "map_scope": "approximate",
+      "approximate_region": "north",
+      "regions": [],
+      "active_from": 1970,
+      "active_to": null,
+      "timeline_end_status": "present",
+      "start_label": "1970s",
+      "note": "Kabyle popular music is a Berber-language genre from the Kabylie region of northern Algeria, blending Amazigh melodic traditions with Western instrumentation; Idir's 1973 recording 'A Vava Inouva' brought the form international recognition, and it remains a vehicle for Tamazight cultural identity alongside contemporary production.",
+      "artists": [
+        "Idir",
+        "Lounès Matoub",
+        "Takfarinas"
+      ],
+      "sample": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kabyle_music"
+      ],
+      "youtube_examples": [],
+      "associated_areas": [],
+      "image": null,
+      "research": {
+        "reviewed_at": "2026-10-01",
+        "period": "Idir's international breakthrough 1973 establishes earliest verifiable modern date. Genre continues actively today.",
+        "geography": "Kabylie region (Tizi Ouzou, Béjaïa wilayas) in northern Algeria; Algiers diaspora scene secondary node.",
+        "artists": "Idir (international hit 1973), Lounès Matoub (active 1970s–1998), Takfarinas (1980s–present). All Wikipedia-verified."
+      }
     }
   ]
 }
