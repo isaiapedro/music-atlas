@@ -13002,13 +13002,13 @@
       "country": "GMB",
       "name": "Kankurang ceremonial song and drumming",
       "kind": "music within initiation rite",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Kankurang",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The source documents practice; a precise starting year and continuous lifespan are not yet supported.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kankurang is a Mandinka initiation masquerade with associated drumming and song, practiced in the western division of Gambia around Brikama and Serekunda.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -13034,7 +13034,8 @@
         "merged_into": "gmb-kankurang-music"
       },
       "youtube_examples": [],
-      "associated_areas": []
+      "associated_areas": [],
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -14956,13 +14957,13 @@
       "country": "SEN",
       "name": "Kankurang ceremonial song and drumming",
       "kind": "music within initiation rite",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Kankurang",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The source documents practice; a precise starting year and continuous lifespan are not yet supported.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kankurang is a Mandinka masquerade music tradition shared with Gambia, with its Senegalese center in the Casamance region of southern Senegal.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -14984,7 +14985,8 @@
         "merged_into": "sen-kankurang-music"
       },
       "youtube_examples": [],
-      "associated_areas": []
+      "associated_areas": [],
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -17426,7 +17428,8 @@
       "sources": [
         {
           "citation": "Terry E. Miller and Sean Williams, eds., The Garland Encyclopedia of World Music, vol. 4: Southeast Asia, Garland Publishing, 1998."
-        }
+        },
+        "https://disbudpar.bulelengkab.go.id/video/detail/25_menyaksikan-tari-kecak-bali-di-pantai-binaria-lovina"
       ],
       "research": {
         "reviewed_at": "2026-09-28",
@@ -17451,11 +17454,36 @@
             }
           ],
           "wikipedia_attribution": null
+        },
+        "video_evidence": {
+          "source_url": "https://disbudpar.bulelengkab.go.id/video/detail/25_menyaksikan-tari-kecak-bali-di-pantai-binaria-lovina",
+          "uploader": "Dinas Kebudayaan Buleleng (Buleleng Regency Culture Office)",
+          "fit": "The Buleleng government culture office directly links this exact recording of a Kecak performance on Bali.",
+          "embed_check": "Every listed YouTube ID returned title, uploader, and iframe HTML through YouTube oEmbed on 2026-10-01. This does not independently prove that playback works in every viewer location."
         }
       },
-      "youtube_examples": [],
+      "youtube_examples": [
+        {
+          "artist": "Kecak performers at Pantai Binaria Lovina",
+          "title": "Menyaksikan Tari Kecak Bali di Pantai Binaria Lovina",
+          "youtube_url": "https://www.youtube.com/watch?v=Sne--cktPyo",
+          "reviewed_at": "2026-10-01",
+          "attribution_basis": "institutional practice-level example"
+        }
+      ],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "image": {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kecak_Dance_Bali.jpg/960px-Kecak_Dance_Bali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Kecak_Dance_Bali.jpg",
+        "title": "Kecak Dance Bali",
+        "creator": "Dhani ilham",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Dhani ilham, CC BY-SA 4.0, via Wikimedia Commons",
+        "depicts": "Kecak dance in Bali with performers, as identified by the Commons file page.",
+        "provider": "wikimedia_commons",
+        "reviewed_at": "2026-10-01"
+      }
     },
     {
       "status": "published",
@@ -17469,7 +17497,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented by Garland (1998) in a dedicated article on northern Sierra Leone.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Maninka praise singing in northern Sierra Leone is performed by specialist jelilu, who combine spoken praise, song, and instrumental patterns. Performances can invoke lineage history and public social obligations.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17489,6 +17517,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-africa-v1-1998",
+              "locator": "478–490",
+              "claim": "Genre identity and geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -17507,7 +17546,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented alongside Maninka praise singing by Garland (1998).",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Koranko praise singing in northern Sierra Leone belongs to specialist jeli performance. A singer may begin with a familiar song or an instrumental pattern, then combine music with praise and advice.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17527,6 +17566,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-africa-v1-1998",
+              "locator": "478–490",
+              "claim": "Genre identity and geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -17594,7 +17644,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented by Garland (1998) as an active healing practice in Ethiopia.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Zar is a spirit-possession healing practice documented in Ethiopia and Sudan. Music and dance are used within ceremonies for people understood to be affected by spirits.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17614,6 +17664,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too many requests (f061ab2)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-africa-v1-1998",
+              "locator": "604",
+              "claim": "Genre identity and geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -17627,12 +17688,12 @@
       "name": "Falasha (Beta Israel) Liturgical Music",
       "kind": "traditional form",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Medieval roots; Garland (1998) cites Shelemay's research establishing 14th–15th century influence from Christian monasticism.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Falasha liturgical music is the sacred song tradition of the Beta Israel people, historically concentrated in the Gondar and Simien regions of northwestern Ethiopia.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17656,7 +17717,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north-west"
     },
     {
       "status": "published",
@@ -17670,7 +17732,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Contemporary popular form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Tina is a traditional music form from Guinea-Bissau with a nationwide presence, practiced by coastal and inland communities without a single dominant region.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17706,7 +17768,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional music form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Tinga is a traditional music and dance form from Guinea-Bissau, documented across the country without specific concentration in one geographic area.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17737,12 +17799,12 @@
       "name": "Balanta brosca",
       "kind": "communal percussion tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Balanta ceremonial percussion music; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Balanta brosca is a ceremonial music and dance from the Balanta people, who inhabit primarily the Oio region of north-central Guinea-Bissau.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17764,7 +17826,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -17772,13 +17835,13 @@
       "country": "GNB",
       "name": "Kussunde",
       "kind": "ritual music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Kussunde",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional ritual music form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kussunde is a ceremonial music associated with the Balanta and coastal southern communities of Guinea-Bissau, popularized by musicians from the southern heartland.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17800,7 +17863,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -17809,12 +17873,12 @@
       "name": "Som Kundere",
       "kind": "island community music tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Bijagos island music; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Som kundere is the distinctive music of the Bijagós Islands, an archipelago off the western coast of Guinea-Bissau, tied to local initiation and ceremonial life.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17836,7 +17900,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -17845,12 +17910,12 @@
       "name": "Tajik popular music",
       "kind": "popular song genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Spinetti's 2005 article traces Tajik popular music's aesthetics and identity politics; implies a Soviet-era origin with post-independence transformation.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Tajik popular music (estrada) is centered in Dushanbe, the capital in western Tajikistan, blending Persian classical heritage with Soviet-era variety show formats.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17874,7 +17939,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -17882,19 +17948,21 @@
       "country": "TKM",
       "name": "Bakhshi",
       "kind": "oral epic and lyric performance tradition",
-      "wikipedia_title": null,
+      "wikipedia_title": "Bakhshi",
       "map_scope": "country",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The Central Asia Further Reading bibliography documents Turkmen bakhshi scholarship spanning pre-Soviet to post-Soviet periods; the tradition predates Soviet documentation.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Bakhshi are itinerant poet-singers of the Turkmen epic tradition found across all Turkmenistan, without fixed regional concentration.",
       "artists": [],
       "sample": null,
       "sources": [
         {
           "citation": "Music of Central Asia: Further Reading, Listening, and Viewing, official companion, 2017, musicofcentralasia.org."
-        }
+        },
+        "https://ich.unesco.org/en/RL/epic-art-of-gorogly-01028",
+        "https://medeniyet.gov.tm/app/tk/sigle-news/6199"
       ],
       "research": {
         "reviewed_at": "2026-09-28",
@@ -17908,9 +17976,23 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too many requests (f061ab2)"
+        },
+        "video_evidence": {
+          "source_url": "https://ich.unesco.org/en/RL/epic-art-of-gorogly-01028",
+          "uploader": "UNESCO",
+          "fit": "UNESCO identifies this exact Gorogly film; Turkmenistan's Ministry of Culture identifies bakhshi-destanchi as performers of Gorogly. The film represents the epic-repertoire branch of a broader bakhshi tradition.",
+          "embed_check": "Every listed YouTube ID returned title, uploader, and iframe HTML through YouTube oEmbed on 2026-10-01. This does not independently prove that playback works in every viewer location."
         }
       },
-      "youtube_examples": [],
+      "youtube_examples": [
+        {
+          "artist": "Turkmen bakhshi-destanchi performers",
+          "title": "Epic art of Gorogly",
+          "youtube_url": "https://www.youtube.com/watch?v=LDtW7evOGT8",
+          "reviewed_at": "2026-10-01",
+          "attribution_basis": "institutional practice-level example"
+        }
+      ],
       "associated_areas": [],
       "timeline_end_status": "unknown"
     },
@@ -17921,12 +18003,12 @@
       "name": "Mukamlar",
       "kind": "classical",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Mukamlar is the classical Turkmen music tradition derived from the Bukhara maqam lineage. It represents a court and chamber music form with fixed melodic and modal frameworks, dist",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Turkmen mukamlar (maqam suites) are classical compositions associated with the Pendi region school near the Afghan border in southern Turkmenistan.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17948,7 +18030,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -17962,7 +18045,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (2000) describes atan as 'now the national dance' with both male and female variations; no origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Atan is a Pashtun round dance also treated as Afghanistan's national dance. Public performances can pair circling dancers with sung couplets, dhol drum, and melodic instruments.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -17982,6 +18065,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too many requests (f061ab2)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-south-asia-v5-2000",
+              "locator": "~803–840",
+              "claim": "Genre identity, Pashtun attribution, and national dance status."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -18000,7 +18094,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (2000) cites fifteenth-century miniatures depicting the lute as court instrument; soloistic folk style documented as living tradition circa 2000.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Dutar is a long-necked plucked lute used in Afghan musical traditions, particularly around Herat and the north. Despite its name, modern instruments can carry more than two strings.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18020,6 +18114,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too many requests (f061ab2)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-south-asia-v5-2000",
+              "locator": "~817–830",
+              "claim": "Genre identity and western Afghanistan geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -18033,12 +18138,12 @@
       "name": "Hadhra",
       "kind": "court/classical music tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Hadhra is a sophisticated courtly tradition from the Hadhramaut sultanate of southern Yemen, documented as distinct from the Sana’ani urban tradition and connected to Hadrami diasp",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Hadhrami music is the traditional vocal and oud tradition of the Hadhramaut Valley in eastern Yemen, historically spread along Indian Ocean trade routes.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18060,7 +18165,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "east"
     },
     {
       "status": "published",
@@ -18069,12 +18175,12 @@
       "name": "Adeni music",
       "kind": "popular music genre / port city cosmopolitan music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Adeni music developed as a cosmopolitan urban genre in Aden during the British colonial period and into the 20th century, incorporating Indian, Egyptian and East African elements i",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Adeni music is the distinctive coastal song tradition of Aden in southern Yemen, combining Gulf, African, and Indian Ocean influences in the historic port city.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18096,7 +18202,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -18105,12 +18212,12 @@
       "name": "Yemeni hip-hop",
       "kind": "urban popular music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 2005,
       "active_to": null,
       "start_label": "Yemeni hip-hop emerged around 2005, associated with diaspora youth and later with expression during the conflict period.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Yemeni hip-hop emerged from the Sanaa youth scene in the 2000s, combining Arabic lyrical traditions with American and Gulf hip-hop production styles.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18132,7 +18239,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -18400,13 +18508,13 @@
       "country": "MYS",
       "name": "Zapin",
       "kind": "Malay-Arab social dance and music genre",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Zapin",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) describes zapin as believed to originate from an Arabic dance form; living tradition in Malaysia documented; no precise date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Zapin is a Malay dance-music form that originated in Johor in southern peninsular Malaysia, combining Middle Eastern melodic patterns with local rhythmic dance.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18430,7 +18538,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -18493,7 +18602,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Gabaye is a professional oral poetry recitation tradition of the Afar and Somali peoples of Djibouti.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Gabaye is a ceremonial poetry and song tradition shared by both the Afar and Issa-Somali communities of Djibouti, practiced across the country.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18524,12 +18633,12 @@
       "name": "Afar wedding and praise songs",
       "kind": "ceremonial music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Afar wedding ceremonies (nikah music) and praise songs for warriors are distinct traditions within Djibouti's Afar communities.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Afar wedding praise songs are a vocal tradition from the Afar-inhabited territory of northern Djibouti, sung by women in call-and-response form at marriage ceremonies.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18551,7 +18660,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -18565,7 +18675,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Contemporary Djibouti urban music blends Sudanese, Egyptian, Yemeni, Bollywood, and reggae influences, reflecting the country's cosmopolitan trade hub character.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Djibouti modern fusion blends Afar, Somali, and Arab musical influences produced by urban artists in Djibouti city, forming a nationally broadcast popular style.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18748,7 +18858,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Liner notes document the Fuke sect shakuhachi tradition; 'In the 18th century the instrument became very popular and was added to the koto-shamisen ensemble.' The Kinko school pres",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Shakuhachi music includes repertories transmitted through Japanese schools such as Kinko. The bamboo-flute piece 'Shika no Tone' is a prominent example of that school.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18768,6 +18878,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too many requests (f061ab2)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "folkways-jpn-semiclassical-folk-1974",
+              "locator": "p. 4",
+              "claim": "Liner notes describe the Kinko shakuhachi school's distinct repertoire and performance technique; example Shika-No-Tone is described as 'one of the most famous pieces of the Kinko shakuhachi music', demonstrating the genre's depth and institutional continuity."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -18786,7 +18907,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Liner notes describe Kabuki as having 'a vast repertoire' with 'song-dance-theatre' synthesis; the Kanjincho drama referenced predates the 19th century.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kabuki music encompasses the instrumental and vocal accompaniment of Japanese theatrical dance drama. Naga-uta shamisen repertory is one documented form within it.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -18806,6 +18927,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "folkways-jpn-semiclassical-folk-1974",
+              "locator": "pp. 2–3",
+              "claim": "Liner notes state: 'The Kabuki is one of the three major genres of theatrical art in Japan' and describe Naga-Uta shamisen music as the accompanying genre for Kabuki dance dramas."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -18989,7 +19121,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Adai-adai is documented as traditional Malay fishing work song from coastal Brunei, part of the nation's intangible cultural heritage.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Adai-adai is a Bruneian coastal work-song tradition associated with fishing and other labor around the shore. Its performance belongs to the country's inherited local repertory.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19007,6 +19139,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "https://en.wikipedia.org/wiki/Music_of_Brunei",
+              "locator": "Traditional music",
+              "claim": "Wikipedia documents adai-adai as traditional fishing work songs from coastal Brunei."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -19019,13 +19162,13 @@
       "country": "BRN",
       "name": "Jipin / Zapin",
       "kind": "Islamic dance music",
-      "wikipedia_title": null,
+      "wikipedia_title": "Jipin",
       "map_scope": "country",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Jipin/Zapin is a Malay Islamic dance music form with Middle Eastern roots, documented as part of Brunei's living musical tradition.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Jipin is a Malay courtly dance-music tradition practiced across Brunei's coastal Malay communities, with origins in Riau Malay culture.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19061,7 +19204,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Aduk-Aduk is documented as traditional harvest ceremony music from Brunei's interior communities, performed as percussion-based communal ritual for agricultural cycles.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Aduk-aduk is a Bruneian communal performance associated with harvest ceremonies in interior communities. Percussion and collective participation are central to the practice.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19079,6 +19222,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "https://en.wikipedia.org/wiki/Music_of_Brunei",
+              "locator": "Traditional music",
+              "claim": "Wikipedia documents aduk-aduk as traditional harvest ceremony music from Brunei's interior communities."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -19091,13 +19245,13 @@
       "country": "TLS",
       "name": "Likurai",
       "kind": "traditional drum dance / ceremonial music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Likurai",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Likurai is documented as a pre-colonial Timorese women's drum dance performed to welcome returning warriors. Suppressed under Indonesian occupation 1975–1999 and revived after inde",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Likurai is a women's victory drum dance from Timor-Leste, documented most specifically in Suai district of Covalima province in the western part of the country.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19119,7 +19273,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -19239,7 +19394,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "UNES08010 liner notes describe Kayageum Sanjo as elaborated in various tempi; no precise origin date supplied by either source.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kayageum sanjo is Korean solo music for the twelve-stringed kayageum zither. A performance develops musical material through contrasting tempos.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19259,6 +19414,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "folkways-kor-vocal-instrumental-1965",
+              "locator": "p. 4",
+              "claim": "Liner notes document 'Kayageum Sanjo: Part of a solo for the Kayageum, the twelve-stringed zither' performed by Sung Keum Ryun; Sanjo described as compositions elaborated in various tempi."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -19428,7 +19594,7 @@
       "active_from": 1949,
       "active_to": null,
       "start_label": "Cheng traces their dominance to the PRC period from 1949, with a Cultural Revolution peak (1966–1976) and a post-Mao nostalgic revival.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Red songs are Chinese revolutionary and state-supported songs that were especially prominent under Mao. Later performances also revisit this repertory through nostalgia and popular culture.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -19448,6 +19614,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "cheng-chinese-popular-music-2023",
+              "locator": "Chapters 4 and 5: The Collective Sound; Modernizing Chinese Vernacular Music",
+              "claim": "Documents propaganda music and red songs as the dominant Chinese state-sanctioned song form under Mao, and their nostalgic revival in post-Mao popular culture."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -20103,7 +20280,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Documented by Garland (1998) in the East African instruments chapter as a Comoro Islands plucked lute tradition.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kabosy is a small plucked chordophone from Comoros, widespread across the Comorian islands without a single dominant island of practice.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20141,7 +20318,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "The gabusi is a traditional Arab-origin plucked lute that serves as a cultural center of Comorian music-making.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Gabusi is a lute tradition of the Comoros islands, with structural variants documented on both Grande Comore and Anjouan, spread across the archipelago.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20177,7 +20354,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "The ndzendze is an indigenous Comorian box zither, part of the archipelago's distinctive Arab/Bantu/Swahili/Malagasy musical fusion.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Ndzendze is a box-zither tradition from Comoros, practiced across the islands with notable masters documented on Mwali and other islands of the archipelago.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20208,12 +20385,12 @@
       "name": "Valiha",
       "kind": "instrument / traditional music",
       "wikipedia_title": "Valiha",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The valiha is an ancient instrument documented from early Malagasy history and remains central to Malagasy musical identity.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The valiha is a bamboo tube zither and the national instrument of Madagascar, with its classical repertoire centered in the highland region around Antananarivo.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20235,7 +20412,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -20368,12 +20546,12 @@
       "name": "Kalon'ny Fahiny",
       "kind": "classical / ballroom music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Kalon'ny Fahiny ('music of the past') is a refined ballroom-style piano/accordion music tradition of the colonial-era Merina aristocracy.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kalon ny fahiny is the traditional classical music of the Merina people of the central highlands of Madagascar, associated with Antananarivo royal court culture.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20395,7 +20573,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -20501,13 +20680,13 @@
       "country": "SAU",
       "name": "Al-Samri",
       "kind": "folk tradition / percussion and vocal genre",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Samri",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Al-Samri is documented as a traditional Najdi music and dance tradition over 300 years old, performed at weddings and celebrations using the daff frame drum.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Samri is a Hejazi pop folk tradition from the western Red Sea coast of Saudi Arabia, centered in Jeddah, Mecca, and Medina.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20529,7 +20708,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -20711,7 +20891,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Sultanova documents UNESCO's nomination of Aitys-Aitysh as Kazakh intangible cultural heritage; tradition predates Soviet period.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Aitys is a Kazakh and Kyrgyz contest of improvised spoken or sung poetry. Opposing akyns answer audience-chosen topics with wit and rhythm, accompanied in Kazakhstan by the dombra.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20741,6 +20921,27 @@
           "uploader": "UNESCO (verified channel)",
           "fit": "UNESCO's Kazakhstan and Kyrgyzstan nomination identifies the exact film for the Aitysh/Aitys song improvisation tradition.",
           "embed_check": "YouTube oEmbed returned iframe HTML on 2026-10-01; playback not manually watched"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "turkic-soundscapes-2018",
+              "locator": "Chapter 1: Introduction — section on UNESCO Intangible Cultural Heritage nominations",
+              "claim": "Sultanova lists Aitys-Aitysh as one of Kazakhstan's two UNESCO ICH nominations, describing it as 'the art of improvisation'; identifies it alongside the Kazakh Dombra Kuy as a defining national tradition."
+            },
+            {
+              "document": "music-of-central-asia-further-reading-2017",
+              "locator": "Section 10(c): Kazakh; Section 6: Oral Tradition and Epics",
+              "claim": "Bibliography includes Kazakh-language and Russian-language scholarship on Kazakh aitys oral tradition, confirming scholarly documentation."
+            },
+            {
+              "document": "https://ich.unesco.org/en/RL/aitysh-aitys-art-of-improvisation-00997",
+              "locator": "Aitysh/Aitys, art of improvisation — description",
+              "claim": "UNESCO describes paired akyns improvising verse on audience-chosen topics with traditional instruments including the Kazakh dombra."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [
@@ -20753,7 +20954,18 @@
         }
       ],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "image": {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg/960px-%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%B9%D1%82%D1%8B%D1%81._%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82_%D2%9B%D0%B0%D0%BB%D0%B0%D1%81%D1%8B.jpg",
+        "title": "Айтыс. Шымкент қаласы",
+        "creator": "TheNomadEditor",
+        "license": "CC0",
+        "attribution": "TheNomadEditor, CC0, via Wikimedia Commons",
+        "depicts": "A republican schoolchildren’s Aytys performance in Shymkent, Kazakhstan, identified by the Kazakh file caption and Commons Aytysh category.",
+        "provider": "wikimedia_commons",
+        "reviewed_at": "2026-10-01"
+      }
     },
     {
       "status": "published",
@@ -20891,7 +21103,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Featured as audio example (track 25) on the Garland Handbook CD; documented in context of southern Malawian women's dance in Presbyterian churches.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Mvamo is a traditional Malawian music and dance form documented across several ethnic communities without specific concentration in one geographic region.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20924,12 +21136,12 @@
       "name": "Kyo",
       "kind": "classical vocal genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents kyo as a living Burmese classical vocal genre; audio example recorded. No origin date assigned.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kyo is a traditional Burmese classical singing genre centered in Mandalay, the cultural capital of upper Burma and custodian of royal court traditions.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20953,21 +21165,22 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
-      "status": "published",
+      "status": "research_hold",
       "id": "mmr-mahagita",
       "country": "MMR",
       "name": "Mahagita",
       "kind": "classical repertoire collection / tradition",
       "wikipedia_title": "Mahagita",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) describes the Maha Gita as the established classical collection, published in printed anthologies (Maha Gita and Gita Withodani); no single origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Mahagita is the classical song anthology of Burmese court music, traditionally preserved and performed in Mandalay and the Irrawaddy heartland.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -20987,11 +21200,13 @@
           "status": "article",
           "reviewed_at": "2026-10-01",
           "reason": "Exact Wikipedia article found: 'Mahagita'"
-        }
+        },
+        "hold_reason": "Garland describes Maha Gita as an anthology of Burmese classical song texts, not a distinct genre; review taxonomy before assigning one genre layer or media example."
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -21005,7 +21220,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Thachin is documented as the primary indigenous song form of Myanmar, pre-dating colonial period and continuing through present day.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Thachin songs are the foundational classical Burmese vocal tradition maintained from the Konbaung era, forming the national court musical canon.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21036,12 +21251,12 @@
       "name": "Myanmar rock (1980s)",
       "kind": "urban popular music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1980,
       "active_to": null,
       "start_label": "Myanmar rock emerged in the 1980s with artists such as Iron Cross (Lay Phyu), influenced by Western rock but performed in Burmese; subject to SLORC censorship from 1988 through app",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Myanmar rock emerged in Yangon in the 1980s, blending electric guitar styles with Burmese rhythms in the commercial music venues of the southern capital.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21063,7 +21278,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -21077,7 +21293,7 @@
       "active_from": 1990,
       "active_to": null,
       "start_label": "Myanmar hip-hop emerged in the 1990s under SLORC/SPDC censorship; artists include G Fatt and Sai Sai Kham Leng. The scene grew rapidly after 2012 with improved internet access.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Myanmar hip-hop developed in urban music scenes from the 1990s. Performers adapted rap and hip-hop forms within the country's changing popular-music culture.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21095,6 +21311,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error after 3 attempts: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "https://en.wikipedia.org/wiki/Music_of_Myanmar",
+              "locator": "Hip-hop",
+              "claim": "Wikipedia documents the emergence of hip-hop in Myanmar from the 1990s."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -21652,7 +21879,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "The Umhlanga Reed Dance is an annual 8-day women's royal ceremony in Eswatini with distinctive vocal and processional music.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The Reed Dance (Umhlanga) is a national ceremony of Eswatini with countrywide participation held annually at the royal residence in Lobamba.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21683,12 +21910,12 @@
       "name": "Makhoyane",
       "kind": "instrument / traditional music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The makhoyane is a traditional Swati musical bow played by women as a solo instrument for personal and social expression.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Makhoyane is a traditional Swazi single-string instrument concentrated in the central and lowveld regions of Eswatini, used in personal song composition.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21710,7 +21937,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -21719,12 +21947,12 @@
       "name": "Isitolotolo",
       "kind": "instrument / traditional music",
       "wikipedia_title": "Isitolotolo",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Isitolotolo is a traditional Swati jaw harp, a small metal instrument used for personal music within the Swazi indigenous instrument repertoire.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Isitolotolo is a traditional instrument and associated music from Eswatini, practiced in the central Hhohho and Manzini regions of the highland kingdom.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21746,7 +21974,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -21858,7 +22087,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents lam salavane as a living southern Lao repartee tradition with documented regional styles; no origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Lam salavane is a Lao-language song genre of southern Laos sung by Lao and Mon-Khmer performers. Accompaniment ranges from solo khene mouth organ to mixed instrumental ensembles.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21878,6 +22107,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "No confident Wikipedia match found (best score 0)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "~345",
+              "claim": "Genre identity and southern Laos geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -21896,7 +22136,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) records Lao classical music as a revived court tradition; post-1975 suppression followed by revival documented. Dissertation research on Vientiane court music conduc",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Lao classical music includes court-associated ensembles and theatrical repertory linked to Luang Prabang and the Fine Arts School in Vientiane. It is locally distinguished from lam song traditions.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21916,6 +22156,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error after 3 attempts: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "~335–365",
+              "claim": "Genre identity and Laos geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -21929,12 +22180,12 @@
       "name": "Li-ke theater",
       "kind": "theatrical dance-song form",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1940,
       "active_to": null,
       "start_label": "Li-ke theater arrived in Laos around 1940 from Siam and has been used alongside Mor lam in entertainment contexts.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Like theater is a popular musical theater form from central Laos, centered in Vientiane and the lowland Mekong communities of the capital region.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21956,21 +22207,22 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
-      "status": "published",
+      "status": "research_hold",
       "id": "rwa-inanga-chuchotee",
       "country": "RWA",
       "name": "Inanga Chuchotée (Whispered Zither Song)",
       "kind": "traditional form",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented at length by Garland (1998) in a dedicated chapter.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Inanga chuchotée is a whispering vocal technique performed with the inanga zither, associated with the Tutsi court culture around the Nyanza royal center in southern Rwanda.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -21990,11 +22242,13 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "No confident Wikipedia match found (best score 0)"
-        }
+        },
+        "hold_reason": "Acquired Garland source locates Inanga Chuchotee in Burundi; Rwanda association is not established by the cited passage."
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22003,12 +22257,12 @@
       "name": "Ikinimba",
       "kind": "cattle-culture song",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Ikinimba are praise songs for cattle performed during ceremonies, historically associated with the long-horned Inyambo cattle of Tutsi pastoral culture.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Ikinimba is a traditional Rwandan community drum tradition originating among the communities of Burera and Gicumbi in northern Rwanda.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22030,7 +22284,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -22044,7 +22299,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents nhac le as a living Vietnamese ritual tradition with regional variants; audio example track 8 (p. 483). The Hue court began restoring ritual music prior to",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Nhạc lễ is southern Vietnamese instrumental music for ceremonies and celebrations. Its ensembles grew from earlier central and south-central practices and influenced later southern repertories.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22064,6 +22319,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error after 3 attempts: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "483",
+              "claim": "Genre identity and Vietnam geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -22082,7 +22348,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents chau van as a suppressed but surviving ritual tradition; post-1975 ban documented. No origin date assigned.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Chầu văn is Vietnamese ritual music linked to spirit-medium ceremonies, especially in northern and central regions. Singing, moon-shaped lute, gongs, and drums accompany the rites.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22102,6 +22368,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "No confident Wikipedia match found (best score 0)"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "~444–525",
+              "claim": "Genre identity and Vietnam geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -22114,13 +22391,13 @@
       "country": "VNM",
       "name": "Tân nhạc",
       "kind": "urban popular music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Tân nhạc",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1930,
       "active_to": null,
       "start_label": "Tân nhạc emerged in the 1930s as a Western-influenced Vietnamese popular music using Western notation and harmony. Key artists include Đặng Thế Phong and Văn Cao.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Tân nhạc (new music) emerged in Hanoi in the 1930s as the first Vietnamese modern popular music movement, fusing Western harmony with Vietnamese pentatonic scales.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22142,7 +22419,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -22156,7 +22434,7 @@
       "active_from": 1950,
       "active_to": null,
       "start_label": "Nhạc đỏ (revolutionary) and Nhạc vàng (sentimental) developed as politically opposed popular music traditions from the 1950s through 1975. After reunification, Nhạc vàng was suppre",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Nhạc đỏ (revolutionary music from northern Vietnam) and nhạc vàng (sentimental pop from the southern Republic) are opposed popular traditions reunified in the post-1975 canon.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22186,13 +22464,13 @@
       "country": "VNM",
       "name": "V-pop",
       "kind": "urban popular music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "V-pop",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1990,
       "active_to": null,
       "start_label": "V-pop emerged from the 1990s onward following Đổi Mới economic reform, blending Western pop production with Vietnamese lyrics. Artists include Mỹ Tâm and Sơn Tùng M-TP.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "V-pop is Vietnam's contemporary pop music industry, centered in Ho Chi Minh City in southern Vietnam, drawing on Korean, American, and Chinese pop production styles.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22214,7 +22492,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22222,13 +22501,13 @@
       "country": "UZB",
       "name": "Askiya",
       "kind": "oral poetry improvisation tradition",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Askiya (literature)",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Sultanova lists Askiya as one of Uzbekistan's five UNESCO ICH nominations; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Askiya is a competitive verbal wit tradition and musical performance form from the Fergana Valley in eastern Uzbekistan, particularly around Andijan and Namangan.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22252,7 +22531,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "east"
     },
     {
       "status": "published",
@@ -22261,12 +22541,12 @@
       "name": "Uzbek estrada",
       "kind": "popular song genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1930,
       "active_to": null,
       "start_label": "The Central Asia Further Reading bibliography documents scholarly attention to Uzbek estrada from the Soviet period (1930s–1980s) through post-independence transformation.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Uzbek estrada is popular entertainment music centered in Tashkent, the capital in northeastern Uzbekistan, combining variety show formats with local melodic traditions.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22290,7 +22570,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north-east"
     },
     {
       "status": "published",
@@ -22299,12 +22580,12 @@
       "name": "Tuareg Takumba",
       "kind": "popular music genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1970,
       "active_to": null,
       "start_label": "Documented by Garland (1998) as emerging in Niger in the 1970s with drought-era migration.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Takumba is a Tuareg string music tradition from the Agadez and Aïr massif region of northern Niger, associated with nomadic Tuareg communities.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22328,7 +22609,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -22337,12 +22619,12 @@
       "name": "Hausa griot tradition",
       "kind": "court praise music and oral history tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Major Hausa cultural institution of long standing; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The Hausa griot tradition of praise-singing and court music is centered in the cities of Zinder, Maradi, and Dosso in southern Niger.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22364,7 +22646,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22373,12 +22656,12 @@
       "name": "Zarma-Songhai music",
       "kind": "folk and ceremonial music tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional music of the Zarma and Songhai peoples; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Zarma-Songhai music is a vocal and percussion tradition from the Niamey and western Niger River valley region, home of the Zarma and Songhai peoples.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22400,7 +22683,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -22408,13 +22692,13 @@
       "country": "BEN",
       "name": "Zinli",
       "kind": "voodoo ceremony music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Zinli",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional voodoo ceremony music of the Fon people of southern Benin; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Zinli is a Fon ceremonial music from southern Benin, played on hourglass tension drums at funerary and vodun ritual ceremonies in the Abomey and Ouidah area.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22436,7 +22720,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22445,12 +22730,12 @@
       "name": "Akinta",
       "kind": "ceremonial music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional ceremonial music form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Akinta is a Yoruba-influenced warrior music tradition from southern Benin, performed with drums and iron bells during ceremonies in the Porto-Novo and coastal areas.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22472,7 +22757,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22481,12 +22767,12 @@
       "name": "Akohoun",
       "kind": "ceremonial music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional ceremony-linked musical form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Akohoun is a Fon music tradition from southern Benin, performed at royal ceremonies and vodun rituals by specialist musicians in the Abomey court area.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22508,7 +22794,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22517,12 +22804,12 @@
       "name": "Tchinkoume",
       "kind": "ceremonial music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Beninese ceremonial music form; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Tchinkoume is a traditional music form from the Fon people of southern Benin, characterized by polyrhythmic drumming and communal vocal participation.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22544,7 +22831,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22553,12 +22841,12 @@
       "name": "Toba",
       "kind": "ceremonial drumming and vocal tradition",
       "wikipedia_title": "Toba",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional ceremonial drumming and vocal tradition; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Toba is a traditional percussion and vocal music from southern Benin, associated with Fon ceremonial practices in the historical Abomey kingdom area.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22580,7 +22868,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22589,12 +22878,12 @@
       "name": "Agbotchébou",
       "kind": "voodoo ceremony music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Beninese voodoo ceremony music; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Agbotchebou is a Fon ceremonial drumming tradition from southern Benin, linked to vodun practices and the royal courts of the Abomey plateau.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22616,7 +22905,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22625,12 +22915,12 @@
       "name": "IWE",
       "kind": "ceremonial music tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Yoruba/Kétou ceremonial music tradition; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Iwe is a song tradition of the Fon people of southern Benin, performed during harvest festivals and communal celebrations in the coastal zone.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22652,7 +22942,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -22666,7 +22957,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents dondang sayang as a living genre among Singapore Peranakans; no origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Dondang Sayang is an improvised Malay sung-poetry form that spread from Melaka to Singapore. Performers exchange pantun verses over a small instrumental accompaniment.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22686,6 +22977,25 @@
           "status": "article",
           "reviewed_at": "2026-10-01",
           "reason": "Exact Wikipedia article found: 'Dondang Sayang'"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "523",
+              "claim": "Genre identity and Singapore geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": {
+            "draft_excerpt": "Dondang Sayang (literally 'love ballad') originated in Malacca sometime in the 15th century, influenced by traditional Portuguese folk music. It…",
+            "article_title": "Dondang Sayang",
+            "article_url": "https://en.wikipedia.org/wiki/Dondang_Sayang",
+            "revision_url": "https://en.wikipedia.org/wiki/Dondang_Sayang?oldid=1325842197",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "Wikipedia contributors, Dondang Sayang, revision 1325842197"
+          }
         }
       },
       "youtube_examples": [],
@@ -22704,7 +23014,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (1998) documents getai as a contemporary Singaporean tradition active in the late 1990s; no earlier origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Getai is a Singaporean live song-stage tradition especially associated with the seventh lunar month. Performances present popular songs, electric accompaniment, and comic commentary.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22724,6 +23034,25 @@
           "status": "article",
           "reviewed_at": "2026-10-01",
           "reason": "Exact Wikipedia article found: 'Getai'"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-southeast-asia-v4-1998",
+              "locator": "519",
+              "claim": "Genre identity and Singapore geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": {
+            "draft_excerpt": "Getai (simplified Chinese: 歌台; traditional Chinese: 歌臺; pinyin: gē tái; lit. 'song stage') refers to boisterous live stage performances typically…",
+            "article_title": "Getai",
+            "article_url": "https://en.wikipedia.org/wiki/Getai",
+            "revision_url": "https://en.wikipedia.org/wiki/Getai?oldid=1372315961",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "Wikipedia contributors, Getai, revision 1372315961"
+          }
         }
       },
       "youtube_examples": [],
@@ -22791,7 +23120,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Entry documents contemporary ceremonial performance but gives no Bahrain-specific origin date.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "ʿArḍa is a Gulf communal song and sword-dance performed at celebrations and public events. Bahrain has local variants of the Najdi form, with men singing in facing lines to drums.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22811,6 +23140,17 @@
           "status": "searched_not_found",
           "reviewed_at": "2026-10-01",
           "reason": "Error after 3 attempts: HTTP Error 429: Too Many Requests"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "bloomsbury-mena-genres-v10-2015",
+              "locator": "ʿArḍa entry",
+              "claim": "Genre identity, geographic attribution, and period claim."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -22922,12 +23262,12 @@
       "name": "Dithlaka",
       "kind": "instrument / ensemble tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Dithlaka are traditional transverse copper tube/flute instruments of Botswana played in ensemble.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Dithlaka are traditional Tswana rhythm sticks used in music from southeastern Botswana, particularly in communities around Gaborone and the eastern hardveld.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22949,7 +23289,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south-east"
     },
     {
       "status": "published",
@@ -22958,12 +23299,12 @@
       "name": "Setapa",
       "kind": "dance music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Setapa is a Tswana community dance tradition combining music and oral narrative, performed at social ceremonies.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Setapa is a traditional Tswana dance-music from southeastern Botswana, performed at social gatherings in the Gaborone and eastern districts.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -22985,7 +23326,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south-east"
     },
     {
       "status": "published",
@@ -23589,13 +23931,13 @@
       "country": "UGA",
       "name": "Bwola",
       "kind": "traditional form",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Bwola",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Acholi court practice documented by Garland (1998).",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Bwola is a royal drum dance of the Acholi people of northern Uganda, performed in the Gulu and Kitgum districts at ceremonies and royal celebrations.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -23619,7 +23961,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -23726,12 +24069,12 @@
       "name": "Muwwal",
       "kind": "folk tradition / rural vocal genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Muwwal is a regional folk singing style documented as a living rural practice in Iraq, distinct from the urban Iraqi Maqam tradition. Precise historical dating is unresolved.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Muwwal is an Iraqi vocal improvisation genre associated with Wasit and Baghdad in central Iraq, based on classical Arabic and local maqam melodic modes.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -23753,7 +24096,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -23811,12 +24155,12 @@
       "name": "Qurbah",
       "kind": "popular music genre / traditional form",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Entry describes qurbah in the Moroccan musical context.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Qurbah is a Gnawa ritual music practice from southern Morocco, centered in Marrakech and Essaouira where Gnawa brotherhoods maintain their ceremonial lodges.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -23841,7 +24185,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -24046,12 +24391,12 @@
       "name": "Jali/Griot kora tradition",
       "kind": "hereditary oral music tradition",
       "wikipedia_title": "Jali",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The jali/griot tradition is of deep historical standing in West Africa; no single origin date is established for The Gambia.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The jali griot tradition with kora is central to Mandinka musical culture, concentrated in the western division around Banjul and the Gambia River communities.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24076,7 +24421,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -24237,7 +24583,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (2000) names Sufi poets who used the kafi form, including Sheikh Fariduddin Masud Ganj-i Shakar (d. 1265 CE). Living tradition documented with contemporary performers Patha",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kafi is a Sufi devotional song and poetic form prominent in Sindh and Punjab. Singers use refrains and may draw on the verse of regional poet-saints, with accompaniment varying by performer.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24257,6 +24603,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-south-asia-v5-2000",
+              "locator": "~743–802",
+              "claim": "Genre identity, Sufi tradition documentation, and Punjab/Sindh geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -24368,12 +24725,12 @@
       "name": "Akazehe",
       "kind": "women's whistle/flute tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Akazehe is a Burundian women's tradition using small whistle instruments in social celebrations.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Akazehe is a female vocal genre from central Burundi, performed by women in antiphonal choral form during ceremonies, with Ngozi province as a primary site.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24395,7 +24752,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -24415,7 +24773,8 @@
       "sources": [
         {
           "citation": "Terry E. Miller and Sean Williams, eds., The Garland Encyclopedia of World Music, vol. 4: Southeast Asia, Garland Publishing, 1998."
-        }
+        },
+        "https://folkways.si.edu/danongan-kalanduyan-and-the-palabuniyan-kulintang-ensemble/kapagonor"
       ],
       "research": {
         "reviewed_at": "2026-09-28",
@@ -24440,11 +24799,36 @@
             }
           ],
           "wikipedia_attribution": null
+        },
+        "video_evidence": {
+          "source_url": "https://folkways.si.edu/danongan-kalanduyan-and-the-palabuniyan-kulintang-ensemble/kapagonor",
+          "uploader": "Smithsonian Folkways",
+          "fit": "Smithsonian Folkways credits Danongan Kalanduyan on kulintang and identifies this as a traditional Philippine ensemble recording. The YouTube upload is its official audio.",
+          "embed_check": "Every listed YouTube ID returned title, uploader, and iframe HTML through YouTube oEmbed on 2026-10-01. This does not independently prove that playback works in every viewer location."
         }
       },
-      "youtube_examples": [],
+      "youtube_examples": [
+        {
+          "artist": "Danongan Kalanduyan and the Palabuniyan Kulintang Ensemble",
+          "title": "Kapagonor",
+          "youtube_url": "https://www.youtube.com/watch?v=XQgCinwlMBU",
+          "reviewed_at": "2026-10-01",
+          "attribution_basis": "institutional practice-level example"
+        }
+      ],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "image": {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Lumad_Kulintang_%28Philippines%29.jpg/960px-Lumad_Kulintang_%28Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Lumad_Kulintang_%28Philippines%29.jpg",
+        "title": "Lumad Kulintang (Philippines)",
+        "creator": "Obsidian Soul",
+        "license": "CC0",
+        "attribution": "Obsidian Soul, CC0, via Wikimedia Commons",
+        "depicts": "A Lumad kulintang ensemble from Bukidnon, Philippines; the image shows the instruments, not a live performance.",
+        "provider": "wikimedia_commons",
+        "reviewed_at": "2026-10-01"
+      }
     },
     {
       "status": "published",
@@ -24501,13 +24885,13 @@
       "country": "PHL",
       "name": "OPM (Original Pilipino Music)",
       "kind": "urban popular music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "OPM (music)",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1970,
       "active_to": null,
       "start_label": "OPM emerged in the 1970s as a deliberate category of Philippine popular music in Filipino languages, as an alternative to imported music. Artists include Freddie Aguilar, Sharon Cu",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Original Pilipino Music (OPM) is the popular music of the Philippines, centered in Manila and the Luzon recording industry in the northern part of the country.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24529,7 +24913,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -24543,7 +24928,7 @@
       "active_from": 1990,
       "active_to": null,
       "start_label": "Palestinian hip-hop and resistance music emerged from the 1990s onward; DAM is documented as the first Palestinian hip-hop group.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Palestinian resistance music is an explicitly trans-territorial tradition documented across the West Bank, Gaza, and diaspora communities, expressing national identity.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24628,7 +25013,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Sultanova identifies Semah as one of Turkey's five UNESCO ICH nominations; the tradition's pre-Ottoman Sufi roots make precise dating difficult.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Semah joins rhythmic movement and saz lute music in the Alevi-Bektaşi cem ritual. Women and men perform side by side, with local musical and rhythmic variations across Turkey.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24655,6 +25040,22 @@
           "uploader": "UNESCO (verified channel)",
           "fit": "UNESCO identifies Semah as an Alevi-Bektaşi ritual accompanied by saz, song, and rhythmic movement; its channel hosts the exact film.",
           "embed_check": "YouTube oEmbed returned iframe HTML on 2026-10-01; playback not manually watched"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "turkic-soundscapes-2018",
+              "locator": "Chapter 1: Introduction — section on UNESCO Intangible Cultural Heritage nominations",
+              "claim": "Sultanova lists Semah (Alevi-Bektaşi ritual) among Turkey's five UNESCO ICH nominations; also mentions that some religious music genres such as sama in Sufi rituals have been performed continuously in Turkey."
+            },
+            {
+              "document": "https://ich.unesco.org/en/RL/semah-alevi-bektai-ritual-00384",
+              "locator": "Semah, Alevi-Bektaşi ritual — description",
+              "claim": "UNESCO describes semah as a cem service performed by women and men with saz accompaniment, with regional rhythmic and musical forms."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [
@@ -24730,18 +25131,18 @@
       "timeline_end_status": "unknown"
     },
     {
-      "status": "published",
+      "status": "research_hold",
       "id": "tur-roman-popular-music",
       "country": "TUR",
       "name": "Popular music among Turkish Roman",
       "kind": "popular music genre / ethnic community tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1950,
       "active_to": null,
       "start_label": "Entry places Roman musicians at the centre of Istanbul's gazino-oriented entertainment from the mid-twentieth century onward.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Roman (Romani) popular music in Turkey is centered in the Romani communities of Istanbul's Thrace districts and the Aegean coast around İzmir.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24761,11 +25162,13 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
-        }
+        },
+        "hold_reason": "Bloomsbury describes multiple Roman popular styles in Turkey and explicitly rejects treating them as one genre; split or label a researched umbrella before media assignment."
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north-west"
     },
     {
       "status": "published",
@@ -24773,13 +25176,13 @@
       "country": "TUR",
       "name": "Türkü",
       "kind": "folk",
-      "wikipedia_title": null,
+      "wikipedia_title": "Türkü",
       "map_scope": "country",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Türkü is the oral folk song tradition of the Anatolian countryside, predating the Ottoman period and continuing as a living tradition. Urban revival documented from mid-20th centur",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Türkü is the collective name for Turkish regional folk songs, a tradition spanning every Anatolian province with distinct local repertoires throughout the country.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24809,13 +25212,13 @@
       "country": "TUR",
       "name": "Özgün Müzik",
       "kind": "popular music genre / protest folk hybrid",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Özgün müzik",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1980,
       "active_to": null,
       "start_label": "Özgün Müzik emerged in Turkey in the early 1980s as a politically engaged folk-popular hybrid in response to the September 1980 military coup.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Özgün müzik is a politically engaged folk-pop genre that emerged in Istanbul and İzmir in the 1970s, drawing on Anatolian folk tunes with leftist lyrical content.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24837,7 +25240,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -24900,7 +25304,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Named alongside zouglou and zaiiko as Ivorian popular music and dance styles of the 1990s.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Gnakpa is a Côte d'Ivoire popular music and dance style documented in the 1990s. Its rhythms and steps were taken up by some Dan Ge masked performers.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24920,6 +25324,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-african-handbook-2008",
+              "locator": "p. 225",
+              "claim": "Gnakpa is identified as one of the Ivorian popular music and dance styles of the 1990s, alongside zouglou and zaiiko, popular enough to inspire Dan Ge performers to incorporate its rhythms and dance steps into sacred mask performances."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -24932,13 +25347,13 @@
       "country": "BGD",
       "name": "Jarigan",
       "kind": "Muslim devotional folk narrative song",
-      "wikipedia_title": null,
+      "wikipedia_title": "Jarigan",
       "map_scope": "country",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (2000) documents jarigan as a living Bangladesh folk narrative genre; no origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Jarigan is a devotional folk song tradition found across Bangladesh and into the adjacent Indian Bengal, performed in call-and-response group singing at rural gatherings.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -24971,12 +25386,12 @@
       "name": "Pala Kirtan",
       "kind": "extended devotional narrative song",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1583,
       "active_to": null,
       "start_label": "Garland (2000) documents pala kirtan as originating in the fifteenth–sixteenth centuries in Bengal; active tradition documented as of 2000.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Pala kirtan is a narrative devotional singing tradition originating in the Mymensingh region of northern Bangladesh, with performers alternating solo and chorus parts.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25000,7 +25415,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -25395,18 +25811,18 @@
       "timeline_end_status": "unknown"
     },
     {
-      "status": "published",
+      "status": "research_hold",
       "id": "egy-firqah",
       "country": "EGY",
       "name": "Firqah Orchestra",
       "kind": "popular music genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1930,
       "active_to": null,
       "start_label": "Documented by Garland (1998) as a 1930s–1940s Egyptian institution that influenced film music and East African taarab.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Firqah ensemble style developed in Cairo as part of the early twentieth century Egyptian classical music revival, building on the takht chamber tradition.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25426,11 +25842,13 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
-        }
+        },
+        "hold_reason": "Garland describes firqah as an orchestra/ensemble format rather than a genre; review taxonomy before assigning genre media."
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -25438,13 +25856,13 @@
       "country": "EGY",
       "name": "Nubian Ceremonial Music",
       "kind": "folk tradition",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Nubian music",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented by Garland (1998) as a living Nubian practice in Egypt.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Nubian music is the traditional and contemporary music of the Nubian people, rooted in the Aswan region of far southern Egypt.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25468,7 +25886,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -25574,13 +25993,13 @@
       "country": "JOR",
       "name": "Simsimiyya",
       "kind": "folk tradition / port community lyre music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Simsimiyya",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Simsimiyya is a five-string lyre tradition documented in the Aqaba port community of Jordan and the Suez Canal area of Egypt; an active folk music practice of fishing and port comm",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Simsimiyya is a lyre tradition from the southern port city of Aqaba, associated with coastal and fishing communities of the Red Sea shore of Jordan.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25602,7 +26021,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -25611,12 +26031,12 @@
       "name": "Amman indie scene",
       "kind": "urban popular music / independent music scene",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 2005,
       "active_to": null,
       "start_label": "An independent rock and alternative music scene developed in Amman from the mid-2000s, with venues such as Hangar and the Rainbow Street area as key gathering points.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Amman indie is an independent urban music scene centered in Amman, the capital in the northwestern corridor of Jordan, active since the 2000s.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25638,7 +26058,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north-west"
     },
     {
       "status": "published",
@@ -25646,13 +26067,13 @@
       "country": "TGO",
       "name": "Ewe Traditional Music",
       "kind": "traditional form",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Ewe music",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented by Garland (1998) in the Ewe article with explicit reference to Togo.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Ewe traditional music is the ensemble drumming and vocal tradition of the Ewe people from the Maritime region around Lomé in southern Togo.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25676,7 +26097,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -25685,12 +26107,12 @@
       "name": "Libyan Gnawa",
       "kind": "traditional form",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Pre-colonial tradition documented by Garland (1998) as an active Libyan practice.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Gnawa music in Libya is practiced by communities of sub-Saharan descent in Tripolitania, the western coastal region centered around Tripoli.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25714,7 +26136,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -25772,12 +26195,12 @@
       "name": "Libyan sha'bi",
       "kind": "popular music genre / urban folk hybrid",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Libyan sha'bi is documented as a popular urban folk music genre distinct from the classical Malouf tradition; an active tradition in 20th- and 21st-century Libya.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Libyan sha'bi is a popular coastal song tradition centered in Tripoli, the northern capital, with the Tripolitanian style being the most widely recorded.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -25799,7 +26222,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -25807,13 +26231,13 @@
       "country": "ARM",
       "name": "Ashugh",
       "kind": "folk tradition / minstrel tradition",
-      "wikipedia_title": null,
+      "wikipedia_title": "Ashug",
       "map_scope": "country",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Armenian ashugh tradition documented from at least the 18th century, with Sayat-Nova (1712–1795) as the canonical key figure. The tradition predates his career and continues as a l",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Ashugh is an Armenian poet-singer tradition spanning the highland cities of Yerevan, Gyumri, and Vagharshapat, with historical roots across the entirety of historic Armenia.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26039,13 +26463,13 @@
       "country": "IRN",
       "name": "Golha",
       "kind": "broadcast music tradition / classical-popular hybrid",
-      "wikipedia_title": null,
+      "wikipedia_title": "Golha",
       "map_scope": "country",
       "regions": [],
       "active_from": 1956,
       "active_to": 1979,
       "start_label": "The Golha broadcast series ran from 1956 to 1979 on Iranian National Radio, producing over 1,400 episodes mixing classical Persian music with poetry under producer Davud Pirnia.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Golha (Flowers) was a celebrated Persian music radio program broadcast nationally from 1956 to 1979, deliberately documenting classical and regional folk traditions across Iran.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26076,12 +26500,12 @@
       "name": "Zande/Azande musical traditions",
       "kind": "ethnomusicological tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Azande musical traditions of South Sudan's southwest include likembe (thumb piano), kponingbo xylophone, and distinct dance forms, documented by ethnomusicologists.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Azande music is the traditional music of the Zande people, who inhabit the far western region of South Sudan in Western Equatoria state.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26103,7 +26527,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -26215,7 +26640,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional war dance of the Anlo-Ewe of Ghana, listed alongside bawa of the Dagari and other Ghanaian traditional dances.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Agbekor is an energetic Anlo-Ewe dance tradition of Ghana. Complex rhythms support the movement and distinguish its ensemble performance.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26235,6 +26660,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-african-handbook-2008",
+              "locator": "p. 186",
+              "claim": "Agbekor is described as an energetic dance of the Anlo-Ewe of Ghana, employing [complex rhythms]; listed among major Ghanaian traditional dances including bawa of the Dagari, as defined in the glossary."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -26302,7 +26738,7 @@
       "active_from": 1880,
       "active_to": null,
       "start_label": "Entry surveys commercial Ladino recordings and a revival beginning in the 1960s; the 1992 fifth-centennial year was a watershed for recordings. Songs date back to the Iberian Jewis",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Ladino songs are Judeo-Spanish repertories carried by Sephardic communities. In Israel, concerts and recordings have helped revive and reinterpret songs once heard in homes, weddings, and festivals.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26322,6 +26758,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "bloomsbury-mena-genres-v10-2015",
+              "locator": "Ladino Song entry",
+              "claim": "Genre identity, geographic attribution, and period claim."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -26340,7 +26787,7 @@
       "active_from": 1950,
       "active_to": null,
       "start_label": "Entry describes the genre's emergence and its incorporation of Greek laika, Yemenite and Moroccan religious songs, European ballads and Shirei eretz yisrael; its mainstream breakth",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Musiqa mizrahit is a broad field of Israeli popular music associated with Jewish communities from Middle Eastern and North African backgrounds. Its styles and production shifted toward mainstream pop from the 1980s onward.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26360,6 +26807,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "bloomsbury-mena-genres-v10-2015",
+              "locator": "Musiqa Mizrait entry",
+              "claim": "Genre identity, geographic attribution, and period claim."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -26373,12 +26831,12 @@
       "name": "Israeli rock",
       "kind": "popular music genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1960,
       "active_to": null,
       "start_label": "Israeli rock began in the 1960s as local adaptations of Western rock and developed an original Hebrew-language character from the 1970s onward.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Israeli rock developed from the 1960s in Tel Aviv and the coastal urban centers, blending Western rock with Hebrew lyrics and occasional Middle Eastern influences.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26400,7 +26858,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -26408,13 +26867,13 @@
       "country": "ISR",
       "name": "Israeli psytrance",
       "kind": "popular music genre / electronic dance music",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Israeli psychedelic trance",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1990,
       "active_to": null,
       "start_label": "Israeli psytrance originated among Israeli travelers in Goa in the late 1980s–early 1990s and developed a major domestic production scene through the 1990s and 2000s.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Israeli psychedelic trance emerged from the Tel Aviv coastal party scene in the early 1990s, becoming a globally influential dance music style.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26436,7 +26895,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -26445,12 +26905,12 @@
       "name": "Klezmer revival (Israel)",
       "kind": "folk tradition / revival music genre",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1980,
       "active_to": null,
       "start_label": "The klezmer revival began in the 1980s in Israel and the United States, reviving Ashkenazi Jewish folk music tradition after near-disappearance in the post-Holocaust period.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The Israeli klezmer revival draws on Ashkenazi Jewish musical traditions, centered in Jerusalem and Tel Aviv through academic institutions and festival circuits.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26472,7 +26932,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -26584,7 +27045,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Garland (2000) documents kolam as a living Sinhala masked theater tradition in southwestern Sri Lanka; references scholarly studies from 1966 onward. No origin date given.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kolam is Sinhala masked theater of southwestern Sri Lanka. Its performances combine a masked story, chorus, yak bera drum, and horanava reed instrument.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26604,6 +27065,17 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "garland-south-asia-v5-2000",
+              "locator": "~954–975",
+              "claim": "Genre identity and southwestern Sri Lanka geographic attribution."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [],
@@ -26622,7 +27094,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Deshiya Gee (patriotic songs) emerged as a distinct Sri Lankan song tradition celebrating national identity, historical figures, and independence. The form developed particularly a",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Deshiya gee are Sinhalese folk songs found across Sri Lanka, associated with rural village life and agricultural cycles without concentration in one province.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26653,12 +27125,12 @@
       "name": "Sara griot tradition with kinde",
       "kind": "griot oral tradition with fiddle",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional griot practice; no precise origin date established.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kinde is a musical arc-bow instrument of Sara griots from the southern Chad regions of Sarh and Moundou, used in praise-singing and ceremonial performance.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26680,7 +27152,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -26689,12 +27162,12 @@
       "name": "Sara balaphone music",
       "kind": "xylophone music tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Sara xylophone music; archive recordings documented from 1966.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Sara balaphone music is a xylophone tradition from the Sara people of the Mandoul and Moyen-Chari regions of southern Chad.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26716,7 +27189,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -26725,12 +27199,12 @@
       "name": "Kanembu flute and drum ensemble tradition",
       "kind": "ensemble instrumental tradition",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Traditional Kanembu ensemble music; archive recordings documented 1960-80.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kanembu ceremonial flute and drum music comes from the Kanem region around Lake Chad in the north of the country, practiced by the Kanembu people.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26752,7 +27226,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -26761,12 +27236,12 @@
       "name": "Chadian soukous influence",
       "kind": "popular music influence",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Soukous influence on Chadian popular music developed post-independence from the 1960s.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Soukous-influenced popular music developed in N'Djamena and the southern urban centers of Chad, drawing on Congolese rhythms mixed with local traditions.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26788,7 +27263,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -26797,12 +27273,12 @@
       "name": "Chadian contemporary urban music",
       "kind": "contemporary popular music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Contemporary urban music scene in N'Djamena; approximate emergence from the 1990s-2000s.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Contemporary urban music from N'Djamena, the capital of Chad in the southwestern region, fuses local traditional styles with Congolese soukous and global pop.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26824,7 +27300,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "south"
     },
     {
       "status": "published",
@@ -26833,12 +27310,12 @@
       "name": "Griot/Jeli kora tradition",
       "kind": "hereditary oral music tradition",
       "wikipedia_title": "Griot",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "The griot/jeli tradition is of deep historical standing in West Africa; no single origin date is established for Senegal.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The jeli griot kora tradition originates in the Mande heartland and is the dominant musical presence in the contemporary scene centered in Dakar in western Senegal.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26863,7 +27340,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "west"
     },
     {
       "status": "published",
@@ -26932,7 +27410,8 @@
       "sources": [
         {
           "citation": "Ruth M. Stone (ed.), The Garland Handbook of African Music, 2nd ed., Routledge, 2008, pp. 399, 488."
-        }
+        },
+        "https://www.si.edu/object/lamellophone-thumb-piano-mbira%3Ayt_L2bOjKQ-lsU"
       ],
       "research": {
         "reviewed_at": "2026-09-28",
@@ -26957,11 +27436,36 @@
             }
           ],
           "wikipedia_attribution": null
+        },
+        "video_evidence": {
+          "source_url": "https://www.si.edu/object/lamellophone-thumb-piano-mbira%3Ayt_L2bOjKQ-lsU",
+          "uploader": "Smithsonian National Museum of African Art",
+          "fit": "Smithsonian's object record credits a performance by Zimbabwean Shona musician Zivanai Masango and an mbira group performance in Harare. This film covers the instrument and performance, including some explanatory material.",
+          "embed_check": "Every listed YouTube ID returned title, uploader, and iframe HTML through YouTube oEmbed on 2026-10-01. This does not independently prove that playback works in every viewer location."
         }
       },
-      "youtube_examples": [],
+      "youtube_examples": [
+        {
+          "artist": "Zivanai Masango and Zimbabwe mbira performers",
+          "title": "Lamellophone (“thumb piano,” mbira)",
+          "youtube_url": "https://www.youtube.com/watch?v=L2bOjKQ-lsU",
+          "reviewed_at": "2026-10-01",
+          "attribution_basis": "institutional practice-level example"
+        }
+      ],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "image": {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Traditional_Finger_harp.jpg/960px-Traditional_Finger_harp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_page_url": "https://commons.wikimedia.org/wiki/File:Traditional_Finger_harp.jpg",
+        "title": "Traditional Finger harp",
+        "creator": "MaiDenzel",
+        "license": "CC BY-SA 4.0",
+        "attribution": "MaiDenzel, CC BY-SA 4.0, via Wikimedia Commons",
+        "depicts": "A mbira (Shona finger harp) photographed in Zimbabwe; instrument illustration, not a performance.",
+        "provider": "wikimedia_commons",
+        "reviewed_at": "2026-10-01"
+      }
     },
     {
       "status": "published",
@@ -26970,12 +27474,12 @@
       "name": "Jit",
       "kind": "popular",
       "wikipedia_title": "Jit (music)",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Jit emerged as guitar-driven township dance music in Zimbabwe from the 1950s onwards.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Jit is a Zimbabwean popular music style that emerged in the 1960s from the Harare township scene, combining electric guitar with Shona musical rhythms.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -26997,7 +27501,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -27256,7 +27761,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Zamrock emerged around Zambia's 1964 independence and peaked in the 1970s. Key bands WITCH and Rikki Ililonga created a distinctly Zambian rock sound.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Zamrock emerged in Zambia during the early 1970s, combining local musical influences with psychedelic rock, blues, and funk. Rikki Ililonga and Musi-O-Tunya were early figures in the scene.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27274,6 +27779,19 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [],
+          "wikipedia_attribution": {
+            "draft_excerpt": "Zamrock is a music genre and scene that emerged in Zambia during the early 1970s. It has been described as…",
+            "article_title": "Zamrock",
+            "article_url": "https://en.wikipedia.org/wiki/Zamrock",
+            "revision_url": "https://en.wikipedia.org/wiki/Zamrock?oldid=1344710519",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "Wikipedia contributors, Zamrock, revision 1344710519"
+          }
         }
       },
       "youtube_examples": [],
@@ -27292,7 +27810,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Kalindula emerged as a distinct Zambian popular music genre in the mid-1980s, featuring electric bass and drawing on Bemba and Nyanja rhythms.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Kalindula is Zambian popular music named for a bass instrument used in its ensembles. It combines local dance traditions with twentieth-century popular styles and homemade string and percussion instruments.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27310,6 +27828,19 @@
           "status": "none",
           "reviewed_at": "2026-09-28",
           "reason": "No exact article mapping reviewed; source-backed local note is used."
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [],
+          "wikipedia_attribution": {
+            "draft_excerpt": "Kalindula is a kind of bass guitar which gives its name to a style of popular music in southern-central Africa.…",
+            "article_title": "Kalindula",
+            "article_url": "https://en.wikipedia.org/wiki/Kalindula",
+            "revision_url": "https://en.wikipedia.org/wiki/Kalindula?oldid=1363772146",
+            "license": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "attribution": "Wikipedia contributors, Kalindula, revision 1363772146"
+          }
         }
       },
       "youtube_examples": [],
@@ -27666,12 +28197,12 @@
       "name": "Adhunik Geet",
       "kind": "popular",
       "wikipedia_title": "Adhunik song",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Adhunik Geet emerged as a Western-influenced modern song form in Nepal in the 1950s following the establishment of Radio Nepal. Paul D. Greene (2010) traces its development through",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Adhunik Geet are modern Nepali songs developed in Kathmandu from the 1940s, combining classical ragas with new literary texts and Western harmonic arrangements.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27696,7 +28227,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -27710,7 +28242,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Lok Geet is the generic Nepali term for traditional folk songs, covering regional oral traditions from the Hills, Terai, and Mountain zones of Nepal. It predates the modern period ",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Lok Geet are Nepali folk songs spanning the hills, Terai plains, and mountain communities across the country, with no single province dominating the tradition.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27740,13 +28272,13 @@
       "country": "OMN",
       "name": "Ṣawt",
       "kind": "court/classical music genre",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Sawt (music)",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": 1850,
       "active_to": null,
       "start_label": "Ṣawt is dated to the mid-to-late nineteenth century and attributed in its modern form to Abdallah al-Faraj; documented into the early twenty-first century.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Sawt is a Gulf musical genre practiced in Muscat and the northern coastal towns of Oman, combining melodic singing with frame drum rhythms.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27768,7 +28300,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -27782,7 +28315,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Al-Razfa / Razha is a traditional Omani practice inscribed under UNESCO as part of the 2014 Al-Ayyala inscription shared with UAE.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Al-Razfa is a communal performance in Oman and the United Arab Emirates. Two facing lines of men answer one another in sung chants while dancers move between them; verses often draw on Nabati poetry.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27807,6 +28340,17 @@
           "uploader": "UNESCO (verified channel)",
           "fit": "The UNESCO nomination links this exact eight-minute film to the Oman and UAE Al-Razfa tradition.",
           "embed_check": "YouTube oEmbed returned iframe HTML on 2026-10-01; playback not manually watched"
+        },
+        "description_audit": {
+          "status": "source_checked",
+          "source_refs": [
+            {
+              "document": "https://ich.unesco.org/en/RL/al-razfa-a-traditional-performing-art-01078",
+              "locator": "Al-Razfa, a traditional performing art — description",
+              "claim": "UNESCO describes antiphonal rows of male singers, dancers, drums, and Nabati verse in Oman and the United Arab Emirates."
+            }
+          ],
+          "wikipedia_attribution": null
         }
       },
       "youtube_examples": [
@@ -27827,13 +28371,13 @@
       "country": "OMN",
       "name": "Liwa",
       "kind": "ceremonial music and dance tradition",
-      "wikipedia_title": null,
-      "map_scope": "country",
+      "wikipedia_title": "Liwa (music)",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Liwa is documented as a Bantu-Swahili diaspora tradition in coastal Oman, brought by communities of East African origin; active as a living practice.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Liwa is a music and dance tradition of communities of East African descent along the Batinah coast and Muscat area in northern Oman.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -27855,7 +28399,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     },
     {
       "status": "published",
@@ -28016,7 +28561,7 @@
       "active_from": null,
       "active_to": null,
       "start_label": "Stalile is a communal group dance and Kuda another communal form within the Eritrean highland Tigrinya dance tradition.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Stalile and Kuda are ceremonial music forms of Eritrea documented among highland and lowland communities; their precise regional distribution remains under research.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -28047,12 +28592,12 @@
       "name": "Gaeda",
       "kind": "communal music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Gaeda is a communal Eritrean music form with a lead singer and drums, featuring socially conscious themes.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Gaeda is a Tigrinya vocal tradition from the central highlands of Eritrea, performed during social gatherings and ceremonies in the Asmara region.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -28074,7 +28619,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -28083,12 +28629,12 @@
       "name": "MaHber Theatre Asmara music",
       "kind": "urban theatrical music",
       "wikipedia_title": null,
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "MaHber Theatre Asmara movement emerged in the late 1960s; piano bar culture documented from 2004+.",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "The Mahber Theatre of Asmara is the principal venue of Eritrean performing arts, established in the highland capital city during the early twentieth century.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -28110,7 +28656,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "central"
     },
     {
       "status": "published",
@@ -28217,12 +28764,12 @@
       "name": "Küü",
       "kind": "instrumental folk",
       "wikipedia_title": "Küü",
-      "map_scope": "country",
+      "map_scope": "approximate",
       "regions": [],
       "active_from": null,
       "active_to": null,
       "start_label": "Küü is the central instrumental form in Kyrgyz traditional music, performed on the komuz (three-string unfretted lute) or kyl-kyyak (bowed instrument). Pieces are programmatic, dep",
-      "note": "Country-wide fill is a coarse association. Dates describe a source-backed approximate window or milestone, not exclusive origin or uninterrupted continuity.",
+      "note": "Küü is a Kyrgyz instrumental tradition associated with the northern Chui Valley around Bishkek, the cultural and political capital of Kyrgyzstan.",
       "artists": [],
       "sample": null,
       "sources": [
@@ -28244,7 +28791,8 @@
       },
       "youtube_examples": [],
       "associated_areas": [],
-      "timeline_end_status": "unknown"
+      "timeline_end_status": "unknown",
+      "approximate_region": "north"
     }
   ]
 }
