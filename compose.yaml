@@ -1,0 +1,19 @@
+services:
+  atlas:
+    build: .
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      ATLAS_BIND_HOST: ${ATLAS_BIND_HOST:-127.0.0.1}
+      DISCOGS_TOKEN: ${DISCOGS_TOKEN:-}
+      ATLAS_ART_STATUS_PATH: /app/runtime/record_art_status.json
+    volumes:
+      - ./.local/discogs/runtime:/app/runtime
+    mem_limit: ${APP_MEMORY_LIMIT:-128m}
+    cpus: ${APP_CPU_LIMIT:-0.50}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os,urllib.request; urllib.request.urlopen('http://'+os.environ['ATLAS_BIND_HOST']+':5186/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s

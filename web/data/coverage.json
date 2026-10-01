@@ -1,0 +1,1070 @@
+{
+  "version": 1,
+  "countries": {
+    "AFG": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "AGO": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ARE": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ARM": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "AZE": {
+      "status": "in_progress",
+      "published_genres": 6,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BDI": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BEN": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BFA": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BGD": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BHR": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "BRN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "BTN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "BWA": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CAF": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CHN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CIV": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CMR": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "COD": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "COG": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "COM": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CPV": {
+      "status": "unresearched",
+      "published_genres": 4,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "CYN": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient. This mapped area is contested; no exclusive cultural ownership can be inferred from its polygon."
+      ]
+    },
+    "CYP": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "DJI": {
+      "status": "in_progress",
+      "published_genres": 1,
+      "reviewed_at": "2026-09-28",
+      "summary": "One source-reviewed cross-border Balwo layer is published; national breadth remains incomplete.",
+      "gaps": [
+        "Period, community, region, and genre coverage still require a broader source audit.",
+        "Local-language, archive and contemporary-scene research remains."
+      ]
+    },
+    "DZA": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "EGY": {
+      "status": "in_progress",
+      "published_genres": 5,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ERI": {
+      "status": "in_progress",
+      "published_genres": 1,
+      "reviewed_at": "2026-09-28",
+      "summary": "One source-reviewed Guayla layer is published; national breadth remains incomplete.",
+      "gaps": [
+        "Period, community, region, and genre coverage still require a broader source audit.",
+        "Local-language, minority-community and contemporary-scene research remains."
+      ]
+    },
+    "ETH": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GAB": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GEO": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GHA": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GIN": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GMB": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "GNB": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "GNQ": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "HKG": {
+      "status": "in_progress",
+      "published_genres": 2,
+      "reviewed_at": "2026-09-28",
+      "summary": "Cantonese opera and Cantopop provide two source-reviewed historical and popular layers; wider Hong Kong coverage remains incomplete.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape."
+      ]
+    },
+    "IDN": {
+      "status": "in_progress",
+      "published_genres": 6,
+      "reviewed_at": "2026-09-28",
+      "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "IND": {
+      "status": "in_progress",
+      "published_genres": 7,
+      "reviewed_at": "2026-09-28",
+      "summary": "7 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "IOA": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient. The Australian Indian Ocean Territories are a territory grouping, not a sovereign country; distinct island communities and administrative boundaries need review."
+      ]
+    },
+    "IRN": {
+      "status": "in_progress",
+      "published_genres": 6,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "IRQ": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ISR": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "JOR": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "JPN": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KAS": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient. Siachen Glacier is a disputed mapped area; its polygon is not evidence of a distinct musical tradition."
+      ]
+    },
+    "KAZ": {
+      "status": "unresearched",
+      "published_genres": 4,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KEN": {
+      "status": "in_progress",
+      "published_genres": 5,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KGZ": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KHM": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KOR": {
+      "status": "in_progress",
+      "published_genres": 5,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "KWT": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "LAO": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "LBN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "LBR": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "LBY": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "LKA": {
+      "status": "in_progress",
+      "published_genres": 5,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "LSO": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "MAC": {
+      "status": "in_progress",
+      "published_genres": 2,
+      "reviewed_at": "2026-09-28",
+      "summary": "Cantonese Naamyam and the Macao Guangdong-music scene provide two source-reviewed layers; wider Macao coverage remains incomplete.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape."
+      ]
+    },
+    "MAR": {
+      "status": "in_progress",
+      "published_genres": 5,
+      "reviewed_at": "2026-09-28",
+      "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MDG": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "MLI": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MMR": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "MNG": {
+      "status": "unresearched",
+      "published_genres": 5,
+      "reviewed_at": null,
+      "summary": "Initial UNESCO discovery logged for 2 candidate traditions; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MOZ": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MRT": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MWI": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "Vimbuza and Malipenga provide two source-reviewed traditions; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "MYS": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "NAM": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "NER": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "NGA": {
+      "status": "in_progress",
+      "published_genres": 6,
+      "reviewed_at": "2026-09-28",
+      "summary": "6 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "NPL": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "OMN": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "PAK": {
+      "status": "in_progress",
+      "published_genres": 4,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "PHL": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "PRK": {
+      "status": "in_progress",
+      "published_genres": 1,
+      "reviewed_at": "2026-09-28",
+      "summary": "Arirang and taejung kayo provide traditional and state-popular starter layers; independent evidence and national breadth remain limited.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "PSX": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape."
+      ]
+    },
+    "QAT": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "RWA": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "SAH": {
+      "status": "in_progress",
+      "published_genres": 1,
+      "reviewed_at": "2026-09-28",
+      "summary": "One source-reviewed transborder Haul layer is published; this does not resolve the territory's wider or diasporic musical coverage.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research additional traditions without inferring exclusive cultural ownership from the map shape.",
+        "Western Sahara is disputed; Sahrawi music communities and diaspora span borders and need further representation."
+      ]
+    },
+    "SAU": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "SDN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "SDS": {
+      "status": "in_progress",
+      "published_genres": 2,
+      "reviewed_at": "2026-09-28",
+      "summary": "One source-reviewed Dinka song-tradition layer is published; South Sudan's other communities and modern scenes remain unrepresented.",
+      "gaps": [
+        "Nuer, Azande, Shilluk and other community traditions require dedicated sources.",
+        "Urban popular music, devotional scenes and post-independence recording history remain unaudited."
+      ]
+    },
+    "SEN": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "SGP": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "SLE": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "SOL": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient. Somaliland is a de facto polity and mapped area; Somali music communities extend beyond this boundary."
+      ]
+    },
+    "SOM": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "STP": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "SWZ": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "SYR": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TCD": {
+      "status": "unresearched",
+      "published_genres": 5,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "TGO": {
+      "status": "unresearched",
+      "published_genres": 0,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "THA": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TJK": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TKM": {
+      "status": "unresearched",
+      "published_genres": 3,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TLS": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit.",
+        "No specific musical form was verified from a suitable primary or official source in this research pass. Preserve as an unresolved research gap; generic mentions of music or dance are insufficient."
+      ]
+    },
+    "TUN": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TUR": {
+      "status": "in_progress",
+      "published_genres": 7,
+      "reviewed_at": "2026-09-28",
+      "summary": "4 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "TWN": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
+      "gaps": [
+        "Check the mapped boundary and its relationship to historical and present-day music communities.",
+        "Research relevant traditions without inferring exclusive cultural ownership from the map shape."
+      ]
+    },
+    "TZA": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "UGA": {
+      "status": "in_progress",
+      "published_genres": 3,
+      "reviewed_at": "2026-09-28",
+      "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "UZB": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "VNM": {
+      "status": "in_progress",
+      "published_genres": 9,
+      "reviewed_at": "2026-09-28",
+      "summary": "5 source-reviewed starter layers published; national breadth remains incomplete.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "YEM": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "Initial UNESCO discovery logged for 1 candidate traditions; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ZAF": {
+      "status": "unresearched",
+      "published_genres": 2,
+      "reviewed_at": null,
+      "summary": "National music research has not begun.",
+      "gaps": [
+        "Period, community, region, and genre coverage require a source audit."
+      ]
+    },
+    "ZMB": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    },
+    "ZWE": {
+      "status": "unresearched",
+      "published_genres": 1,
+      "reviewed_at": null,
+      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "gaps": [
+        "Local-language, community, archive and scholarship searches remain",
+        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ]
+    }
+  }
+}

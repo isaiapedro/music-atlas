@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-29T12:00:00Z",
+  "data": {
+    "items": [
+      {"rank": 1, "release_name": "Sample Seventies A", "artist": "Orhan Gencebay", "year": 1972, "average_rating": 4.25, "rating_count": 850, "reviews_count": 42, "genres": ["Arabesk"], "release_url": "https://rateyourmusic.com/release/album/sample/a/"},
+      {"rank": 2, "release_name": "Sample Seventies B", "artist": "Müslüm Gürses", "date": "1978", "rating": 4.4, "ratings_count": 90, "reviews_count": 11, "genres": ["Arabesk"], "release_url": "https://rateyourmusic.com/release/album/sample/b/"},
+      {"rank": 3, "release_name": "Sample Eighties", "artist": "İbrahim Tatlıses", "releaseYear": 1984, "averageRating": 4.0, "ratingCount": 1600, "reviewCount": 75, "genres": ["Arabesk"], "albumUrl": "https://rateyourmusic.com/release/album/sample/c/"},
+      {"rank": 4, "release_name": "Strong Undated Sample", "artist": "Müslüm Gürses", "average_rating": 4.65, "rating_count": 1200, "reviews_count": 88, "genres": ["Arabesk"], "release_url": "https://rateyourmusic.com/release/album/sample/hold/"},
+      {"rank": 5, "release_name": "Weak Undated Sample", "artist": "Ajda Pekkan", "average_rating": 2.0, "rating_count": 4, "reviews_count": 0, "genres": ["Arabesk"], "release_url": "https://rateyourmusic.com/release/album/sample/weak/"},
+      {"rank": 6, "release_name": "Unmatched Artist Sample", "artist": "Different Artist", "year": 1988, "average_rating": 4.9, "rating_count": 5000, "reviews_count": 100, "genres": ["Arabesk"], "release_url": "https://rateyourmusic.com/release/album/sample/unmatched/"}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.local/
+manifest.yaml
+BEHAVIOR.md
+ROADMAP.md
+DECISIONS.md
+AUDIT.md
+GENRE_RESEARCH_PLAN.md
+AGENTS.md
+research/*
+!research/genre_catalogue.json
+!research/region_article_titles.json
+.venv/

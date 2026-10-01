@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Atlas · Africa & Asia</title>
+  <link rel="stylesheet" href="/styles.css?v=20260930-close-bin">
+  <script src="/app.js?v=20260930-vinyl-room" defer></script>
+</head>
+<body>
+  <header><div class="masthead"><a class="brand" href="/">ATLAS <span>OF MUSIC</span></a><span id="header-country" class="header-country" hidden></span></div><span class="edition">EXPLORE THE SOUND OF PLACE</span></header>
+  <main>
+    <section class="map-panel" aria-label="Interactive map explorer">
+      <div class="map-stage">
+        <section id="genre-panel" class="genre-panel" aria-label="Musical genre map" hidden>
+          <div id="timeline" class="timeline" hidden>
+            <div class="timeline-heading"><span>EXPLORE BY DECADE</span><output id="period-label" for="period-slider"></output></div>
+            <input id="period-slider" type="range" min="1930" step="10" aria-label="Selected decade">
+            <div id="timeline-decades" class="timeline-decades" role="group" aria-label="Music periods"></div>
+            <div class="timeline-ends" hidden><span>Before 1940s</span><span></span></div>
+            <div id="timeline-spans" class="timeline-spans" hidden aria-label="Documented genre lifespans"></div>
+          </div>
+          <div id="genre-scene" class="genre-scene" hidden></div>
+        </section>
+        <svg id="map" role="img" aria-label="Map of countries in Africa and Asia" viewBox="0 -65 1050 650" preserveAspectRatio="xMidYMid meet"><defs>
+          <linearGradient id="territory-light" x1="0" y1="0" x2=".75" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff8d6" stop-opacity=".5"/><stop offset=".38" stop-color="#fff" stop-opacity=".04"/><stop offset="1" stop-color="#001724" stop-opacity=".65"/>
+          </linearGradient>
+          <filter id="terrain-grain" x="0" y="0" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8" result="grain"/>
+            <feColorMatrix in="grain" type="saturate" values="0" result="mono"/>
+            <feComponentTransfer in="mono" result="grain"><feFuncA type="linear" slope=".16"/></feComponentTransfer>
+            <feComposite in="grain" in2="SourceGraphic" operator="in" result="clipped"/>
+            <feBlend in="SourceGraphic" in2="clipped" mode="soft-light"/>
+          </filter>
+        </defs><g id="natural-earth-density-layer" aria-hidden="true"></g><g id="geography-layer"><g id="country-layer"></g><g id="region-layer"></g><g id="capital-layer"></g></g><g id="natural-earth-layer" aria-label="Natural Earth geographic features"></g><g id="base-label-layer"></g><g id="genre-map-layer" aria-label="Genre territories"></g><g id="selected-genre-map-layer" aria-label="Selected genre territory"></g><g id="genre-hit-layer" aria-label="Explore map layers"></g></svg>
+        <div class="map-controls" role="group" aria-label="Map navigation">
+          <div class="zoom-controls" role="group" aria-label="Zoom and fullscreen">
+            <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in">+</button>
+            <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out">−</button>
+            <button id="fullscreen" type="button" aria-label="Enter fullscreen" title="Enter fullscreen">⛶</button>
+          </div>
+        </div>
+        <div id="map-tooltip" class="map-tooltip" role="status" hidden></div>
+        <aside id="geography-legend" class="geography-legend" aria-label="Map layer legend" hidden>
+          <div class="legend-row"><span class="legend-gradient urban-legend" aria-hidden="true"></span><span>Population concentration</span></div>
+          <div class="legend-row"><span class="legend-gradient elevation-legend" aria-hidden="true"></span><span>Elevation</span></div>
+        </aside>
+        <div id="detail-overlay" class="detail-overlay" hidden><section class="detail" role="dialog" aria-labelledby="detail-title"><button id="close-detail" class="close-detail" type="button" aria-label="Close country details">×</button><div id="detail-content"></div></section></div>
+        <dialog id="image-lightbox" class="image-lightbox" aria-labelledby="image-lightbox-caption">
+          <button id="close-image-lightbox" class="close-image-lightbox" type="button" aria-label="Close enlarged image">×</button>
+          <img id="image-lightbox-asset" alt="">
+          <p id="image-lightbox-caption"></p>
+        </dialog>
+      </div>
+      <p id="map-status" class="map-status" role="status">Loading map…</p><div class="map-footer"><span class="country-instruction">SELECT A COUNTRY TO EXPLORE</span><span>Natural Earth map data</span></div>
+    </section>
+  </main>
+</body>
+</html>
