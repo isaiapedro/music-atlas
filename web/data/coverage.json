@@ -3,12 +3,50 @@
   "countries": {
     "AFG": {
       "status": "unresearched",
-      "published_genres": 5,
+      "published_genres": 4,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
         "Local-language, community, archive and scholarship searches remain",
         "Historical periods, major communities, modern genres and region mapping require coverage audit"
+      ],
+      "places_and_people": [
+        {
+          "name": "Kabul radio station",
+          "note": "Radio Afghanistan began broadcasting in the 1950s and built the radio orchestra that created Afghan popular music."
+        },
+        {
+          "name": "Afghan court in Kabul",
+          "note": "Musicians from India came to play at the Afghan court in Kabul in the 1860s. Their descendants are the Kabuli ustads of Klasik."
+        },
+        {
+          "name": "Pashtun people",
+          "note": "The largest group, in the south and east. Their music is dramatic and rhythmic, and Pashto singing, including landai, belongs to wedding and folk practice."
+        },
+        {
+          "name": "Jat people",
+          "note": "Specialists who make and sell the daireh. The men play the outdoor shawm-and-drum duo."
+        },
+        {
+          "name": "Sazdohol musicians",
+          "note": "A shawm and double-headed dohol duo with semi-outcast status. They play for weddings, circumcisions, stick dances, and circle dances."
+        },
+        {
+          "name": "Bozkashi games",
+          "note": "A northern winter horseback game. Sazdohol musicians play at it."
+        },
+        {
+          "name": "Melehs",
+          "note": "Outdoor New Year fairs at the spring equinox, a main season for public music."
+        },
+        {
+          "name": "Mazar-i Sharif",
+          "note": "The northern shrine. Its forty-day tulip festival has roots in pre-Islamic practice, and people play and listen outdoors there."
+        },
+        {
+          "name": "Tea-houses",
+          "note": "Male rooms, especially in the north, where musicians sit on a bench and sing epics or popular songs with tanbur or ghichak."
+        }
       ]
     },
     "AGO": {
@@ -252,7 +290,7 @@
     },
     "EGY": {
       "status": "in_progress",
-      "published_genres": 14,
+      "published_genres": 13,
       "reviewed_at": "2026-09-28",
       "summary": "3 source-reviewed starter layers published; national breadth remains incomplete.",
       "gaps": [
@@ -332,7 +370,7 @@
     },
     "GNB": {
       "status": "unresearched",
-      "published_genres": 7,
+      "published_genres": 8,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -342,7 +380,7 @@
     },
     "GNQ": {
       "status": "unresearched",
-      "published_genres": 2,
+      "published_genres": 3,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [
@@ -453,7 +491,7 @@
     },
     "KAZ": {
       "status": "unresearched",
-      "published_genres": 6,
+      "published_genres": 7,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -483,7 +521,7 @@
     },
     "KHM": {
       "status": "unresearched",
-      "published_genres": 6,
+      "published_genres": 8,
       "reviewed_at": null,
       "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
       "gaps": [
@@ -979,7 +1017,7 @@
     },
     "TWN": {
       "status": "unresearched",
-      "published_genres": 6,
+      "published_genres": 9,
       "reviewed_at": null,
       "summary": "Mapped area requires a place-identity and source-boundary review before music is assigned.",
       "gaps": [
@@ -1039,7 +1077,7 @@
     },
     "ZAF": {
       "status": "unresearched",
-      "published_genres": 10,
+      "published_genres": 9,
       "reviewed_at": null,
       "summary": "National music research has not begun.",
       "gaps": [

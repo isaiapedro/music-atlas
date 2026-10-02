@@ -57,8 +57,10 @@ def audit():
             assert candidate.get("publication_status") in {"candidate", "reviewed", "published"}, f"invalid candidate status: {code}"
             assert candidate.get("sources") and all(
                 source.get("url", "").startswith("https://") or
+                (source.get("citation") and (source.get("supports") or source.get("claim"))) or
                 (source.get("acquired_document_id") in acquired_ids and
-                 (source.get("page") or source.get("section")) and source.get("supports"))
+                 (source.get("page") or source.get("section")) and
+                 (source.get("supports") or source.get("claim")))
                 for source in candidate["sources"]), f"candidate lacks traceable source: {code}"
             if candidate["publication_status"] != "published":
                 candidate_pairs.add((code, candidate["name"].casefold()))

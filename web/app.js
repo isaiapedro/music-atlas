@@ -38,6 +38,7 @@ let countries = [];
 let regions = [];
 let capitals = [];
 let genres = [];
+let instrumentImages = {};
 let naturalEarth = {populated_places: [], urban_areas: [], rivers_lake_centerlines: [], lakes: [], geography_regions_elevation_points: []};
 let articles = {countries: {}, regions: {}, genres: {}};
 let genreRecords = {genres: {}};
@@ -49,6 +50,7 @@ let overviewBounds = null;
 let drag = null;
 let suppressClick = false;
 let selectionTimer = null;
+let viewFrame = 0;
 const capitalCityCodes = new Set();
 
 // ISO 3166-1 alpha-3 to alpha-2, kept here so flags work offline with the
@@ -79,6 +81,47 @@ function openImageLightbox(image) {
   imageLightboxCaption.textContent = image.alt;
   imageLightbox.showModal();
 }
+function appendEnlargeableFigure(parent, {src, alt, title, note, sourcePage}) {
+  const figure = document.createElement('figure');
+  if (title) figure.className = 'instrument-card';
+  const asset = document.createElement('img');
+  asset.src = src;
+  asset.alt = title ? `${title}. ${note}` : alt;
+  asset.loading = 'lazy';
+  asset.referrerPolicy = 'no-referrer';
+  asset.tabIndex = 0;
+  asset.setAttribute('role', 'button');
+  asset.setAttribute('aria-label', `Enlarge image: ${asset.alt}`);
+  const open = () => openImageLightbox(asset);
+  asset.addEventListener('click', open);
+  asset.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+  });
+  const caption = document.createElement('figcaption');
+  if (title) {
+    const heading = document.createElement('strong');
+    heading.textContent = title;
+    caption.append(heading);
+  }
+  const source = document.createElement('a');
+  source.href = sourcePage;
+  source.target = '_blank';
+  source.rel = 'noopener noreferrer';
+  source.textContent = 'Source';
+  caption.append(`${title ? note : alt} `, source);
+  figure.append(asset, caption);
+  parent.append(figure);
+}
+function citationLabel(url) {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '');
+    if (host === 'folkways.si.edu') return 'Smithsonian Folkways';
+    if (host === 'theworld.org') return 'The World';
+    if (host === 'daily.bandcamp.com') return 'Bandcamp Daily';
+    if (host.endsWith('wikipedia.org')) return 'Wikipedia';
+    return host;
+  } catch { return url; }
+}
 function closeImageLightbox() {
   if (imageLightbox.open) imageLightbox.close();
 }
@@ -94,7 +137,7 @@ periodSlider.max = String(currentDecade);
 periodSlider.value = String(currentDecade);
 periodLabel.textContent = periodDisplayLabel(currentDecade);
 periodEnd.textContent = String(currentDecade);
-function selectDecade(decade) {
+function selectDecade(decade, options = {}) {
   periodSlider.value = String(decade);
   periodLabel.textContent = periodDisplayLabel(decade);
   const first = Number(periodSlider.min);
@@ -106,10 +149,10 @@ function selectDecade(decade) {
     button.setAttribute('aria-pressed', String(active));
   });
   renderGenrePanel();
-  if (selectedCountry) setView(...viewForCountry(selectedCountry.geometry).split(/\s+/).map(Number));
+  if (options.refit !== false && selectedCountry) setView(...viewForCountry(selectedCountry.geometry).split(/\s+/).map(Number), Boolean(options.animate));
   renderTimelineSpans();
 }
-function renderDecadePoints() {
+function renderDecadePoints(options = {}) {
   decadePoints.replaceChildren();
   const start = Number(periodSlider.min);
   decadePoints.style.setProperty('--timeline-edge', `${100 / (2 * (Math.floor((currentDecade - start) / 10) + 1))}%`);
@@ -123,7 +166,7 @@ function renderDecadePoints() {
     button.addEventListener('click', event => { if (suppressDecadeClick && event.detail) return; selectDecade(decade); });
     decadePoints.append(button);
   }
-  selectDecade(Number(periodSlider.value));
+  selectDecade(Number(periodSlider.value), options);
 }
 
 // Equal Earth forward projection, centered at 75°E for this Africa/Asia atlas.
@@ -215,9 +258,27 @@ function viewForCountry(geometry) {
   return `${(minX + maxX) / 2 - (left + right) / 2 * units} ${(minY + maxY) / 2 - (top + bottom) / 2 * units} ${fullWidth * units} ${fullHeight * units}`;
 }
 function viewBox() { return svg.getAttribute('viewBox').split(/\s+/).map(Number); }
-function setView(x, y, width, height) {
-  svg.setAttribute('viewBox', `${x} ${y} ${width} ${height}`);
-  updateCapitalScale();
+function setView(x, y, width, height, animate = false) {
+  cancelAnimationFrame(viewFrame);
+  const next = [x, y, width, height];
+  const apply = values => {
+    svg.setAttribute('viewBox', values.join(' '));
+    updateCapitalScale();
+  };
+  if (!animate || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    apply(next);
+    return;
+  }
+  const start = viewBox();
+  const began = performance.now();
+  const duration = 800;
+  const step = now => {
+    const progress = Math.min(1, (now - began) / duration);
+    const eased = progress < .5 ? 2 * progress * progress : 1 - ((-2 * progress + 2) ** 2) / 2;
+    apply(start.map((value, index) => value + (next[index] - value) * eased));
+    if (progress < 1) viewFrame = requestAnimationFrame(step);
+  };
+  viewFrame = requestAnimationFrame(step);
 }
 function updateCapitalScale() {
   const unitsPerPixel = viewBox()[2] / (svg.clientWidth || 1000);
@@ -239,7 +300,7 @@ function showTooltip(name, clientX, clientY) {
 function hideTooltip() { tooltip.hidden = true; }
 function showCapitals(code) {
   capitalLayer.querySelectorAll('g').forEach(marker => {
-    const selected = marker.dataset.code === code;
+    const selected = Boolean(code) && marker.dataset.code === code;
     marker.style.display = selected ? '' : 'none';
     marker.querySelector('circle').classList.toggle('selected', selected);
   });
@@ -552,9 +613,13 @@ function interiorAnchor(geometries, clipGeometry = null) {
   const fallback = ranked[0]?.box || sceneBounds(selectedCountry.geometry);
   return scenePoint((fallback[0] + fallback[2]) / 2, (fallback[1] + fallback[3]) / 2);
 }
+function restoreGenreHitOrder() {
+  [...genreHitLayer.children].sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order)).forEach(hit => genreHitLayer.append(hit));
+}
 function restoreGenreLayerOrder() {
   while (selectedGenreMapLayer.firstElementChild) genreMapLayer.append(selectedGenreMapLayer.firstElementChild);
   svg.insertBefore(genreMapLayer, selectedGenreMapLayer);
+  restoreGenreHitOrder();
 }
 function raiseSelectedGenreLayer(id) {
   restoreGenreLayerOrder();
@@ -564,6 +629,8 @@ function raiseSelectedGenreLayer(id) {
   // immediately beneath it, with the other genre slices below the map.
   svg.insertBefore(genreMapLayer, geographyLayer);
   selectedGenreMapLayer.append(active);
+  const activeHit = [...genreHitLayer.children].find(hit => hit.dataset.genre === id);
+  if (activeHit) genreHitLayer.append(activeHit);
 }
 function emphasizeGenre(id) {
   const isolated = Boolean(id);
@@ -583,9 +650,10 @@ function emphasizeGenre(id) {
   genreScene.querySelectorAll('.genre-choice').forEach(button => {
     button.classList.toggle('previewing', button.dataset.genre === id);
   });
-  const active = territoryLayers.find(layer => layer.dataset.genre === id);
-  if (active?.parentElement === genreMapLayer && genreMapLayer.lastElementChild !== active) genreMapLayer.append(active);
-  if (!isolated) [...genreMapLayer.children].sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order)).forEach(layer => genreMapLayer.append(layer));
+  if (!isolated) {
+    [...genreMapLayer.children].sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order)).forEach(layer => genreMapLayer.append(layer));
+    if (!selectedGenre) restoreGenreHitOrder();
+  }
 }
 function renderGenreTerritory(genre, area, localRegions, index, count, stackLevel = 0) {
   const approximate = genreIsApproximate(area);
@@ -609,10 +677,16 @@ function renderGenreTerritory(genre, area, localRegions, index, count, stackLeve
   liftedMatrix[5] -= lift;
   const surfaceGroup = svgElement('g', {transform: `matrix(${liftedMatrix.join(' ')})`});
   layer.append(surfaceGroup);
+  const focusNames = new Set(area.focus_regions || []);
   const hit = svgElement('g', {class: 'genre-hit', 'data-genre': genre.id, tabindex: '0', role: 'button', 'aria-label': `Explore ${genre.name} map layer`});
-  hit.addEventListener('pointerenter', () => emphasizeGenre(genre.id));
+  hit.dataset.order = index;
+  const hoverThisGenre = () => {
+    if (selectedGenre && selectedGenre.id !== genre.id) return;
+    emphasizeGenre(genre.id);
+  };
+  hit.addEventListener('pointerenter', hoverThisGenre);
   hit.addEventListener('pointerleave', () => { hideTooltip(); emphasizeGenre(selectedGenre?.id); });
-  hit.addEventListener('focus', () => emphasizeGenre(genre.id));
+  hit.addEventListener('focus', hoverThisGenre);
   hit.addEventListener('blur', () => emphasizeGenre(selectedGenre?.id));
   hit.addEventListener('click', () => selectGenre(genre));
   hit.addEventListener('keydown', event => {
@@ -624,17 +698,21 @@ function renderGenreTerritory(genre, area, localRegions, index, count, stackLeve
     svg.querySelector('defs').append(svgElement('clipPath', {id: clipId, 'data-approximate-clip': ''}));
     svg.querySelector(`#${CSS.escape(clipId)}`).append(svgElement('path', {d: geometryPath(selectedCountry.geometry)}));
   }
-  for (const feature of shapes) {
+  function paintShape(feature, surface, hits) {
     const d = geometryPath(feature.geometry);
     const clipped = clipId ? {'clip-path': `url(#${clipId})`} : {};
-    for (let step = 7; step > 0; step--) surfaceGroup.append(svgElement('path', {d, class: 'territory-side', transform: `translate(0 ${span * .004 * step})`, ...clipped}));
-    surfaceGroup.append(svgElement('path', {d, class: 'territory-foot', ...clipped}), svgElement('path', {d, class: 'territory-surface', ...clipped}), svgElement('path', {d, class: 'territory-light', ...clipped}), svgElement('path', {d, class: 'territory-rim', ...clipped}));
+    const primary = focusNames.has(feature.properties.name);
+    surface.append(svgElement('path', {d, class: primary ? 'territory-surface territory-flat territory-primary' : 'territory-surface territory-flat', ...clipped}));
     const target = svgElement('path', {d, ...clipped});
-    const territoryLabel = `${genre.name} · ${feature.properties.name}`;
+    const territoryLabel = genre.name;
     target.setAttribute('aria-label', territoryLabel);
-    target.addEventListener('pointermove', event => { if (!drag?.moved) showTooltip(territoryLabel, event.clientX, event.clientY); });
-    hitSurface.append(target);
+    target.addEventListener('pointermove', event => {
+      if (selectedGenre && selectedGenre.id !== genre.id) return;
+      if (!drag?.moved) showTooltip(territoryLabel, event.clientX, event.clientY);
+    });
+    hits.append(target);
   }
+  for (const feature of shapes) paintShape(feature, surfaceGroup, hitSurface);
   if (shapes.length) {
     // Bounding-box centers can fall in the sea, a hole, or outside a concave
     // country. Sample an actual interior point, including the country clip used
@@ -672,6 +750,17 @@ function renderGenreTerritory(genre, area, localRegions, index, count, stackLeve
     });
     textGroup.append(name);
     label.append(textGroup);layer.append(label);
+    const labeledRegions = new Set();
+    for (const feature of shapes) {
+      if (!focusNames.has(feature.properties.name) || labeledRegions.has(feature.properties.name)) continue;
+      labeledRegions.add(feature.properties.name);
+      const [regionX, regionY] = interiorAnchor([feature.geometry]);
+      const regionLabel = svgElement('g', {class: 'territory-region-label', transform: `translate(${regionX} ${regionY - lift}) scale(${labelUnitsPerPixel})`});
+      const regionText = svgElement('text', {'text-anchor': 'middle', y: 5});
+      regionText.textContent = feature.properties.name;
+      regionLabel.append(regionText);
+      layer.append(regionLabel);
+    }
     const labelHit=svgElement('rect',{x:labelX,y:labelY,width:labelWidth,height:labelHeight,fill:'transparent','pointer-events':'all'});hit.append(labelHit);
   }
   genreMapLayer.append(layer);
@@ -699,6 +788,7 @@ function pinGeography() {
   geographyLegend.hidden = false;
   geographyLayer.classList.add('pinned');
   renderNaturalEarthLayers(selectedCountry.properties.code);
+  showCapitals(selectedCountry.properties.code);
   svg.append(naturalEarthDensityLayer);
   svg.append(geographyLayer);
   // Keep rivers, lakes, and elevation above the colored regions while density
@@ -715,6 +805,7 @@ function resetGeographyLayer() {
   clear(naturalEarthDensityLayer);
   clear(naturalEarthLayer);
   baseLabelLayer.querySelector('.base-map-label')?.classList.remove('active');
+  showCapitals(null);
   svg.insertBefore(geographyLayer, baseLabelLayer);
   setRegionInteraction(false);
 }
@@ -870,11 +961,7 @@ function renderGenrePanel() {
   )
     .map(entry => ({...entry, coverage: genreCoverageTokens(entry.area), coverageSize: genreCoverageFraction(entry.area, localRegions.length), stackLevel: 0}))
     .sort((a, b) => b.coverageSize - a.coverageSize || a.genre.name.localeCompare(b.genre.name));
-  available.forEach((entry, index) => {
-    entry.stackLevel = available.slice(0, index)
-      .filter(previous => genreCoveragesOverlap(entry.coverage, previous.coverage))
-      .reduce((level, previous) => Math.max(level, previous.stackLevel + 1), 0);
-  });
+  available.forEach(entry => { entry.stackLevel = 0; });
   if (selectedGenre && !available.some(({genre}) => genre.id === selectedGenre.id)) {
     selectedGenre = null;
     if (document.getElementById('detail-title')) setDetailContext('country');
@@ -930,7 +1017,46 @@ function showArticle(kind, value) {
   source.replaceChildren();
   facts.replaceChildren();
   facts.hidden = true;
-  body.textContent = article?.english_extract || article?.extract || (kind === 'genre' && value.note) || 'A saved Wikipedia article is not available for this selection yet.';
+  const preferLocalNote = kind === 'genre' && value?.prefer_local_note && value.note;
+  const usedExtract = !preferLocalNote && Boolean(article?.english_extract || article?.extract);
+  body.textContent = preferLocalNote ? value.note : article?.english_extract || article?.extract || (kind === 'genre' && value.note) || 'A saved description is not available for this selection yet.';
+  const citations = document.getElementById('text-citations');
+  if (citations) {
+    citations.replaceChildren();
+    citations.hidden = true;
+    if (code !== 'AFG') {
+      const items = [];
+      const shown = body.textContent;
+      if (usedExtract && article?.url) items.push({url: article.url, label: article.title || 'Wikipedia'});
+      if (kind === 'genre' && Array.isArray(value.sources)) {
+        value.sources.forEach(item => {
+          const url = typeof item === 'string' ? item : item?.url;
+          if (!url || items.some(existing => existing.url === url)) return;
+          const label = citationLabel(url);
+          if (shown.includes(label)) items.push({url, label});
+        });
+      }
+      if (items.length) {
+        const heading = document.createElement('p');
+        heading.className = 'cited-from';
+        heading.textContent = 'Cited from';
+        citations.append(heading);
+        items.forEach(item => {
+          const line = document.createElement('p');
+          if (item.url) {
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = item.label;
+            line.append(link);
+          } else line.textContent = item.label;
+          citations.append(line);
+        });
+      }
+      citations.hidden = !items.length;
+    }
+  }
   if (kind !== 'genre') {
     if (kind === 'country' && article.population?.value) {
       const item = document.createElement('p');
@@ -944,7 +1070,7 @@ function showArticle(kind, value) {
     }
     facts.hidden = !facts.childElementCount;
   }
-  const links = article?.url ? [{url: article.url, label: 'Read full wikipedia article'}] : [];
+  const links = !preferLocalNote && article?.url ? [{url: article.url, label: 'Read full wikipedia article'}] : [];
   const sourceUrl = item => typeof item === 'string' ? item : item?.url;
   const referenceCandidates = [];
   if (kind === 'genre' && Array.isArray(value.sources)) referenceCandidates.push(...value.sources);
@@ -952,7 +1078,7 @@ function showArticle(kind, value) {
   if (area && area !== value && Array.isArray(area.sources)) referenceCandidates.push(...area.sources);
   if (kind !== 'genre' && article?.wikidata_url) referenceCandidates.push(article.wikidata_url);
   const referenceUrl = referenceCandidates.map(sourceUrl).find(Boolean);
-  if (referenceUrl) links.push({url: referenceUrl, label: 'Reference'});
+  if (referenceUrl) links.push({url: referenceUrl, label: preferLocalNote || code === 'AFG' ? 'Read full article' : 'Reference'});
   if (links.length) {
     const list = document.createElement('div'); list.className = 'reference-links';
     links.forEach(item => {
@@ -990,7 +1116,7 @@ function setDetailContext(kind, value) {
   player.replaceChildren();
   image.replaceChildren();
   records.replaceChildren();
-  artists.hidden = kind !== 'genre' || !contentValue?.artists?.length;
+  artists.hidden = kind !== 'genre' || !contentValue?.instruments?.length;
   player.hidden = kind !== 'genre' || !contentValue?.youtube_examples?.length;
   image.hidden = kind !== 'genre' || !contentValue?.image;
   const recordCount = genreRecords.genres?.[value?.id]?.records?.length || 0;
@@ -999,28 +1125,31 @@ function setDetailContext(kind, value) {
   document.querySelector('.detail-scroll').scrollTop = 0;
   if (kind === 'genre') {
     if (contentValue.image) {
-      const figure = document.createElement('figure');
-      const asset = document.createElement('img');
-      asset.src = contentValue.image.image_url; asset.alt = contentValue.image.depicts;
-      asset.loading = 'lazy'; asset.referrerPolicy = 'no-referrer';
-      asset.tabIndex = 0; asset.setAttribute('role', 'button');
-      asset.setAttribute('aria-label', `Enlarge image: ${contentValue.image.depicts}`);
-      asset.addEventListener('click', () => openImageLightbox(asset));
-      asset.addEventListener('keydown', event => {
-        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openImageLightbox(asset); }
+      appendEnlargeableFigure(image, {
+        src: contentValue.image.image_url,
+        alt: contentValue.image.depicts,
+        sourcePage: contentValue.image.source_page_url
       });
-      const caption = document.createElement('figcaption');
-      const source = document.createElement('a'); source.href = contentValue.image.source_page_url;
-      source.target = '_blank'; source.rel = 'noopener noreferrer';
-      source.textContent = 'Source';
-      caption.append(contentValue.image.depicts + ' ', source);
-      figure.append(asset, caption); image.append(figure);
     }
-    if (contentValue.artists?.length) {
-      const artistsHeading = document.createElement('h3'); artistsHeading.textContent = 'Representatives';
-      const artistList = document.createElement('ul');
-      contentValue.artists.forEach(name => { const item = document.createElement('li'); item.textContent = name; artistList.append(item); });
-      artists.append(artistsHeading, artistList);
+    if (contentValue.instruments?.length) {
+      const instrumentsHeading = document.createElement('h3'); instrumentsHeading.textContent = 'Instruments';
+      const instrumentList = document.createElement('div'); instrumentList.className = 'instrument-list';
+      contentValue.instruments.forEach(name => {
+        const photo = instrumentImages[name];
+        if (photo) {
+          appendEnlargeableFigure(instrumentList, {
+            src: photo.image_url,
+            title: name,
+            note: photo.note,
+            sourcePage: photo.source_page_url
+          });
+        } else {
+          const card = document.createElement('figure'); card.className = 'instrument-card';
+          const caption = document.createElement('figcaption'); caption.textContent = name;
+          card.append(caption); instrumentList.append(card);
+        }
+      });
+      artists.append(instrumentsHeading, instrumentList);
     }
     if (contentValue.youtube_examples?.length) {
       const sampleHeading = document.createElement('h3'); sampleHeading.textContent = 'Watch examples';
@@ -1054,13 +1183,17 @@ function setDetailContext(kind, value) {
     if (recordCount) {
       const link = document.createElement('a');
       link.className = 'genre-records-link';
-      link.href = `/records.html?genre=${encodeURIComponent(value.id)}`;
-      link.textContent = `View ${recordCount} selected record${recordCount === 1 ? '' : 's'}`;
+      const countryCode = selectedCountry.properties.code;
+      const countryName = selectedCountry.properties.name;
+      link.href = `/records.html?genre=${encodeURIComponent(value.id)}&country=${encodeURIComponent(countryCode)}&name=${encodeURIComponent(countryName)}`;
+      link.textContent = 'Listening Room';
       link.addEventListener('click', event => {
         if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-        event.preventDefault(); document.body.classList.add('page-leaving');
+        event.preventDefault();
         const target = link.href;
-        setTimeout(() => { location.href = target; }, matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 900);
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) { location.href = target; return; }
+        document.body.classList.add('page-leaving');
+        setTimeout(() => { location.href = target; }, 1100);
       });
       records.append(link);
     }
@@ -1112,7 +1245,7 @@ function reset() {
   svg.classList.remove('has-region-selection');
   hideTooltip();
   if (overviewBounds) initialView = viewForBounds(overviewBounds, .04);
-  setView(...initialView.split(/\s+/).map(Number));
+  setView(...initialView.split(/\s+/).map(Number), true);
   clear(regionsLayer);
   clear(naturalEarthDensityLayer);
   clear(naturalEarthLayer);
@@ -1147,13 +1280,12 @@ function choose(feature) {
   periodSlider.min = String(before1940Period);
   periodSlider.value = String(currentDecade);
   periodStart.textContent = periodDisplayLabel(Number(periodSlider.min));
-  renderDecadePoints();
+  renderDecadePoints({refit: false});
   selectedPath = countriesLayer.querySelector(`[data-code="${code}"]`);
   genrePanel.hidden = false;
   mapStage.classList.add('has-genre-panel');
   timeline.hidden = false;
-  setView(...viewForCountry(feature.geometry).split(/\s+/).map(Number));
-  showCapitals(code);
+  showCapitals(null);
   countriesLayer.querySelectorAll('path').forEach(path => { path.classList.toggle('selected', path.dataset.code === code); path.classList.toggle('dim', path.dataset.code !== code); path.setAttribute('tabindex', '-1'); path.setAttribute('aria-disabled', 'true'); });
   clear(regionsLayer);
   hideTooltip();
@@ -1230,22 +1362,22 @@ function choose(feature) {
     if (event.key === 'Enter' || event.key === ' ') activateBaseMap(event);
   });
   baseLabelLayer.replaceChildren(baseLabel);
-  setView(...viewForCountry(feature.geometry).split(/\s+/).map(Number));
-  detail.replaceChildren();
+  setView(...viewForCountry(feature.geometry).split(/\s+/).map(Number), true);
+  detail.replaceChildren(closeDetail);
   const scroll = document.createElement('div'); scroll.className = 'detail-scroll'; detail.append(scroll);
   const label = document.createElement('p'); label.id = 'detail-context'; label.className = 'eyebrow'; label.textContent = continent.toUpperCase();
   const title = document.createElement('h2'); title.id = 'detail-title'; title.textContent = `${countryFlag(code)} ${name}`;
   const meta = document.createElement('div'); meta.id = 'detail-meta'; meta.className = 'detail-meta'; meta.hidden = true;
   const facts = document.createElement('div'); facts.id = 'geo-facts'; facts.className = 'geo-facts'; facts.hidden = true;
   const body = document.createElement('p'); body.id = 'wiki-body'; body.className = 'wiki-body';
+  const citations = document.createElement('div'); citations.id = 'text-citations'; citations.className = 'text-citations'; citations.hidden = true;
   const source = document.createElement('div'); source.id = 'wiki-source'; source.className = 'wiki-source';
   const image = document.createElement('section'); image.id = 'genre-image'; image.className = 'genre-image'; image.hidden = true;
-  scroll.append(label, title, meta, facts, image, body);
   const artists = document.createElement('section'); artists.id = 'genre-artists'; artists.className = 'genre-artists'; artists.hidden = true;
   const player = document.createElement('section'); player.id = 'genre-player'; player.className = 'genre-player'; player.hidden = true;
   const records = document.createElement('section'); records.id = 'genre-records'; records.className = 'genre-records'; records.hidden = true;
-  scroll.append(records, artists, player);
-  detail.append(source);
+  scroll.append(label, title, meta, facts, image, body, citations, artists, player);
+  detail.append(records, source);
   overlay.hidden = false;
   closeDetail.focus();
   renderGenrePanel();
@@ -1254,14 +1386,16 @@ function choose(feature) {
 }
 async function start() {
   try {
-    const [countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse] = await Promise.all([fetch('/data/countries.geojson'), fetch('/data/regions.geojson'), fetch('/data/capitals.json'), fetch('/data/genres.json'), fetch('/data/articles.json'), fetch('/data/populated_places.geojson'), fetch('/data/urban_areas.geojson'), fetch('/data/rivers_lake_centerlines.geojson'), fetch('/data/lakes.geojson'), fetch('/data/geography_regions_elevation_points.geojson'), fetch('/data/place_population_overrides.json'), fetch('/data/genre_records.json')]);
-    if ([countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse].some(response => !response.ok)) throw Error('Map assets could not be loaded.');
+    const dataVersion = '20261002-145936';
+    const [countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse, instrumentResponse] = await Promise.all([fetch(`/data/countries.geojson?v=${dataVersion}`), fetch(`/data/regions.geojson?v=${dataVersion}`), fetch(`/data/capitals.json?v=${dataVersion}`), fetch(`/data/genres.json?v=${dataVersion}`), fetch(`/data/articles.json?v=${dataVersion}`), fetch(`/data/populated_places.geojson?v=${dataVersion}`), fetch(`/data/urban_areas.geojson?v=${dataVersion}`), fetch(`/data/rivers_lake_centerlines.geojson?v=${dataVersion}`), fetch(`/data/lakes.geojson?v=${dataVersion}`), fetch(`/data/geography_regions_elevation_points.geojson?v=${dataVersion}`), fetch(`/data/place_population_overrides.json?v=${dataVersion}`), fetch(`/data/genre_records.json?v=${dataVersion}`), fetch(`/data/instrument_images.json?v=${dataVersion}`)]);
+    if ([countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse, instrumentResponse].some(response => !response.ok)) throw Error('Map assets could not be loaded.');
     countries = (await countryResponse.json()).features;
     regions = (await regionResponse.json()).features;
     capitals = await capitalResponse.json();
     genres = (await genreResponse.json()).genres;
     articles = await articleResponse.json();
     genreRecords = await recordResponse.json();
+    instrumentImages = (await instrumentResponse.json()).instruments;
     const populationOverrides = await populationOverrideResponse.json();
     const populatedPlaces = (await placesResponse.json()).features;
     populatedPlaces.forEach(feature => {
@@ -1328,6 +1462,9 @@ async function start() {
     updateCapitalScale();
     showCapitals(null);
     status.textContent = `${countries.length} countries loaded. Select a country.`;
+    const requestedCountry = new URLSearchParams(location.search).get('country');
+    const requestedFeature = requestedCountry && countries.find(feature => feature.properties.code === requestedCountry);
+    if (requestedFeature) choose(requestedFeature);
   } catch (error) { status.textContent = error.message; }
 }
 geographyLayer.addEventListener('click', event => {

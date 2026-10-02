@@ -6,6 +6,8 @@ services:
     environment:
       ATLAS_BIND_HOST: ${ATLAS_BIND_HOST:-127.0.0.1}
       DISCOGS_TOKEN: ${DISCOGS_TOKEN:-}
+      SPOTIFY_CLIENT_ID: ${SPOTIFY_CLIENT_ID:-}
+      SPOTIFY_CLIENT_SECRET: ${SPOTIFY_CLIENT_SECRET:-}
       ATLAS_ART_STATUS_PATH: /app/runtime/record_art_status.json
     volumes:
       - ./.local/discogs/runtime:/app/runtime

@@ -167,7 +167,7 @@ header{height:90px;background:#061521;border-bottom:1px solid #17364a}
 .map-controls button{border-color:#3c6378;border-radius:50%;background:#071d2b;color:#f6dfb2}
 .map-controls button:hover,.map-controls button:focus-visible{background:#19415a}
 .detail-overlay{inset:10px 10px 10px auto;width:clamp(390px,34vw,560px);background:none;z-index:4}
-.detail{width:100%;height:100%;padding:32px 30px 0;border:1px solid #24526d;border-radius:15px;background:rgba(4,20,32,.98);box-shadow:0 18px 55px rgba(0,0,0,.4)}
+.detail{display:flex;flex-direction:column;min-height:0;width:100%;height:100%;padding:32px 30px 0;border:1px solid #24526d;border-radius:15px;background:rgba(4,20,32,.98);box-shadow:0 18px 55px rgba(0,0,0,.4)}
 .detail h2{font-family:Georgia,serif;line-height:1.12;color:#f7ebd7;margin:10px 0 20px}
 .detail h2::first-letter{color:#e5b166}
 .eyebrow{color:#dda959;letter-spacing:.17em}
@@ -176,9 +176,9 @@ header{height:90px;background:#061521;border-bottom:1px solid #17364a}
 .detail-meta span{display:inline-flex;align-items:center;min-height:36px;padding:6px 12px;border:1px solid #a16b2c;border-radius:18px;background:#332719;color:#f2e8d7;line-height:1.2}
 .detail-meta span:first-child::before{content:"●";margin-right:9px;color:#ecb14d}
 .detail-meta span:last-child::before{content:"◷";margin-right:9px;color:#ecb14d;}
-.detail-scroll{padding-right:5px}
+.detail-scroll{flex:1;min-height:0;overflow:auto;padding-right:5px}
 .detail p:not(.eyebrow){color:#d5dce0}
-.wiki-body{color:#e5e9e7!important;line-height:1.63!important}
+.wiki-body{color:#e5e9e7!important;line-height:1.63!important;white-space:pre-line}
 .geo-facts{border-color:#244a5d}
 .wiki-source{flex:none;max-height:116px;overflow:auto;margin:0 -30px;padding:12px 30px 18px;border-top:1px solid #214153;background:#051724;color:#9eb8c4!important;}
 .wiki-source:empty{display:none}
@@ -186,11 +186,23 @@ header{height:90px;background:#061521;border-bottom:1px solid #17364a}
 .reference-links{display:flex;flex-wrap:nowrap;gap:14px;white-space:nowrap;overflow-x:auto}
 .reference-links a,.reference-links span{color:#dcb779;font-weight:400}
 .genre-artists,.genre-player{border-color:#244a5d}
-.genre-records{margin-top:20px}
+.genre-records{flex:none;display:flex;justify-content:center;margin:0 -30px;padding:14px 30px;border-top:1px solid #214153;background:#051724}
 .genre-records[hidden]{display:none}
 .genre-records-link,.records-back{display:inline-flex;align-items:center;min-height:42px;padding:0 14px;border:1px solid #b38146;border-radius:5px;background:#143449;color:#f5ddae;text-decoration:none;font-family:Georgia,serif;font-size:16px;line-height:1;}
 .genre-records-link:hover,.genre-records-link:focus-visible,.records-back:hover,.records-back:focus-visible{background:#1d4a63;outline:2px solid #e4b366;outline-offset:2px}
 .genre-artists h3,.genre-player h3{font-family:Georgia,serif;color:#f5ddae;font-weight:400}
+.instrument-list{display:flex;flex-direction:column;gap:14px}
+.instrument-card{margin:0;border:1px solid #214660;border-radius:11px;overflow:hidden;background:#092235}
+.instrument-card img{display:block;width:100%;max-height:260px;object-fit:cover;background:#061724;cursor:zoom-in}
+.instrument-card img:focus-visible{outline:3px solid #e4b366;outline-offset:-3px}
+.instrument-card figcaption{padding:9px 11px;color:#b8c8cf;line-height:1.45}
+.instrument-card strong{display:block;margin-bottom:4px;color:#f5ddae;font-family:Georgia,serif;font-weight:400}
+.instrument-card a{color:#e8bf83;text-underline-offset:3px}
+.text-citations{margin-top:16px}
+.text-citations[hidden]{display:none}
+.cited-from{margin:0 0 8px;color:#ddac65;letter-spacing:.14em;font-size:12px;text-transform:uppercase}
+.text-citations p{margin:0 0 8px}
+.text-citations a{color:#e8bf83;text-underline-offset:3px}
 .genre-image{margin:0 0 18px}
 .genre-image[hidden]{display:none}
 .genre-image figure{margin:0;border:1px solid #214660;border-radius:11px;overflow:hidden;background:#092235}
@@ -221,8 +233,8 @@ header{height:90px;background:#061521;border-bottom:1px solid #17364a}
 .records-page{min-height:100vh;height:auto;display:block;overflow:auto;background:#020202;color:#eee8dc;opacity:1;transition:opacity 1.15s ease}
 .records-page.records-entering{opacity:0}.record-room-backdrop{position:fixed;inset:0;background:linear-gradient(#0006,#0002),url('/assets/vinyl-cafe-browsing-shelves.png') center top/cover no-repeat;filter:saturate(.82) brightness(.74);z-index:0}
 .records-header{position:relative;z-index:2;background:#050403db;border-color:#5b3e25}.records-main{position:relative;z-index:1;width:min(1380px,calc(100% - 48px));margin:0 auto;padding:28px 0 120px}.records-heading{display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:end;padding:0 20px 18px;margin:0 auto 70px;border:0;background:none;box-shadow:none;text-shadow:0 3px 12px #000}.records-heading .eyebrow{margin:0 0 5px;color:#c99255}.records-main h1{margin:0;color:#f2dfc0;font:400 clamp(34px,5vw,62px)/1 Georgia,serif}.records-notice{max-width:310px;margin:0;color:#d0bea5;line-height:1.5;text-align:right}.records-back{align-self:center}.records-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:120px 120px;width:min(1240px,100%);margin:0 auto;padding:0 5%;list-style:none}.shelf-record{position:relative;min-width:0;padding:0 6% 26px;border-bottom:18px solid #3a2113;filter:drop-shadow(0 15px 9px #000b)}.shelf-record::after{content:"";position:absolute;left:0;right:0;bottom:-23px;height:9px;background:#120a06;box-shadow:0 4px 10px #000}.shelf-record-button{display:grid;grid-template-columns:minmax(155px,48%) 1fr;gap:24px;align-items:end;width:100%;padding:0;border:0;background:none;color:#eee7dc;text-align:left;cursor:pointer;transform:translateY(0);transition:transform .42s cubic-bezier(.2,.8,.2,1),filter .3s}.shelf-record-button:hover,.shelf-record-button:focus-visible{transform:translateY(-42px);filter:drop-shadow(0 22px 15px #000c);outline:none}.shelf-record-button:focus-visible img{outline:3px solid #d4a35f;outline-offset:4px}.shelf-record-button>img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border:1px solid #795331;background:#17100a;box-shadow:0 12px 20px #000b}.shelf-record-label{display:flex;flex-direction:column;min-width:0;padding-bottom:8px;text-shadow:0 2px 5px #000}.shelf-record-label strong{color:#fff3df;font:400 clamp(18px,2vw,28px)/1.1 Georgia,serif}.shelf-record-label span{margin-top:7px;color:#c8b79f}.shelf-record-label time{margin-top:18px;color:#d6a365;font:18px Georgia,serif}
-.record-viewer{width:100vw;max-width:none;height:100vh;max-height:none;margin:0;padding:0;border:0;background:transparent;color:#eee8dc;overflow:hidden}.record-viewer::backdrop{background:transparent;backdrop-filter:none}.record-viewer[open]{display:grid;place-items:center}.record-viewer-close{position:fixed;z-index:5;top:20px;right:24px;width:46px;height:46px;border:1px solid #9b7448;border-radius:50%;background:#090705d9;color:#f5dec0;font-size:30px;cursor:pointer}.record-object{display:grid;place-items:center;height:100%;perspective:1400px}.record-sleeve{position:relative;width:min(50vh,47vw);height:min(50vh,47vw);padding:0;border:0;background:none;transform-style:preserve-3d;transition:width .65s,height .65s,transform .8s cubic-bezier(.2,.75,.2,1);cursor:zoom-in}.record-object.is-flipped .record-sleeve{transform:rotateY(180deg)}.record-object.is-expanded .record-sleeve{width:min(90vh,88vw);height:min(90vh,88vw)}.record-face{position:absolute;inset:0;display:block;backface-visibility:hidden;box-shadow:0 28px 65px #000}.record-face img{display:block;width:100%;height:100%;object-fit:contain;background:#080604}.record-back-face{transform:rotateY(180deg)}.rotate-record{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);min-height:44px;padding:0 18px;border:1px solid #a27848;background:#181008e8;color:#f1dcc0;cursor:pointer}.record-source{position:fixed;left:24px;bottom:24px;color:#d7aa6a;text-underline-offset:3px}
-body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opacity:0;pointer-events:none;transition:opacity 1.1s ease}body.page-leaving::after{opacity:1;pointer-events:auto}
+.record-viewer{width:100vw;max-width:none;height:100vh;max-height:none;margin:0;padding:0;border:0;background:transparent;color:#eee8dc;overflow:hidden}.record-viewer::backdrop{background:transparent;backdrop-filter:none}.record-viewer[open]{display:grid;place-items:center}.record-viewer-close{position:fixed;z-index:5;top:20px;right:24px;width:46px;height:46px;border:1px solid #9b7448;border-radius:50%;background:#090705d9;color:#f5dec0;font-size:30px;cursor:pointer}.record-object{display:grid;place-items:center;height:100%;perspective:1400px}.record-sleeve{position:relative;width:min(50vh,47vw);height:min(50vh,47vw);padding:0;border:0;background:none;transform-style:preserve-3d;transition:width .65s,height .65s,transform .8s cubic-bezier(.2,.75,.2,1);cursor:zoom-in}.record-object.is-flipped .record-sleeve{transform:rotateY(180deg)}.record-object.is-expanded .record-sleeve{width:min(90vh,88vw);height:min(90vh,88vw)}.record-face{position:absolute;inset:0;display:block;backface-visibility:hidden;box-shadow:0 28px 65px #000}.record-face img{display:block;width:100%;height:100%;object-fit:contain;background:#080604}.record-back-face{transform:rotateY(180deg)}.rotate-record{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);min-height:44px;padding:0 18px;border:1px solid #a27848;background:#181008e8;color:#f1dcc0;cursor:pointer}.record-source{position:fixed;left:24px;bottom:24px;color:#d7aa6a;text-underline-offset:3px}.viewer-record-id{position:fixed;z-index:5;left:24px;bottom:52px;margin:0;color:#d7aa6a;font-family:ui-monospace,monospace;font-size:14px;user-select:text}.spotify-artwork{border-radius:4px;object-fit:contain}.record-face img.spotify-artwork{border-radius:8px}.record-source.spotify-credit{display:inline-flex;align-items:center;gap:8px;min-height:21px;text-decoration:none}.spotify-mark{display:block;width:21px;height:21px;flex:none}.spotify-mark svg{display:block;width:21px;height:21px}
+body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opacity:0;pointer-events:none;transition:opacity 1.1s ease}body.page-leaving::after,body.page-arriving::after{opacity:1;pointer-events:auto}
 @media(max-width:700px){.records-main{width:min(100% - 24px,1380px)}.records-heading{grid-template-columns:1fr;gap:15px;margin-bottom:54px}.records-notice{text-align:left}.records-list{grid-template-columns:1fr;gap:90px;padding:0 4%}.record-sleeve{width:min(50vh,82vw);height:min(50vh,82vw)}.record-source{left:12px;bottom:10px;max-width:55%;font-size:11px}}
 @media(prefers-reduced-motion:reduce){body::after,.records-page,.shelf-record-button,.record-sleeve{transition:none!important}}
 
@@ -357,9 +369,9 @@ body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opaci
 @media(max-width:800px){.genre-scene{inset:auto 10px 45px;padding:9px 10px;border-radius:9px}.genre-map-heading{display:none}.genre-choices{gap:6px;padding:2px}.genre-choice{flex:1 0 105px;min-height:48px;padding:7px 9px;gap:8px}.genre-choice strong{}.genre-choice small{max-width:135px;}.genre-swatch{width:8px;height:23px}.genre-gap{}.genre-panel{height:52%}}
 @media(prefers-reduced-motion:reduce){.genre-territory,.genre-choice{transition:none}}
 
-.genre-territory.country-association .territory-surface{fill-opacity:.16}
-.genre-territory.country-association .territory-light{opacity:.22}
-.genre-territory.country-association.emphasized .territory-surface{fill-opacity:.55}
+.genre-territory.country-association .territory-surface{fill-opacity:1}
+.genre-territory.country-association .territory-light{opacity:.5}
+.genre-territory.country-association.emphasized .territory-surface{fill-opacity:1}
 .territory-foot{filter:drop-shadow(0 .3px .15px #0009)}
 .genre-territory.emphasized .territory-foot{filter:drop-shadow(0 0 .4px var(--genre-color))}
 .country-view .country.selected{filter:drop-shadow(0 .5px 0 #08202d) drop-shadow(0 .8px .4px #0009)}
@@ -389,11 +401,16 @@ body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opaci
 #geography-layer.stack-muted{opacity:.45}
 .genre-territory.subdued{opacity:.6}
 .genre-territory .territory-surface{fill-opacity:.88;stroke-width:.8}
-.genre-territory.country-association .territory-surface{fill-opacity:.24}
-.genre-territory.country-association.emphasized .territory-surface{fill-opacity:.52}
+.genre-territory.country-association .territory-surface{fill-opacity:1}
+.genre-territory.country-association.emphasized .territory-surface{fill-opacity:1}
 .genre-territory.approximate-association .territory-surface{fill-opacity:.5;stroke-dasharray:2 1}
 .genre-territory.approximate-association .territory-rim{stroke-dasharray:2 1}
 .genre-territory .territory-side{fill:color-mix(in srgb,var(--genre-color) 70%,#153247);stroke:none}
+.genre-territory .territory-flat{filter:none}
+.genre-territory .territory-primary{fill:color-mix(in srgb,var(--genre-color) 46%,#101820);stroke:color-mix(in srgb,var(--genre-color) 72%,#070d12);stroke-width:1.8}
+.genre-territory.emphasized .territory-primary{fill:color-mix(in srgb,var(--genre-color) 62%,#101820)}
+.territory-region-label{pointer-events:none}
+.territory-region-label text{fill:#fffdf8;stroke:#101820;stroke-width:4px;paint-order:stroke fill;font-family:Arial,sans-serif;font-size:15px;font-weight:700}
 .genre-territory .territory-foot{stroke-width:1;filter:drop-shadow(0 1px .65px #0004)}
 .genre-territory .territory-light{opacity:.22;filter:none}
 .stack-label rect{fill:#fffdf8;stroke:var(--genre-color);stroke-width:1;vector-effect:non-scaling-stroke}
@@ -469,6 +486,9 @@ body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opaci
 .records-page .records-main{width:min(980px,76%);padding:24px 0 65px;overflow:visible}
 .records-page .records-back{position:fixed;z-index:20;top:102px;left:20px;margin:0;background:#0b0806e8;box-shadow:0 5px 18px #0008}
 .records-buckets{display:flex;flex-direction:column;width:100%;margin:24px auto 0;gap:0;container-type:inline-size;box-shadow:0 20px 40px #0008}
+.records-buckets.single-bin{align-self:flex-start;box-shadow:none;outline:none}
+.records-buckets.single-bin .record-bucket{overflow:hidden;box-shadow:none;outline:none;filter:none}
+.records-buckets.single-bin .record-bucket::after{box-shadow:none;outline:none;filter:none}
 .record-bucket{position:relative;width:100%;height:63cqw;flex:none;background:url('/assets/vinyl-store-undivided-bin.png') center/100% 100% no-repeat;isolation:isolate}
 .record-bucket.bucket-rows-1{height:38cqw}.record-bucket.bucket-rows-2{height:50.5cqw}.record-bucket.bucket-rows-3{height:63cqw}
 .record-bucket+.record-bucket{margin-top:-1px}
@@ -498,3 +518,14 @@ body::after{content:"";position:fixed;z-index:9999;inset:0;background:#000;opaci
 .stack-label text,.stack-label .stack-place{font-family:Arial,sans-serif;font-size:19px}
 .edition,.eyebrow{font-family:Arial,sans-serif;font-size:19px}
 .brand,.brand span,.header-country,.detail h2{font-family:Georgia,serif;font-size:30px}
+.record-object{position:relative}
+.listen-stage{position:absolute;z-index:6;left:50%;top:50%;width:min(90vh,88vw);height:min(90vh,88vw);transform:translate(-50%,-50%);pointer-events:none}
+.listen-services{position:absolute;left:50%;top:75%;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;width:min(316px,78%);transform:translate(-50%,-50%);pointer-events:auto}
+.listen-services[hidden],.listen-player-host[hidden]{display:none}
+.listen-service{display:flex;align-items:center;gap:8px;flex:0 1 148px;width:148px;min-height:46px;padding:8px 10px;border:0;border-radius:8px;background:var(--listen-color,#222);color:#fff;font:700 12px/1.15 Arial,sans-serif;text-align:left;text-decoration:none;cursor:pointer;box-shadow:0 8px 18px #0006}
+.listen-service span{font-size:12px}
+.listen-service:hover,.listen-service:focus-visible{filter:brightness(1.08);outline:2px solid #fff;outline-offset:2px}
+.listen-logo{display:grid;place-items:center;flex:none;width:22px;height:22px}
+.listen-logo svg{display:block;width:22px;height:22px}
+.listen-player-host{position:absolute;z-index:7;left:50%;top:50%;width:70%;aspect-ratio:16/9;transform:translate(-50%,-50%);pointer-events:auto}
+.listen-player-host iframe{display:block;width:100%;height:100%;border:0;border-radius:12px;background:#000;box-shadow:0 24px 60px #000c}.listen-player-host.spotify-embed{width:min(400px,88%);aspect-ratio:auto;height:352px}.listen-player-host.spotify-embed.spotify-track{height:152px}

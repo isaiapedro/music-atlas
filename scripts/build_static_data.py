@@ -127,7 +127,18 @@ def build_genres(check):
         assert read(path) == payload, "genres.json is out of sync; run build_static_data.py"
     else:
         write(path, payload)
+    publish_instrument_images(check)
     return valid
+
+
+def publish_instrument_images(check):
+    source = RESEARCH / "instrument_images.json"
+    path = WEB / "instrument_images.json"
+    payload = read(source)
+    if check:
+        assert read(path) == payload, "instrument_images.json is out of sync; run build_static_data.py"
+    else:
+        write(path, payload)
 
 
 def build_coverage(genres, check):
@@ -137,15 +148,21 @@ def build_coverage(genres, check):
     assert {row["code"] for row in rows} == set(countries), "country inventory differs from map"
     counts = Counter(genre["country"] for genre in genres)
     statuses = {"unreviewed": "unresearched", "starter_only": "in_progress", "reviewed": "reviewed"}
-    payload = {"version": 1, "countries": {
-        row["code"]: {
+    segments_path = RESEARCH / "country_segments.json"
+    segments = read(segments_path)["countries"] if segments_path.exists() else {}
+    payload = {"version": 1, "countries": {}}
+    for row in rows:
+        country = {
             "status": statuses[row["status"]],
             "published_genres": counts[row["code"]],
             "reviewed_at": row["reviewed_at"],
             "summary": row["summary"],
             "gaps": row["gaps"],
-        } for row in rows
-    }}
+        }
+        segment = segments.get(row["code"])
+        if segment and segment.get("places_and_people"):
+            country["places_and_people"] = segment["places_and_people"]
+        payload["countries"][row["code"]] = country
     path = WEB / "coverage.json"
     if check:
         assert read(path) == payload, "coverage.json is out of sync; run build_static_data.py"

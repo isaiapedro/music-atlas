@@ -4,10 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Music Atlas · Africa & Asia</title>
-  <link rel="stylesheet" href="/styles.css?v=20260930-close-bin">
-  <script src="/app.js?v=20260930-vinyl-room" defer></script>
+  <link rel="stylesheet" href="/styles.css?v=20261002-145936">
+  <script src="/app.js?v=20261002-145936" defer></script>
 </head>
 <body>
+  <script>
+  (function () {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var arrive = false;
+    try {
+      arrive = sessionStorage.getItem('atlas-fade') === '1';
+      sessionStorage.removeItem('atlas-fade');
+    } catch (error) {}
+    if (!arrive || reduce) return;
+    document.body.classList.add('page-arriving');
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { document.body.classList.remove('page-arriving'); });
+    });
+  })();
+  </script>
   <header><div class="masthead"><a class="brand" href="/">ATLAS <span>OF MUSIC</span></a><span id="header-country" class="header-country" hidden></span></div><span class="edition">EXPLORE THE SOUND OF PLACE</span></header>
   <main>
     <section class="map-panel" aria-label="Interactive map explorer">

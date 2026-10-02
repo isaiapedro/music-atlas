@@ -18,6 +18,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE = ROOT / ".local" / "rym" / "chart_catalogue.sqlite3"
 DEFAULT_OUTPUT = ROOT / "web" / "data" / "genre_records.json"
+ROUGH_GUIDE_RECORDS = ROOT / "research" / "rough_guide_album_records.json"
+MANUAL_SELECTIONS = ROOT / "research" / "manual_record_selections.json"
+PLAYER_FIELDS = ("youtube_url", "spotify_url", "apple_music_url")
 
 
 def write_json(path: Path, value: dict) -> None:
@@ -104,11 +107,72 @@ def build(database: Path = DEFAULT_DATABASE) -> dict:
             record["year"] is None, record["year"] or 9999,
             record["title"].casefold(), record["artist"].casefold(),
         ))}
+    merge_rough_guide_records(genres)
+    apply_manual_selections(genres)
     return {
         "version": 1,
-        "notice": "Album listings use saved chart title, artist-credit, and year fields. Rating-qualified recommendations are used first; genres with fewer than nine selected records are filled from their saved chart in rank order, independent of ratings and reviews. MusicBrainz identity is optional enrichment.",
+        "notice": "Album listings use saved chart title, artist-credit, and year fields. Rating-qualified recommendations are used first; genres with fewer than nine selected records are filled from their saved chart in rank order, independent of ratings and reviews. MusicBrainz identity is optional enrichment. Rough Guide discography rows are added beside chart rows when a reviewed year is named.",
         "genres": genres,
     }
+
+
+def record_sort_key(record: dict) -> tuple:
+    return (
+        record["year"] is None, record["year"] or 9999,
+        record["title"].casefold(), record["artist"].casefold(),
+    )
+
+
+def merge_rough_guide_records(genres: dict) -> None:
+    """Add reviewed Rough Guide discography rows without dropping chart records."""
+    if not ROUGH_GUIDE_RECORDS.exists():
+        return
+    payload = json.loads(ROUGH_GUIDE_RECORDS.read_text(encoding="utf-8"))
+    for item in payload["records"]:
+        year = item["year"]
+        record = {
+            "id": record_id(item["title"], item["artist"], year),
+            "title": item["title"],
+            "artist": item["artist"],
+            "year": year,
+            "year_source": "rough_guide",
+            "record_source": "rough_guide_discography",
+        }
+        for field in ("youtube_url", "spotify_url", "apple_music_url"):
+            value = item.get(field)
+            if isinstance(value, str) and value.startswith("https://"):
+                record[field] = value
+        bucket = genres.setdefault(item["genre_id"], {"records": []})
+        existing = next((row for row in bucket["records"] if row["id"] == record["id"]), None)
+        if existing:
+            for field in ("youtube_url", "spotify_url", "apple_music_url"):
+                if field in record and not existing.get(field):
+                    existing[field] = record[field]
+            continue
+        bucket["records"].append(record)
+        bucket["records"].sort(key=record_sort_key)
+
+
+def apply_manual_selections(genres: dict, selections: dict | None = None) -> None:
+    if selections is None:
+        if not MANUAL_SELECTIONS.exists():
+            return
+        selections = json.loads(MANUAL_SELECTIONS.read_text(encoding="utf-8"))
+    chosen = selections.get("records", {}) if isinstance(selections, dict) else {}
+    if not isinstance(chosen, dict):
+        return
+    for bucket in genres.values():
+        for record in bucket.get("records", []):
+            selection = chosen.get(record.get("id"))
+            if not isinstance(selection, dict):
+                continue
+            cover = selection.get("cover")
+            if isinstance(cover, dict) and isinstance(cover.get("front_url"), str) and cover["front_url"].startswith("https://"):
+                record["cover"] = cover
+            for field in PLAYER_FIELDS:
+                value = selection.get(field)
+                if isinstance(value, str) and value.startswith("https://"):
+                    record[field] = value
 
 
 def main() -> None:

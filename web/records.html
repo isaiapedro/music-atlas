@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Music Atlas · Records</title>
-  <link rel="stylesheet" href="/styles.css?v=20260930-viewer-info">
-  <script src="/records.js?v=20260930-viewer-info" defer></script>
+  <link rel="stylesheet" href="/styles.css?v=20261002-popular-yt">
+  <script src="/records.js?v=20261002-popular-yt" defer></script>
 </head>
-<body class="records-page records-entering">
+<body class="records-page records-entering page-arriving">
   <div class="record-room-backdrop" aria-hidden="true"></div>
   <header class="records-header"><div class="masthead"><a class="brand" href="/">ATLAS <span>OF MUSIC</span></a></div><span class="edition">THE LISTENING ROOM</span></header>
   <main class="records-main">
@@ -16,9 +16,10 @@
   </main>
   <dialog id="record-viewer" class="record-viewer" aria-label="Selected record">
     <button id="close-record-viewer" class="record-viewer-close" type="button" aria-label="Close record">×</button>
-    <div id="record-object" class="record-object"><button id="record-sleeve" class="record-sleeve" type="button" aria-label="Enlarge selected record image"><span class="record-face record-front"><img id="viewer-front" alt=""></span><span class="record-face record-back-face"><img id="viewer-back" alt=""></span></button></div>
+    <div id="record-object" class="record-object"><button id="record-sleeve" class="record-sleeve" type="button" aria-label="Enlarge selected record image"><span class="record-face record-front"><img id="viewer-front" alt=""></span><span class="record-face record-back-face"><img id="viewer-back" alt=""></span></button><div class="listen-stage"><div id="listen-services" class="listen-services" hidden></div><div id="listen-player-host" class="listen-player-host" hidden></div></div></div>
     <div id="record-viewer-info" class="record-viewer-info" aria-live="polite"><strong id="viewer-title"></strong><span id="viewer-artist"></span><time id="viewer-year"></time></div>
     <button id="rotate-record" class="rotate-record" type="button">Show back</button>
+    <p id="viewer-record-id" class="viewer-record-id"></p>
     <a id="viewer-source" class="record-source" target="_blank" rel="noopener noreferrer"></a>
   </dialog>
 </body>

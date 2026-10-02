@@ -96,12 +96,17 @@ def validate_record(record, country_codes, region_names, current_year=None):
     assert isinstance(mapped_regions, list) and len(mapped_regions) == len(set(mapped_regions)), record["id"]
     if scope == "regions":
         assert mapped_regions and set(mapped_regions) <= region_names.get(record["country"], set()), record["id"]
+        focus = record.get("focus_regions", [])
+        assert isinstance(focus, list) and len(focus) == len(set(focus)), record["id"]
+        assert set(focus) <= set(mapped_regions), record["id"]
     elif scope == "country":
         assert mapped_regions == [], record["id"]
         assert not record.get("approximate_region"), record["id"]
+        assert not record.get("focus_regions"), record["id"]
     else:
         assert mapped_regions == [], record["id"]
         assert record.get("approximate_region") in APPROXIMATE_REGIONS, record["id"]
+        assert not record.get("focus_regions"), record["id"]
     start = record["active_from"]
     end = record["active_to"]
     assert start is None or (type(start) is int and 1 <= start <= current_year), record["id"]
@@ -154,6 +159,12 @@ def validate_record(record, country_codes, region_names, current_year=None):
         assert example["artist"] not in example_artists, record["id"]
         example_artists.add(example["artist"])
     assert record.get("sample") is None, record["id"]
+    instruments = record.get("instruments", [])
+    assert isinstance(instruments, list) and all(isinstance(name, str) and name.strip() for name in instruments), record["id"]
+    for division in record.get("divisions", []):
+        assert isinstance(division, dict), record["id"]
+        assert division.get("name") and division.get("note"), record["id"]
+        assert division.get("record_page") is False, record["id"]
     assert record["sources"] and all(valid_source(source) for source in record["sources"]), record["id"]
     assert valid_image(record.get("image")), record["id"]
 
