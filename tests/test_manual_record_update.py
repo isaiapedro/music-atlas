@@ -56,6 +56,9 @@ class ManualRecordUpdateTests(unittest.TestCase):
         matches = find_records(catalogue, "plastic")
         self.assertEqual(matches[0]["id"], "record-9ae0cd25d2bb438f5484")
         self.assertEqual(find_records(catalogue, "missing"), [])
+        listed = find_records(catalogue, "", "afg-contemporary")
+        self.assertEqual(len(listed), 1)
+        self.assertEqual(find_records(catalogue, "", "missing-genre"), None)
 
     def test_direct_cover_keeps_the_source_page(self):
         cover = cover_from_link(
@@ -80,6 +83,25 @@ class ManualRecordUpdateTests(unittest.TestCase):
         self.assertEqual(updates["youtube_url"], "https://www.youtube.com/watch?v=abcdefghijk")
         self.assertEqual(updates["spotify_url"], "https://open.spotify.com/album/1fQLBZLJvYLDqXZ7Ktdipm")
         self.assertIn("/song/example/219127328", updates["apple_music_url"])
+
+    def test_youtube_playlist_becomes_a_canonical_list_url(self):
+        from scripts.apply_manual_record_update import youtube_listen_url
+        self.assertEqual(
+            youtube_listen_url("https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf"),
+            "https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf",
+        )
+        self.assertEqual(
+            youtube_listen_url("https://music.youtube.com/playlist?list=OLAK5uy_kabcdefghijklmnopqrstuvwx"),
+            "https://www.youtube.com/playlist?list=OLAK5uy_kabcdefghijklmnopqrstuvwx",
+        )
+        self.assertEqual(
+            youtube_listen_url("https://www.youtube.com/watch?v=abcdefghijk&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf"),
+            "https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf",
+        )
+        self.assertEqual(
+            youtube_listen_url(r"https://www.youtube.com/playlist\?list\=OLAK5uy_kh-N1vprMFP4CcRTaXvs5JVGjyn34tPno"),
+            "https://www.youtube.com/playlist?list=OLAK5uy_kh-N1vprMFP4CcRTaXvs5JVGjyn34tPno",
+        )
 
     def test_rebuild_keeps_the_chosen_cover_and_player(self):
         genres = {"afg-klasik": {"records": [{

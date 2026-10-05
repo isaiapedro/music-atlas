@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "research" / "genre_catalogue.json"
 USER_AGENT = "MusicAtlasManualSelection/1.0 (local editorial update)"
 YOUTUBE_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
+FOCUS_TOKEN = re.compile(r"^(left|center|right|top|bottom|\d{1,3}(?:\.\d+)?%)$")
 GENERIC_NOTE_PREFIXES = (
     "Country-wide fill is a coarse association.",
     "Country association used pending",
@@ -78,7 +79,25 @@ def watch_url_from_video_link(link):
     return f"https://www.youtube.com/watch?v={video_id}"
 
 
-def image_record(candidate, depicts=None, reviewed_at=None):
+def image_focus(value):
+    parts = value.strip().lower().split()
+    if not 1 <= len(parts) <= 2:
+        raise ValueError("image focus must be one or two CSS object-position values")
+    cleaned = []
+    for part in parts:
+        if part.endswith("%"):
+            amount = float(part[:-1])
+            if amount < 0 or amount > 100:
+                raise ValueError("image focus percentages must be between 0% and 100%")
+            cleaned.append(f"{amount:g}%")
+            continue
+        if not FOCUS_TOKEN.fullmatch(part):
+            raise ValueError("image focus uses left, center, right, top, bottom, or a percent")
+        cleaned.append(part)
+    return " ".join(cleaned)
+
+
+def image_record(candidate, depicts=None, reviewed_at=None, focus=None):
     chosen = " ".join((depicts or "").split())
     if len(chosen) < 20:
         title = candidate.get("title") or "Selected image"
@@ -86,7 +105,7 @@ def image_record(candidate, depicts=None, reviewed_at=None):
     creator = candidate.get("creator") or "Unknown creator"
     provider = candidate["provider"]
     via = "Wikimedia Commons" if provider == "wikimedia_commons" else "Openverse"
-    return {
+    record = {
         "image_url": candidate["image_url"],
         "source_page_url": candidate["source_page_url"].replace("File%3A", "File:"),
         "title": candidate.get("title") or "Untitled",
@@ -97,6 +116,9 @@ def image_record(candidate, depicts=None, reviewed_at=None):
         "provider": provider,
         "reviewed_at": reviewed_at or date.today().isoformat(),
     }
+    if focus:
+        record["focus"] = focus
+    return record
 
 
 def prefer_source(sources, url):
@@ -197,6 +219,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--id", required=True, help="Published genre ID")
     parser.add_argument("--image", help="Commons file page or Commons upload URL")
+    parser.add_argument("--image-focus", help="object-position for the cropped genre panel, e.g. 'center top' or '50% 20%'")
     parser.add_argument("--depicts", help="Short depiction caption. Defaults to the file title.")
     parser.add_argument("--description", help="Description text shown on the genre panel")
     parser.add_argument("--description-url", help="https page the description is quoted from")
@@ -204,15 +227,22 @@ def main():
     parser.add_argument("--video-title", help="Override the title returned by YouTube")
     parser.add_argument("--video-artist", help="Override the channel name returned by YouTube")
     parser.add_argument("--rebuild", action="store_true", help="Rebuild and restart the atlas container")
+    parser.add_argument("--allow-mvp-lock", action="store_true", help="Override MVP country lock after deliberate review")
     args = parser.parse_args()
     if bool(args.description) != bool(args.description_url):
         parser.error("--description and --description-url must be used together")
-    if not args.image and not args.description and not args.video:
-        parser.error("choose --image, --description, or --video")
+    if not args.image and not args.image_focus and not args.description and not args.video:
+        parser.error("choose --image, --image-focus, --description, or --video")
     if bool(args.video_title) != bool(args.video_artist):
         parser.error("--video-title and --video-artist must be used together")
     if (args.video_title or args.video_artist) and not args.video:
         parser.error("--video-title and --video-artist require --video")
+
+    scripts = Path(__file__).resolve().parent
+    if str(scripts) not in sys.path:
+        sys.path.insert(0, str(scripts))
+    from mvp_locks import assert_genre_unlocked
+    assert_genre_unlocked(args.id, allow=args.allow_mvp_lock)
 
     catalogue = json.loads(CATALOGUE.read_text(encoding="utf-8"))
     genre = next((entry for entry in catalogue["entries"] if entry.get("id") == args.id), None)
@@ -221,12 +251,23 @@ def main():
     if genre.get("status") != "published":
         parser.error(f"{args.id} is not published")
 
+    focus = None
+    if args.image_focus:
+        try:
+            focus = image_focus(args.image_focus)
+        except ValueError as exc:
+            parser.error(str(exc))
     if args.image:
         from find_genre_images import commons_file_candidate
         candidate = commons_file_candidate(file_title_from_image_link(args.image))
         if candidate is None:
             parser.error("Commons file is missing or does not have a reusable licence")
-        genre["image"] = image_record(candidate, args.depicts)
+        genre["image"] = image_record(candidate, args.depicts, focus=focus)
+    elif focus:
+        current = genre.get("image")
+        if not isinstance(current, dict):
+            parser.error("--image-focus needs an existing genre image, or pass --image")
+        current["focus"] = focus
     if args.description:
         apply_description(genre, args.description, args.description_url)
     if args.video:
@@ -255,6 +296,8 @@ def main():
     print(f"updated {args.id}")
     if args.image:
         print(f"image: {genre['image']['source_page_url']}")
+    if genre.get("image") and genre["image"].get("focus"):
+        print(f"image-focus: {genre['image']['focus']}")
     if args.description:
         print(f"description: {args.description_url}")
     if args.video:

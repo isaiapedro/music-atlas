@@ -210,9 +210,17 @@ header{height:90px;background:#061521;border-bottom:1px solid #17364a}
 .genre-image img:focus-visible{outline:3px solid #e4b366;outline-offset:-3px}
 .genre-image figcaption{padding:9px 11px;color:#b8c8cf;line-height:1.45}
 .genre-image a{color:#e8bf83;text-underline-offset:3px}
-.image-lightbox{position:fixed;inset:0;width:fit-content;height:fit-content;max-width:94vw;max-height:94vh;margin:auto;padding:0;border:1px solid #41677b;border-radius:12px;background:#051724;color:#e5e9e7;box-shadow:0 22px 70px #000c;overflow:visible}
+.image-lightbox{position:fixed;inset:0;flex-direction:column;width:fit-content;max-width:96vw;max-height:96vh;height:fit-content;margin:auto;padding:0;border:1px solid #41677b;border-radius:12px;background:#051724;color:#e5e9e7;box-shadow:0 22px 70px #000c;overflow:hidden}
+.image-lightbox[open]{display:flex}
+.image-lightbox:not([open]){display:none}
 .image-lightbox::backdrop{background:rgba(1,8,14,.88);backdrop-filter:blur(3px)}
-.image-lightbox img{display:block;width:auto;height:auto;max-width:92vw;max-height:82vh;object-fit:contain;border-radius:11px 11px 0 0;background:#020a10}
+.image-lightbox-stage{position:relative;max-width:92vw;max-height:78vh;overflow:hidden;cursor:zoom-in;touch-action:none;background:#020a10}
+.image-lightbox-stage.is-zoomed{cursor:grab}
+.image-lightbox-stage.is-zoomed:active{cursor:grabbing}
+.image-lightbox img{display:block;width:auto;height:auto;max-width:92vw;max-height:78vh;object-fit:contain;background:#020a10;transform-origin:center center;user-select:none;-webkit-user-drag:none}
+.image-lightbox-zoom{position:absolute;z-index:2;right:12px;bottom:58px;display:flex;gap:8px}
+.image-lightbox-zoom button{width:40px;height:40px;padding:0;border:1px solid #8fa9b5;border-radius:50%;background:rgba(5,23,36,.92);color:#fff;font-size:22px;line-height:1;cursor:pointer}
+.image-lightbox-zoom button:hover,.image-lightbox-zoom button:focus-visible{border-color:#e4b366;outline:2px solid #e4b366;outline-offset:2px}
 .image-lightbox p{width:0;min-width:100%;margin:0;padding:12px 56px 12px 16px;color:#d6e0e4;line-height:1.4;overflow-wrap:anywhere}
 .close-image-lightbox{position:absolute;z-index:1;top:10px;right:10px;width:44px;height:44px;padding:0;border:1px solid #8fa9b5;border-radius:50%;background:rgba(5,23,36,.92);color:#fff;line-height:1;cursor:pointer;box-shadow:0 3px 12px #0008}
 .close-image-lightbox:hover,.close-image-lightbox:focus-visible{border-color:#e4b366;outline:2px solid #e4b366;outline-offset:2px}

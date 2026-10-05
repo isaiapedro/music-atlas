@@ -63,6 +63,19 @@ class ManualGenreUpdateTests(unittest.TestCase):
         self.assertIn("Ramesh Lalwani", record["attribution"])
         self.assertGreaterEqual(len(record["depicts"]), 20)
 
+    def test_image_focus_normalizes_object_position(self):
+        from scripts.apply_manual_genre_update import image_focus
+        self.assertEqual(image_focus("Center Top"), "center top")
+        self.assertEqual(image_focus("50% 20%"), "50% 20%")
+        with self.assertRaises(ValueError):
+            image_focus("zoom")
+
+    def test_instrument_focus_is_stored_on_the_named_image(self):
+        from scripts.apply_manual_instrument_update import apply_instrument_focus
+        payload = {"instruments": {"Rubab": {"image_url": "https://example.org/a.jpg", "source_page_url": "https://example.org", "note": "x"}}}
+        self.assertEqual(apply_instrument_focus(payload, "rubab", "center top"), "Rubab")
+        self.assertEqual(payload["instruments"]["Rubab"]["focus"], "center top")
+
 
 if __name__ == "__main__":
     unittest.main()

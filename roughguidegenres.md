@@ -1,0 +1,123 @@
+# Afghanistan
+
+### Klasik (1860s-1990s):
+- 1961 — Music of Afghanistan — Various Artists
+- 1979 — Le luth afghan, Essa Kassimi
+- 1992 — Master of Afghani Lutes — Aziz Herawi
+- 1993 — Afghanistan: The Rubâb of Herat, Mohammad R>
+- 1995 — Afghanistan : Rubâb et dutâr, Mohammad Rahi>
+- 2002 — Ustad Mohammad Omar: Virtuoso from Afghanistan — Ustad Mohammad Omar / Zakir Hussain
+- 2015 — Afghanistan: Music During the Civil War (1979–2001)
+- 2020 — Robab - The Soul of Sound, Vol. 2, Ustad Mohammad Omar
+instruments: Rubab
+
+### Afghan Popular Music (1950s-2020s)
+- 1970 — Afghan Album Twelve — Ahmad Zahir
+- 1977 — Afghan Music Publishing Archive — Ahmad Wali & Hangama
+- 1985 — Baadhaa Meaayand — Farhad Darya
+- 2003 — Ghazals Afghans — Mahwash
+- 2007 — Radio Kaboul — Mahwash & Ensemble Kaboul
+- 2019 — Aryana Sayeed: Live Collection — Aryana Sayeed
+instruments: Dutar, Ghichak
+
+### Afghan Wedding & Folk Music (pre 1940s - 1990s)
+- 1977 — Tea House Music of Afghanistan — Various Artists
+- 1992 — Master of Afghani Lutes — Aziz Herawi
+- 1993 — Songs of the Pashtu — Zarsanga
+- 1995/1996 — Afghanistan: The Traditional Music of Herât — Various Artists
+- 2002 — Afghanistan: Female Musicians of Herat — Various Artists
+- 2002 — Cry of the Mountains — Aziz Herawi
+instruments: Daireh
+
+### Contemporary Afghan Music
+- 2013 — Khatirat — Shafiq Mureed
+- 2013 — Plastic Words — Kabul Dreams
+- 2019 — Songs of Our Mothers — Elaha Soroor
+- Soosan Firooz (add this video to genre page: https://www.youtube.com/watch?v=YRRPF3OgU-U )
+- 2022 — Hear Me Cry — Arash Barez
+- 2026 — Our Freedoms Must Be Won — Elaha Soro>
+
+### What is not a genre
+
+Rubab (instrument), Ghazal (sub-genre), Dutar (instrument), tanbur (instrument), ghichak (instrument), sorna (instrument)
+
+### Places and People
+- Kabul radio station
+- Afghan Court in Kabul
+- Pashtun people
+- Jat people
+- Sazdohol musicians
+- Bozkashi games
+- Melehs fairs
+- Mazar-i Sharif
+- Tea-houses
+
+# 
+
+###
+
+#
+
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+###
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+

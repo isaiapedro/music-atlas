@@ -245,11 +245,17 @@ def main():
         print(f"added {added} unillustrated genres to the discovery queue")
         return
     if args.approve or args.apply_curation:
+        from mvp_locks import locked_genre_ids
         queue = json.loads(args.out.read_text(encoding="utf-8"))
         by_id = {row["id"]: row for row in catalogue["entries"]}
+        locked = locked_genre_ids()
         approved = 0
+        skipped_lock = 0
         for item in queue.get("candidates", []):
             if item["genre_id"] not in by_id:
+                continue
+            if item["genre_id"] in locked:
+                skipped_lock += 1
                 continue
             genre = by_id[item["genre_id"]]
             if genre.get("image") or genre.get("status") != "published":
@@ -262,6 +268,8 @@ def main():
         if approved:
             write(ROOT / "research" / "genre_catalogue.json", catalogue)
         print(f"applied {approved} explicitly reviewed image candidates")
+        if skipped_lock:
+            print(f"skipped {skipped_lock} MVP-locked genre rows; see research/mvp_country_locks.json")
         return
     if args.broaden:
         queue = json.loads(args.out.read_text(encoding="utf-8"))

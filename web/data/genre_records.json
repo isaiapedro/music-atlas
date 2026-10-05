@@ -14098,14 +14098,14 @@
     "afg-popular-music": {
       "records": [
         {
-    "id": "record-8b35c90052c40ec482c9",
-    "title": "Afghan Album Twelve",
-    "artist": "Ahmad Zahir",
-    "year": 1970,
-    "year_source": "rough_guide",
-    "record_source": "rough_guide_discography",
-    "youtube_url": "https://www.youtube.com/watch?v=5oda1xXaxQ8",
-    "spotify_url": "https://open.spotify.com/album/5AzRAZzTmGbVVtH7zKtkqB"
+          "id": "record-8b35c90052c40ec482c9",
+          "title": "Afghan Album Twelve",
+          "artist": "Ahmad Zahir",
+          "year": 1970,
+          "year_source": "rough_guide",
+          "record_source": "rough_guide_discography",
+          "youtube_url": "https://www.youtube.com/watch?v=5oda1xXaxQ8",
+          "spotify_url": "https://open.spotify.com/album/5AzRAZzTmGbVVtH7zKtkqB"
         },
         {
           "id": "record-f896f62b5bfb1e4c7f19",
@@ -14113,45 +14113,64 @@
           "artist": "Ahmad Wali & Hangama",
           "year": 1977,
           "year_source": "rough_guide",
-          "record_source": "rough_guide_discography"
+          "record_source": "rough_guide_discography",
+          "youtube_url": "https://www.youtube.com/playlist?list=OLAK5uy_nPDp-8TpoWPRfXXzgxd1QwS1xk-Z4DsSk",
+          "spotify_url": "https://open.spotify.com/track/49IdGI4cBPtaAOmrKNumkD",
+          "apple_music_url": "https://music.apple.com/us/album/aghaz/625255129"
         },
         {
-    "id": "record-244c66177768ae0f6489",
-    "title": "Baadhaa Meaayand",
-    "artist": "Farhad Darya",
-    "year": 1985,
-    "youtube_url": "https://www.youtube.com/watch?v=vLJks1FN630",
+          "id": "record-244c66177768ae0f6489",
+          "title": "Baadhaa Meaayand",
+          "artist": "Farhad Darya",
+          "year": 1985,
+          "youtube_url": "https://www.youtube.com/watch?v=vLJks1FN630",
           "year_source": "rough_guide",
           "record_source": "rough_guide_discography",
-          "apple_music_url": "https://music.apple.com/us/album/baadhaa-meaayand/1717320626"
+          "apple_music_url": "https://music.apple.com/us/album/baadhaa-meaayand/1717320626",
+          "spotify_url": "https://open.spotify.com/album/24M7oSK701hRhh0Hw4Kwtg"
         },
         {
-          "id": "record-9af97c83af4ddae58101",
-          "title": "Ghazals Afghans",
+          "id": "record-de1b90bb7921968623bc",
+          "title": "Radio Kaboul",
           "artist": "Mahwash",
-          "year": 2003,
-          "year_source": "rough_guide",
-          "record_source": "rough_guide_discography"
+          "year": 2002,
+          "year_source": "manual_replacement",
+          "record_source": "manual_replacement",
+          "spotify_url": "https://open.spotify.com/album/19TuJAlBnmc1npOzRZdXEw",
+          "youtube_url": "https://www.youtube.com/playlist?list=OLAK5uy_kh-N1vprMFP4CcRTaXvs5JVGjyn34tPno",
+          "apple_music_url": "https://music.apple.com/gb/album/radio-kaboul-hommage-aux-compositeurs-afghans/1804895279",
+          "cover": {
+            "front_url": "https://i.discogs.com/Fb53-wCqXLwnfjT2Lie4_HonIvQQwplzlwPMixdb8zg/rs:fit/g:sm/q:90/h:509/w:564/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MDI0/ODAtMTM0ODY1NDc5/Mi01NTU0LmpwZWc.jpeg",
+            "source_url": "https://www.discogs.com/release/3902480-Mahwash-Radio-Kaboul",
+            "attribution": "Data provided by Discogs."
+          }
         },
         {
-    "id": "record-f15352b89e1e23975526",
-    "title": "Radio Kaboul",
-    "artist": "Mahwash & Ensemble Kaboul",
-    "year": 2007,
-    "youtube_url": "https://www.youtube.com/watch?v=jncbhyY5n_w",
+          "id": "record-f15352b89e1e23975526",
+          "title": "Radio Kaboul",
+          "artist": "Mahwash & Ensemble Kaboul",
+          "year": 2007,
+          "youtube_url": "https://www.youtube.com/watch?v=mbMphz8FdnU",
           "year_source": "rough_guide",
           "record_source": "rough_guide_discography",
-          "apple_music_url": "https://music.apple.com/us/album/radio-kaboul-hommage-aux-compositeurs-afghans/1804895279"
+          "apple_music_url": "https://music.apple.com/us/album/after-love/1736171181",
+          "cover": {
+            "front_url": "https://i.discogs.com/XRhmM2SGZwCgv4-YG5ntF4IODcewklKCMcSA1UANkDM/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODQ5/MjM0LTE3MDAyMTQ3/NDAtNjY0Mi5qcGVn.jpeg",
+            "source_url": "https://www.discogs.com/release/28849234-Valy-After-Love-",
+            "attribution": "Data provided by Discogs.",
+            "back_url": "https://i.discogs.com/C-kbOrfQkME5qlb8qWCBQKpB9FpduoCzNZ79wTgUA1Q/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODQ5/MjM0LTE3MDAyMTQ3/NDAtODQzNy5qcGVn.jpeg"
+          },
+          "spotify_url": "https://open.spotify.com/album/4om4f9diojSMzcX9ofAZh4"
         },
         {
-    "id": "record-45aba22ec4be52624370",
-    "title": "Aryana Sayeed: Live Collection",
-    "artist": "Aryana Sayeed",
-    "year": 2019,
-    "year_source": "rough_guide",
-    "record_source": "rough_guide_discography",
-    "youtube_url": "https://www.youtube.com/watch?v=Owh1rc2_sMo",
-    "spotify_url": "https://open.spotify.com/album/56AYPZhuZVwS7lCwIEkAGT"
+          "id": "record-45aba22ec4be52624370",
+          "title": "Aryana Sayeed: Live Collection",
+          "artist": "Aryana Sayeed",
+          "year": 2019,
+          "year_source": "rough_guide",
+          "record_source": "rough_guide_discography",
+          "youtube_url": "https://www.youtube.com/watch?v=Owh1rc2_sMo",
+          "spotify_url": "https://open.spotify.com/album/56AYPZhuZVwS7lCwIEkAGT"
         }
       ]
     },

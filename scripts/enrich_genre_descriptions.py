@@ -172,11 +172,21 @@ def main():
         wiki = sum(row["wikipedia"] is not None for row in rows)
         print(f"queued {len(rows)} generic published genres; {ready} have page-cited dossier drafts; {wiki} have exact saved Wikipedia leads")
     else:
+        from mvp_locks import locked_genre_ids
         reviews = json.loads(args.apply.read_text(encoding="utf-8"))
+        locked = locked_genre_ids()
+        if isinstance(reviews, list):
+            before = len(reviews)
+            reviews = [row for row in reviews if row.get("id") not in locked]
+            skipped = before - len(reviews)
+        else:
+            skipped = 0
         changed = apply_reviews(data["entries"], dossiers, reviews)
         if changed:
             write_json(CATALOGUE, data)
         print(f"applied {changed} reviewed genre descriptions")
+        if skipped:
+            print(f"skipped {skipped} MVP-locked genre rows; see research/mvp_country_locks.json")
 
 
 if __name__ == "__main__":

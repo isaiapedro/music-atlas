@@ -22,6 +22,8 @@ class GenreImageValidationTests(unittest.TestCase):
 
     def test_accepts_complete_reusable_image(self):
         self.assertTrue(valid_image(self.image()))
+        self.assertTrue(valid_image(self.image(focus="center top")))
+        self.assertFalse(valid_image(self.image(focus="zoom")))
 
     def test_rejects_noncommercial_or_incomplete_image(self):
         self.assertFalse(valid_image(self.image(license="CC BY-NC 4.0")))

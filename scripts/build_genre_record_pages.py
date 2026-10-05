@@ -11,6 +11,7 @@ import argparse
 import hashlib
 import json
 import sqlite3
+import sys
 import tempfile
 from pathlib import Path
 
@@ -20,6 +21,7 @@ DEFAULT_DATABASE = ROOT / ".local" / "rym" / "chart_catalogue.sqlite3"
 DEFAULT_OUTPUT = ROOT / "web" / "data" / "genre_records.json"
 ROUGH_GUIDE_RECORDS = ROOT / "research" / "rough_guide_album_records.json"
 MANUAL_SELECTIONS = ROOT / "research" / "manual_record_selections.json"
+MANUAL_REPLACEMENTS = ROOT / "research" / "manual_record_replacements.json"
 PLAYER_FIELDS = ("youtube_url", "spotify_url", "apple_music_url")
 
 
@@ -108,7 +110,10 @@ def build(database: Path = DEFAULT_DATABASE) -> dict:
             record["title"].casefold(), record["artist"].casefold(),
         ))}
     merge_rough_guide_records(genres)
+    apply_manual_replacements(genres)
     apply_manual_selections(genres)
+    preserve_mvp_locked_shelves(genres)
+    sort_record_lists(genres)
     return {
         "version": 1,
         "notice": "Album listings use saved chart title, artist-credit, and year fields. Rating-qualified recommendations are used first; genres with fewer than nine selected records are filled from their saved chart in rank order, independent of ratings and reviews. MusicBrainz identity is optional enrichment. Rough Guide discography rows are added beside chart rows when a reviewed year is named.",
@@ -116,11 +121,36 @@ def build(database: Path = DEFAULT_DATABASE) -> dict:
     }
 
 
+def preserve_mvp_locked_shelves(genres: dict, current_path: Path = DEFAULT_OUTPUT) -> None:
+    """Keep MVP-locked listening rooms intact when chart rebuilds would replace them."""
+    scripts = Path(__file__).resolve().parent
+    if str(scripts) not in sys.path:
+        sys.path.insert(0, str(scripts))
+    from mvp_locks import locked_genre_ids
+    if not current_path.exists():
+        return
+    current = json.loads(current_path.read_text(encoding="utf-8"))
+    existing = current.get("genres") if isinstance(current, dict) else None
+    if not isinstance(existing, dict):
+        return
+    for genre_id in locked_genre_ids():
+        bucket = existing.get(genre_id)
+        if isinstance(bucket, dict) and isinstance(bucket.get("records"), list) and bucket["records"]:
+            genres[genre_id] = json.loads(json.dumps(bucket))
+
+
 def record_sort_key(record: dict) -> tuple:
     return (
         record["year"] is None, record["year"] or 9999,
         record["title"].casefold(), record["artist"].casefold(),
     )
+
+
+def sort_record_lists(genres: dict) -> None:
+    for bucket in genres.values():
+        records = bucket.get("records")
+        if isinstance(records, list):
+            records.sort(key=record_sort_key)
 
 
 def merge_rough_guide_records(genres: dict) -> None:
@@ -151,6 +181,70 @@ def merge_rough_guide_records(genres: dict) -> None:
             continue
         bucket["records"].append(record)
         bucket["records"].sort(key=record_sort_key)
+
+
+def apply_one_replacement(bucket: dict, from_id: str, new_record: dict) -> None:
+    records = bucket.setdefault("records", [])
+    from_index = next((index for index, row in enumerate(records) if row.get("id") == from_id), None)
+    new_index = next((index for index, row in enumerate(records) if row.get("id") == new_record["id"]), None)
+    if from_index is not None:
+        if new_index is not None and new_index != from_index:
+            records.pop(from_index)
+        else:
+            kept = {
+                field: records[from_index][field]
+                for field in PLAYER_FIELDS
+                if field in records[from_index] and field not in new_record
+            }
+            cover = records[from_index].get("cover") if "cover" not in new_record else None
+            merged = dict(new_record)
+            merged.update(kept)
+            if cover and "cover" not in merged:
+                merged["cover"] = cover
+            records[from_index] = merged
+    elif new_index is None:
+        records.append(dict(new_record))
+    records.sort(key=record_sort_key)
+
+
+def apply_manual_replacements(genres: dict, replacements: dict | None = None) -> None:
+    if replacements is None:
+        if not MANUAL_REPLACEMENTS.exists():
+            return
+        replacements = json.loads(MANUAL_REPLACEMENTS.read_text(encoding="utf-8"))
+    rows = replacements.get("replacements") if isinstance(replacements, dict) else None
+    if not isinstance(rows, list):
+        return
+    for item in rows:
+        if not isinstance(item, dict):
+            continue
+        genre_id = item.get("genre_id")
+        from_id = item.get("from_id")
+        title = item.get("title")
+        artist = item.get("artist")
+        year = item.get("year")
+        if not isinstance(genre_id, str) or not isinstance(from_id, str):
+            continue
+        if not isinstance(title, str) or not isinstance(artist, str) or not isinstance(year, int):
+            continue
+        extras = {
+            field: item[field]
+            for field in PLAYER_FIELDS
+            if isinstance(item.get(field), str) and item[field].startswith("https://")
+        }
+        cover = item.get("cover")
+        if isinstance(cover, dict) and isinstance(cover.get("front_url"), str) and cover["front_url"].startswith("https://"):
+            extras["cover"] = cover
+        new_record = {
+            "id": record_id(title, artist, year),
+            "title": title,
+            "artist": artist,
+            "year": year,
+            "year_source": "manual_replacement",
+            "record_source": "manual_replacement",
+            **extras,
+        }
+        apply_one_replacement(genres.setdefault(genre_id, {"records": []}), from_id, new_record)
 
 
 def apply_manual_selections(genres: dict, selections: dict | None = None) -> None:

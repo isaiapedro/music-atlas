@@ -10,7 +10,8 @@ Usage:
 Any of --image, --youtube, --spotify, or --apple may be used alone. A Discogs
 release or master page saves the cover and the back when Discogs has both. A
 cover that is not a Commons file or a Discogs page also needs --image-source.
---back sets the reverse image. --rebuild refreshes the running container after
+--back sets the reverse image. --youtube accepts a watch URL or a playlist URL.
+--rebuild refreshes the running container after
 the shelf data is written.
 """
 import argparse
@@ -24,7 +25,7 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 RECORDS = ROOT / "web" / "data" / "genre_records.json"
@@ -33,6 +34,7 @@ PLAYER_FIELDS = ("youtube_url", "spotify_url", "apple_music_url")
 IMAGE_SUFFIXES = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 SPOTIFY_ID = re.compile(r"^[A-Za-z0-9]{22}$")
 APPLE_ID = re.compile(r"^\d{6,}$")
+YOUTUBE_PLAYLIST = re.compile(r"^(PL|OLAK5uy_)[A-Za-z0-9_-]{10,}$")
 
 
 def helpers():
@@ -209,11 +211,22 @@ def apple_music_url(link):
     return f"https://music.apple.com{path.rstrip('/')}"
 
 
-def player_updates(youtube=None, spotify=None, apple=None):
+def youtube_listen_url(link):
+    cleaned = https_page(link, "YouTube link").replace("\\?", "?").replace("\\=", "=").replace("\\&", "&")
+    parsed = urlparse(cleaned)
+    host = (parsed.hostname or "").lower().removeprefix("www.").removeprefix("m.")
+    query = parse_qs(parsed.query)
+    playlist = (query.get("list") or [""])[0]
+    if host in {"youtube.com", "music.youtube.com"} and YOUTUBE_PLAYLIST.fullmatch(playlist):
+        return f"https://www.youtube.com/playlist?list={playlist}"
     _, watch_url_from_video_link = helpers()
+    return watch_url_from_video_link(cleaned)
+
+
+def player_updates(youtube=None, spotify=None, apple=None):
     updates = {}
     if youtube:
-        updates["youtube_url"] = watch_url_from_video_link(youtube)
+        updates["youtube_url"] = youtube_listen_url(youtube)
     if spotify:
         updates["spotify_url"] = spotify_url(spotify)
     if apple:
@@ -294,10 +307,11 @@ def main():
     parser.add_argument("--image-source", help="https page for a non-Commons cover")
     parser.add_argument("--attribution", help="Credit line shown under the cover")
     parser.add_argument("--back", help="Back-cover image URL")
-    parser.add_argument("--youtube", help="YouTube watch, share, shorts, or embed URL")
+    parser.add_argument("--youtube", help="YouTube watch, playlist, share, shorts, or embed URL")
     parser.add_argument("--spotify", help="Spotify album or track URL")
     parser.add_argument("--apple", help="Apple Music album or song URL")
     parser.add_argument("--rebuild", action="store_true", help="Rebuild and restart the atlas container")
+    parser.add_argument("--allow-mvp-lock", action="store_true", help="Override MVP country lock after deliberate review")
     args = parser.parse_args()
     if not args.image and not args.back and not args.youtube and not args.spotify and not args.apple:
         parser.error("choose --image, --back, --youtube, --spotify, or --apple")
@@ -310,6 +324,14 @@ def main():
     matches = matching_records(catalogue, args.id)
     if not matches:
         parser.error(f"unknown record ID: {args.id}")
+    scripts_dir = Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    from mvp_locks import assert_genre_unlocked, assert_record_unlocked, locked_genre_ids
+    assert_record_unlocked(args.id, allow=args.allow_mvp_lock)
+    for genre_id, _record in matches:
+        if genre_id in locked_genre_ids():
+            assert_genre_unlocked(genre_id, allow=args.allow_mvp_lock)
 
     selections = load_selections()
     current = dict(selections["records"].get(args.id) or {})
@@ -335,6 +357,8 @@ def main():
         for field in PLAYER_FIELDS:
             if field in current:
                 record[field] = current[field]
+    from build_genre_record_pages import sort_record_lists
+    sort_record_lists(catalogue.get("genres", {}))
     write_json(SELECTIONS, selections)
     write_json(RECORDS, catalogue)
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")

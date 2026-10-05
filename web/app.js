@@ -27,9 +27,16 @@ const geographyLegend = document.getElementById('geography-legend');
 const overlay = document.getElementById('detail-overlay');
 const closeDetail = document.getElementById('close-detail');
 const imageLightbox = document.getElementById('image-lightbox');
+const imageLightboxStage = document.getElementById('image-lightbox-stage');
 const imageLightboxAsset = document.getElementById('image-lightbox-asset');
 const imageLightboxCaption = document.getElementById('image-lightbox-caption');
 const closeImageLightboxButton = document.getElementById('close-image-lightbox');
+const lightboxZoomInButton = document.getElementById('lightbox-zoom-in');
+const lightboxZoomOutButton = document.getElementById('lightbox-zoom-out');
+let lightboxScale = 1;
+let lightboxX = 0;
+let lightboxY = 0;
+let lightboxDrag = null;
 const status = document.getElementById('map-status');
 const fullscreenButton = document.getElementById('fullscreen');
 const NS = 'http://www.w3.org/2000/svg';
@@ -75,18 +82,64 @@ function countryFlag(code) {
   if (!alpha2) return '⚑';
   return [...alpha2].map(letter => String.fromCodePoint(0x1f1e6 + letter.charCodeAt(0) - 65)).join('');
 }
+function stripLicenseCaption(text) {
+  return String(text || '')
+    .replace(/\bCreative Commons(?:\s+Attribution(?:[-\s]ShareAlike)?)?(?:\s+\d+(?:\.\d+)?)?/gi, '')
+    .replace(/\bCC(?:[-\s]?BY(?:[-\s]?SA)?|[-\s]?SA|[-\s]?0|0)(?:[-\s]?\d+(?:\.\d+)?)?/gi, '')
+    .replace(/\bPublic Domain\b/gi, '')
+    .replace(/\s*,(?:\s*,)+/g, ',')
+    .replace(/\s+,/g, ',')
+    .replace(/,\s*([.])/g, '$1')
+    .replace(/^[,\s]+|[,\s]+$/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+function applyLightboxTransform() {
+  imageLightboxAsset.style.transform = `translate(${lightboxX}px, ${lightboxY}px) scale(${lightboxScale})`;
+  imageLightboxStage.classList.toggle('is-zoomed', lightboxScale > 1);
+}
+function resetLightboxZoom() {
+  lightboxScale = 1;
+  lightboxX = 0;
+  lightboxY = 0;
+  lightboxDrag = null;
+  applyLightboxTransform();
+}
+function setLightboxZoom(nextScale, clientX, clientY) {
+  const scale = Math.min(8, Math.max(1, nextScale));
+  if (scale === lightboxScale) return;
+  if (clientX != null && imageLightboxStage) {
+    const box = imageLightboxStage.getBoundingClientRect();
+    const px = clientX - box.left - box.width / 2;
+    const py = clientY - box.top - box.height / 2;
+    const ratio = scale / lightboxScale;
+    lightboxX = px - (px - lightboxX) * ratio;
+    lightboxY = py - (py - lightboxY) * ratio;
+  }
+  lightboxScale = scale;
+  if (lightboxScale === 1) {
+    lightboxX = 0;
+    lightboxY = 0;
+  }
+  applyLightboxTransform();
+}
 function openImageLightbox(image) {
+  resetLightboxZoom();
   imageLightboxAsset.src = image.currentSrc || image.src;
   imageLightboxAsset.alt = image.alt;
   imageLightboxCaption.textContent = image.alt;
+  imageLightboxAsset.style.objectPosition = '';
+  imageLightboxStage.style.aspectRatio = '';
   imageLightbox.showModal();
 }
-function appendEnlargeableFigure(parent, {src, alt, title, note, sourcePage}) {
+function appendEnlargeableFigure(parent, {src, alt, title, note, sourcePage, focus}) {
   const figure = document.createElement('figure');
   if (title) figure.className = 'instrument-card';
+  const captionText = stripLicenseCaption(title ? note : alt);
   const asset = document.createElement('img');
   asset.src = src;
-  asset.alt = title ? `${title}. ${note}` : alt;
+  if (focus) asset.style.objectPosition = focus;
+  asset.alt = title ? `${title}. ${captionText}` : captionText;
   asset.loading = 'lazy';
   asset.referrerPolicy = 'no-referrer';
   asset.tabIndex = 0;
@@ -108,7 +161,7 @@ function appendEnlargeableFigure(parent, {src, alt, title, note, sourcePage}) {
   source.target = '_blank';
   source.rel = 'noopener noreferrer';
   source.textContent = 'Source';
-  caption.append(`${title ? note : alt} `, source);
+  caption.append(captionText ? `${captionText} ` : '', source);
   figure.append(asset, caption);
   parent.append(figure);
 }
@@ -1104,7 +1157,7 @@ function setDetailContext(kind, value) {
   context.hidden = kind !== 'country';
   context.textContent = selectedCountry.properties.continent.toUpperCase();
   const countryPrefix = `${countryFlag(selectedCountry.properties.code)} ${countryName}`;
-  document.getElementById('detail-title').textContent = kind === 'region' ? `${countryPrefix} · ${value}` : kind === 'genre' ? `${countryPrefix} · ${value.name}` : countryPrefix;
+  document.getElementById('detail-title').textContent = kind === 'region' ? `${countryPrefix} · ${value}` : kind === 'genre' ? `${countryFlag(selectedCountry.properties.code)} ${value.name}` : countryPrefix;
   const meta = document.getElementById('detail-meta');
   meta.replaceChildren();
   meta.hidden = true;
@@ -1128,7 +1181,8 @@ function setDetailContext(kind, value) {
       appendEnlargeableFigure(image, {
         src: contentValue.image.image_url,
         alt: contentValue.image.depicts,
-        sourcePage: contentValue.image.source_page_url
+        sourcePage: contentValue.image.source_page_url,
+        focus: contentValue.image.focus
       });
     }
     if (contentValue.instruments?.length) {
@@ -1141,7 +1195,8 @@ function setDetailContext(kind, value) {
             src: photo.image_url,
             title: name,
             note: photo.note,
-            sourcePage: photo.source_page_url
+            sourcePage: photo.source_page_url,
+            focus: photo.focus
           });
         } else {
           const card = document.createElement('figure'); card.className = 'instrument-card';
@@ -1227,6 +1282,7 @@ function mapPoint(event) {
 }
 function clear(node) { node.replaceChildren(); }
 function reset() {
+  closeImageLightbox();
   clearTimeout(selectionTimer);
   timeline.hidden = true;
   genrePanel.hidden = true;
@@ -1386,7 +1442,7 @@ function choose(feature) {
 }
 async function start() {
   try {
-    const dataVersion = '20261002-145936';
+    const dataVersion = '20261003-lightbox-original';
     const [countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse, instrumentResponse] = await Promise.all([fetch(`/data/countries.geojson?v=${dataVersion}`), fetch(`/data/regions.geojson?v=${dataVersion}`), fetch(`/data/capitals.json?v=${dataVersion}`), fetch(`/data/genres.json?v=${dataVersion}`), fetch(`/data/articles.json?v=${dataVersion}`), fetch(`/data/populated_places.geojson?v=${dataVersion}`), fetch(`/data/urban_areas.geojson?v=${dataVersion}`), fetch(`/data/rivers_lake_centerlines.geojson?v=${dataVersion}`), fetch(`/data/lakes.geojson?v=${dataVersion}`), fetch(`/data/geography_regions_elevation_points.geojson?v=${dataVersion}`), fetch(`/data/place_population_overrides.json?v=${dataVersion}`), fetch(`/data/genre_records.json?v=${dataVersion}`), fetch(`/data/instrument_images.json?v=${dataVersion}`)]);
     if ([countryResponse, regionResponse, capitalResponse, genreResponse, articleResponse, placesResponse, urbanResponse, riversResponse, lakesResponse, elevationResponse, populationOverrideResponse, recordResponse, instrumentResponse].some(response => !response.ok)) throw Error('Map assets could not be loaded.');
     countries = (await countryResponse.json()).features;
@@ -1481,9 +1537,46 @@ overlay.addEventListener('click', event => { if (event.target === overlay) reset
 closeImageLightboxButton.addEventListener('click', closeImageLightbox);
 imageLightbox.addEventListener('click', event => { if (event.target === imageLightbox) closeImageLightbox(); });
 imageLightbox.addEventListener('close', () => {
+  resetLightboxZoom();
   imageLightboxAsset.removeAttribute('src');
   imageLightboxAsset.alt = '';
+  imageLightboxAsset.style.objectPosition = '';
+  imageLightboxStage.style.aspectRatio = '';
   imageLightboxCaption.textContent = '';
+});
+imageLightboxStage.addEventListener('wheel', event => {
+  event.preventDefault();
+  const step = event.deltaY < 0 ? 1.18 : 1 / 1.18;
+  setLightboxZoom(lightboxScale * step, event.clientX, event.clientY);
+}, {passive: false});
+imageLightboxStage.addEventListener('dblclick', event => {
+  event.preventDefault();
+  setLightboxZoom(lightboxScale > 1 ? 1 : 2.4, event.clientX, event.clientY);
+});
+imageLightboxStage.addEventListener('pointerdown', event => {
+  if (event.button !== 0 || lightboxScale <= 1) return;
+  lightboxDrag = {id: event.pointerId, x: event.clientX, y: event.clientY, originX: lightboxX, originY: lightboxY};
+  imageLightboxStage.setPointerCapture(event.pointerId);
+});
+imageLightboxStage.addEventListener('pointermove', event => {
+  if (!lightboxDrag || event.pointerId !== lightboxDrag.id) return;
+  lightboxX = lightboxDrag.originX + event.clientX - lightboxDrag.x;
+  lightboxY = lightboxDrag.originY + event.clientY - lightboxDrag.y;
+  applyLightboxTransform();
+});
+function endLightboxDrag(event) {
+  if (!lightboxDrag || event.pointerId !== lightboxDrag.id) return;
+  lightboxDrag = null;
+}
+imageLightboxStage.addEventListener('pointerup', endLightboxDrag);
+imageLightboxStage.addEventListener('pointercancel', endLightboxDrag);
+lightboxZoomInButton.addEventListener('click', event => {
+  event.stopPropagation();
+  setLightboxZoom(lightboxScale * 1.4);
+});
+lightboxZoomOutButton.addEventListener('click', event => {
+  event.stopPropagation();
+  setLightboxZoom(lightboxScale / 1.4);
 });
 periodSlider.addEventListener('input', () => {
   selectDecade(Number(periodSlider.value));

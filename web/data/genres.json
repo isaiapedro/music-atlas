@@ -18902,7 +18902,8 @@
         "attribution": "Daniel Wilkinson (U.S. Department of State), cropped by Officer, Public Domain, via Wikimedia Commons",
         "depicts": "Farhad Darya at the July 2010 Peace Concert in Kabul.",
         "provider": "wikimedia_commons",
-        "reviewed_at": "2026-10-02"
+        "reviewed_at": "2026-10-02",
+        "focus": "50% 15%"
       },
       "wikipedia_section": "Pop music"
     },
@@ -19030,7 +19031,8 @@
         "attribution": "Sulyman Qardash, CC BY-SA 4.0, via Wikimedia Commons",
         "depicts": "The members of Kabul Dreams.",
         "provider": "wikimedia_commons",
-        "reviewed_at": "2026-10-02"
+        "reviewed_at": "2026-10-02",
+        "focus": "50% 35%"
       },
       "prefer_local_note": true
     }

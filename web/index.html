@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Music Atlas · Africa & Asia</title>
-  <link rel="stylesheet" href="/styles.css?v=20261002-145936">
-  <script src="/app.js?v=20261002-145936" defer></script>
+  <link rel="stylesheet" href="/styles.css?v=20261003-lightbox-original">
+  <script src="/app.js?v=20261003-lightbox-original" defer></script>
 </head>
 <body>
   <script>
@@ -64,7 +64,13 @@
         <div id="detail-overlay" class="detail-overlay" hidden><section class="detail" role="dialog" aria-labelledby="detail-title"><button id="close-detail" class="close-detail" type="button" aria-label="Close country details">×</button><div id="detail-content"></div></section></div>
         <dialog id="image-lightbox" class="image-lightbox" aria-labelledby="image-lightbox-caption">
           <button id="close-image-lightbox" class="close-image-lightbox" type="button" aria-label="Close enlarged image">×</button>
-          <img id="image-lightbox-asset" alt="">
+          <div id="image-lightbox-stage" class="image-lightbox-stage">
+            <img id="image-lightbox-asset" alt="">
+          </div>
+          <div class="image-lightbox-zoom">
+            <button id="lightbox-zoom-out" type="button" aria-label="Zoom out">−</button>
+            <button id="lightbox-zoom-in" type="button" aria-label="Zoom in">+</button>
+          </div>
           <p id="image-lightbox-caption"></p>
         </dialog>
       </div>

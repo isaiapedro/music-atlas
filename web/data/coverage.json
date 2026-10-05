@@ -2,13 +2,14 @@
   "version": 1,
   "countries": {
     "AFG": {
-      "status": "unresearched",
+      "status": "reviewed",
       "published_genres": 4,
-      "reviewed_at": null,
-      "summary": "One official-source musical candidate logged; national coverage remains unreviewed.",
+      "reviewed_at": "2026-10-03",
+      "summary": "MVP presentation reviewed and locked: Klasik, Afghan popular music, Afghan wedding and folk music, and Contemporary Afghan music, with instrument photos, genre-panel media, and listening-room player links. National breadth beyond this starter set remains incomplete.",
       "gaps": [
-        "Local-language, community, archive and scholarship searches remain",
-        "Historical periods, major communities, modern genres and region mapping require coverage audit"
+        "Local-language, community, archive and scholarship searches remain outside the locked MVP set",
+        "Historical periods and minority practices beyond the four published layers still need coverage audit",
+        "MVP lock in research/mvp_country_locks.json protects catalogue media and shelf selections from bulk overwrite"
       ],
       "places_and_people": [
         {

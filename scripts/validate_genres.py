@@ -41,6 +41,21 @@ def valid_source(source):
             (url is None or (isinstance(url, str) and url.startswith("https://"))))
 
 
+def valid_image_focus(value):
+    if not isinstance(value, str):
+        return False
+    parts = value.strip().lower().split()
+    if not 1 <= len(parts) <= 2:
+        return False
+    token = re.compile(r"^(left|center|right|top|bottom|\d{1,3}(?:\.\d+)?%)$")
+    for part in parts:
+        if not token.fullmatch(part):
+            return False
+        if part.endswith("%") and not 0 <= float(part[:-1]) <= 100:
+            return False
+    return True
+
+
 def valid_image(image):
     """Accept only reviewed, attribution-complete images with reusable licences."""
     if image is None:
@@ -49,7 +64,10 @@ def valid_image(image):
         return False
     required = {"image_url", "source_page_url", "title", "creator", "license",
                 "attribution", "depicts", "provider", "reviewed_at"}
-    if set(image) != required or image["provider"] not in IMAGE_PROVIDERS:
+    extra = set(image) - required
+    if extra - {"focus"} or not required <= set(image) or image["provider"] not in IMAGE_PROVIDERS:
+        return False
+    if "focus" in image and not valid_image_focus(image["focus"]):
         return False
     if image["license"] not in REUSABLE_IMAGE_LICENSES:
         return False

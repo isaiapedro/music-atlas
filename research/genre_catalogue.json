@@ -31414,7 +31414,13 @@
       "research": {
         "reviewed_at": "2026-10-01",
         "chapter": "roughguidegenres.md Afghanistan",
-        "geography": "Focus provinces Kabul and Herat. Secondary: Kandahar, Helmand, Zabul, Urozgan, Nimruz, Farah; Balkh (Mazar-i-Sharif), Jowzjan, Faryab, Sar-e Pol, Samangan, Baghlan, Kunduz, Takhar, Badghis; Badakhshan; Bamyan, Maidan Wardak, Ghazni, Ghōr for the Hazarajat; Parwan and Kapisa for Panjshir, which has no polygon; Nangarhar (Jalalabad), Laghman, Kunar, Logar, Khost, Paktia, Paktika, Nuristan."
+        "geography": "Focus provinces Kabul and Herat. Secondary: Kandahar, Helmand, Zabul, Urozgan, Nimruz, Farah; Balkh (Mazar-i-Sharif), Jowzjan, Faryab, Sar-e Pol, Samangan, Baghlan, Kunduz, Takhar, Badghis; Badakhshan; Bamyan, Maidan Wardak, Ghazni, Ghōr for the Hazarajat; Parwan and Kapisa for Panjshir, which has no polygon; Nangarhar (Jalalabad), Laghman, Kunar, Logar, Khost, Paktia, Paktika, Nuristan.",
+        "mvp_lock": {
+          "locked_at": "2026-10-03",
+          "tier": "mvp",
+          "registry": "research/mvp_country_locks.json",
+          "note": "Presentation assets are MVP-locked; do not bulk-overwrite note, image, artists, youtube_examples, or instruments."
+        }
       },
       "focus_regions": [
         "Kabul",
@@ -31475,13 +31481,20 @@
         "attribution": "Daniel Wilkinson (U.S. Department of State), cropped by Officer, Public Domain, via Wikimedia Commons",
         "depicts": "Farhad Darya at the July 2010 Peace Concert in Kabul.",
         "provider": "wikimedia_commons",
-        "reviewed_at": "2026-10-02"
+        "reviewed_at": "2026-10-02",
+        "focus": "50% 15%"
       },
       "status": "published",
       "research": {
         "reviewed_at": "2026-10-01",
         "chapter": "roughguidegenres.md Afghanistan",
-        "geography": "Country-wide radio and popular practice."
+        "geography": "Country-wide radio and popular practice.",
+        "mvp_lock": {
+          "locked_at": "2026-10-03",
+          "tier": "mvp",
+          "registry": "research/mvp_country_locks.json",
+          "note": "Presentation assets are MVP-locked; do not bulk-overwrite note, image, artists, youtube_examples, or instruments."
+        }
       },
       "wikipedia_section": "Pop music"
     },
@@ -31564,7 +31577,13 @@
         "reviewed_at": "2026-10-01",
         "chapter": "roughguidegenres.md Afghanistan",
         "geography": "Herat; Pashtun south and east; Badakhshan; northern provinces from Badghis through Takhar, with Balkh for Mazar-i-Sharif.",
-        "description_source": "Smithsonian Folkways liner for Afghanistan: Female Musicians of Herat, plus the Rough Guide chapter for the wider map."
+        "description_source": "Smithsonian Folkways liner for Afghanistan: Female Musicians of Herat, plus the Rough Guide chapter for the wider map.",
+        "mvp_lock": {
+          "locked_at": "2026-10-03",
+          "tier": "mvp",
+          "registry": "research/mvp_country_locks.json",
+          "note": "Presentation assets are MVP-locked; do not bulk-overwrite note, image, artists, youtube_examples, or instruments."
+        }
       },
       "prefer_local_note": true
     },
@@ -31616,14 +31635,21 @@
         "attribution": "Sulyman Qardash, CC BY-SA 4.0, via Wikimedia Commons",
         "depicts": "The members of Kabul Dreams.",
         "provider": "wikimedia_commons",
-        "reviewed_at": "2026-10-02"
+        "reviewed_at": "2026-10-02",
+        "focus": "50% 35%"
       },
       "status": "published",
       "research": {
         "reviewed_at": "2026-10-02",
         "chapter": "roughguidegenres.md Afghanistan",
         "geography": "Country-wide. The contemporary list names no province.",
-        "description_source": "The World (PRX) on Kabul Dreams and Bandcamp Daily on Elaha Soroor. No single article covers every name on the recording list."
+        "description_source": "The World (PRX) on Kabul Dreams and Bandcamp Daily on Elaha Soroor. No single article covers every name on the recording list.",
+        "mvp_lock": {
+          "locked_at": "2026-10-03",
+          "tier": "mvp",
+          "registry": "research/mvp_country_locks.json",
+          "note": "Presentation assets are MVP-locked; do not bulk-overwrite note, image, artists, youtube_examples, or instruments."
+        }
       },
       "prefer_local_note": true
     }

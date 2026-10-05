@@ -7,16 +7,14 @@ const rotateButton = document.getElementById('rotate-record');
 const viewerTitle = document.getElementById('viewer-title');
 const viewerArtist = document.getElementById('viewer-artist');
 const viewerYear = document.getElementById('viewer-year');
-const viewerRecordId = document.getElementById('viewer-record-id');
-const ART_ENDPOINT_VERSION = '20261002-spotify-embed';
-const SPOTIFY_MARK = '<svg viewBox="0 0 168 168"><path fill="#fff" d="M83.996.277C37.747.277.253 37.77.253 84.019c0 46.251 37.494 83.741 83.743 83.741 46.254 0 83.744-37.49 83.744-83.741 0-46.246-37.49-83.738-83.745-83.738l.001-.004zm38.404 120.78a5.217 5.217 0 0 1-7.18 1.73c-19.662-12.01-44.414-14.73-73.564-8.07a5.222 5.222 0 0 1-6.249-3.93 5.21 5.21 0 0 1 3.926-6.25c31.9-7.291 59.263-4.15 81.337 9.34a5.222 5.222 0 0 1 1.73 7.18zm10.25-22.805c-1.89 3.075-5.91 4.045-8.98 2.155-22.51-13.839-56.823-17.846-83.448-9.764-3.453 1.043-7.1-.903-8.148-4.35a6.538 6.538 0 0 1 4.354-8.143c30.413-9.228 68.222-4.758 94.072 11.127a6.53 6.53 0 0 1 2.15 8.975zm.88-23.744c-26.99-16.031-71.52-17.505-97.289-9.684-4.138 1.255-8.514-1.081-9.768-5.219a7.835 7.835 0 0 1 5.221-9.771c29.581-8.98 78.756-7.245 109.83 11.202a7.823 7.823 0 0 1 2.74 10.733c-2.2 3.722-7.02 4.949-10.73 2.739z"/></svg>';
+const ART_ENDPOINT_VERSION = '20261003-viewer-clean';
 const listenServicesBox = document.getElementById('listen-services');
 const listenPlayerHost = document.getElementById('listen-player-host');
 let openRecord = null;
 const listenServices = [
-  {id: 'youtube', label: 'Watch on YouTube', color: '#ff0000', fields: ['youtube_url', 'youtube'], hosts: ['youtube.com', 'youtu.be', 'm.youtube.com']},
-  {id: 'spotify', label: 'Listen on Spotify', color: '#1db954', fields: ['spotify_url', 'spotify'], hosts: ['open.spotify.com', 'spotify.com']},
-  {id: 'apple', label: 'Listen on Apple Music', color: '#111111', fields: ['apple_music_url', 'apple_url', 'apple'], hosts: ['music.apple.com']}
+  {id: 'youtube', label: 'Youtube', color: '#ff0000', fields: ['youtube_url', 'youtube'], hosts: ['youtube.com', 'youtu.be', 'm.youtube.com', 'music.youtube.com']},
+  {id: 'spotify', label: 'Spotify', color: '#1db954', fields: ['spotify_url', 'spotify'], hosts: ['open.spotify.com', 'spotify.com']},
+  {id: 'apple', label: 'Apple Music', color: '#111111', fields: ['apple_music_url', 'apple_url', 'apple'], hosts: ['music.apple.com']}
 ];
 const listenLogos = {
   youtube: '<svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="3" fill="#fff"/><path d="M10 9.2v5.6l5.4-2.8z" fill="var(--listen-color)"/></svg>',
@@ -47,14 +45,26 @@ function hostMatches(url, hosts) {
 }
 function youtubeVideoId(url) {
   const parsed = new URL(url);
-  const host = parsed.hostname.replace(/^www\./, '');
+  const host = parsed.hostname.replace(/^www\./, '').replace(/^m\./, '');
   if (host === 'music.youtube.com') return '';
   if (host === 'youtu.be') return parsed.pathname.split('/').filter(Boolean)[0] || '';
   const watch = parsed.searchParams.get('v');
   if (watch) return watch;
   const parts = parsed.pathname.split('/').filter(Boolean);
   const marker = parts.findIndex(part => part === 'embed' || part === 'shorts');
-  return marker >= 0 ? parts[marker + 1] || '' : '';
+  return marker >= 0 && parts[marker + 1] !== 'videoseries' ? parts[marker + 1] || '' : '';
+}
+function youtubePlaylistId(url) {
+  const parsed = new URL(url);
+  const list = parsed.searchParams.get('list') || '';
+  return /^(PL|OLAK5uy_)[A-Za-z0-9_-]{10,}$/.test(list) ? list : '';
+}
+function youtubeEmbed(url) {
+  const list = youtubePlaylistId(url);
+  if (list) return `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(list)}`;
+  const videoId = youtubeVideoId(url);
+  if (!videoId) return '';
+  return `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?rel=0`;
 }
 function serviceUrl(record, service) {
   const bags = [record, record.links, record.listen, record.streaming].filter(item => item && typeof item === 'object' && !Array.isArray(item));
@@ -82,7 +92,7 @@ function verifiedListenLinks(record) {
   for (const service of listenServices) {
     const url = serviceUrl(record, service);
     if (!url) continue;
-    if (service.id === 'youtube' && !youtubeVideoId(url)) continue;
+    if (service.id === 'youtube' && !youtubeEmbed(url)) continue;
     chosen.push({...service, url});
     if (chosen.length === 3) break;
   }
@@ -115,10 +125,11 @@ function renderListenLinks() {
       control.type = 'button';
       control.addEventListener('click', event => {
         event.stopPropagation();
-        const videoId = youtubeVideoId(link.url);
+        const embed = youtubeEmbed(link.url);
+        if (!embed) return;
         const iframe = document.createElement('iframe');
         iframe.title = `${openRecord.title} by ${openRecord.artist} on YouTube`;
-        iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?rel=0`;
+        iframe.src = embed;
         iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
         iframe.allowFullscreen = true;
         iframe.referrerPolicy = 'strict-origin-when-cross-origin';
@@ -170,21 +181,16 @@ function markSpotifyArtwork(image, enabled) {
 }
 function renderArtCredit(art) {
   const source = document.getElementById('viewer-source');
-  const spotify = art.provider === 'Spotify' && art.source_url;
-  source.classList.toggle('spotify-credit', Boolean(spotify));
+  const spotify = art.provider === 'Spotify';
+  source.classList.remove('spotify-credit');
   source.replaceChildren();
-  source.hidden = !art.source_url;
-  source.href = art.source_url || '#';
-  if (spotify) {
-    const mark = document.createElement('span');
-    mark.className = 'spotify-mark';
-    mark.setAttribute('aria-hidden', 'true');
-    mark.innerHTML = SPOTIFY_MARK;
-    const label = document.createElement('span');
-    label.textContent = 'Listen on Spotify';
-    source.append(mark, label);
+  if (spotify || !art.source_url) {
+    source.hidden = true;
+    source.removeAttribute('href');
     return;
   }
+  source.hidden = false;
+  source.href = art.source_url;
   source.textContent = art.attribution || '';
 }
 
@@ -193,7 +199,6 @@ function openViewer(record, art) {
   viewerTitle.textContent = record.title;
   viewerArtist.textContent = record.artist;
   viewerYear.textContent = record.year ?? 'Date pending';
-  viewerRecordId.textContent = record.id;
   viewerFront.src = art.front_url || placeholder(record);
   viewerFront.alt = `Cover of ${record.title} by ${record.artist}`;
   viewerBack.src = art.back_url || art.front_url || placeholder(record);
@@ -219,7 +224,6 @@ document.getElementById('close-record-viewer').addEventListener('click', () => v
 viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
 viewer.addEventListener('close', () => {
   openRecord = null;
-  viewerRecordId.textContent = '';
   recordObject.classList.remove('is-flipped', 'is-expanded');
   renderListenLinks();
 });
@@ -255,9 +259,18 @@ async function start() {
     back.textContent = countryName ? `← Back to ${countryName}` : '← Back to country';
   }
   try {
-    const recordsResponse = await fetch('/data/genre_records.json?v=20261002-popular-yt');
+    const recordsResponse = await fetch('/data/genre_records.json?v=20261003-viewer-clean');
     if (!recordsResponse.ok) throw Error('Records data could not be loaded.');
-    const records = (await recordsResponse.json()).genres?.[genreId]?.records || [];
+    const records = [...((await recordsResponse.json()).genres?.[genreId]?.records || [])].sort((left, right) => {
+      const leftMissing = left.year == null || left.year === '' ? 1 : 0;
+      const rightMissing = right.year == null || right.year === '' ? 1 : 0;
+      if (leftMissing !== rightMissing) return leftMissing - rightMissing;
+      const years = Number(left.year) - Number(right.year);
+      if (years) return years;
+      const titles = String(left.title || '').localeCompare(String(right.title || ''), undefined, {sensitivity: 'base'});
+      if (titles) return titles;
+      return String(left.artist || '').localeCompare(String(right.artist || ''), undefined, {sensitivity: 'base'});
+    });
     if (!records.length) { status.classList.remove('visually-hidden'); status.textContent = 'No saved chart records have been selected for this genre yet.'; return; }
     status.textContent = `${records.length} selected records`;
     list.classList.toggle('single-bin', records.length <= 9);
